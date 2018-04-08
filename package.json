@@ -1,0 +1,19 @@
+{
+  "name": "stagecoach-reactjs",
+  "author": "Steven J Burns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenJBurns/stagecoach-reactjs.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenJBurns/stagecoach-reactjs/issues"
+  },
+  "homepage": "https://github.com/StevenJBurns/stagecoach-reactjs#readme"
+}
