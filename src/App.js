@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
 
 /* Asset imports */
-import './App.css';
+import './styles/App.css';
 import logo from './logo.svg';
 
 /* page components import*/
