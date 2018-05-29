@@ -14,5 +14,6 @@
     "publish": "push-dir --dir=build --branch=gh-pages --verbose",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage": "https://stevenjburns.github.io/stagecoach/"
 }
