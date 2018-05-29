@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+
+/* stylesheet for public.html */
+import './styles/index.css';
+
+/* is service worker necessary? */
+// import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('react-root'));
-registerServiceWorker();
+
+// registerServiceWorker();

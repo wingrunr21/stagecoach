@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-ro
 
 /* Asset imports */
 import './styles/App.css';
-import logo from './logo.svg';
 
 /* page components import*/
 import PageHome from './pages/PageHome';
@@ -21,7 +20,6 @@ class App extends Component {
       <Router>
         <div className="App">
           <header>
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <h1 className="App-title">Stagecoach Meat Co.</h1>
             <h4>Wiggins, Colorado</h4>
             <h4>970-483-7280</h4>
