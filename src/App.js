@@ -43,7 +43,7 @@ class App extends Component {
             <Route path="/about" component={PageAbout} />
           </main>
           <footer>
-            <h4>&copy;2018 &bull; Stagecoach Meat Co., LLC</h4>
+            <h5>&copy;2018 &bull; Stagecoach Meat Co., LLC</h5>
           </footer>
         </div>
       </Router>
