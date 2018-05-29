@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+/* import page components */
+import PageHome from './pages/PageHome';
+// import PageProducts from './pages/PageProducts';
+// import PageServices from './pages/PageServices';
+// import PageContact from './pages/PageContact';
+// import PageAbout from './pages/PageAbout';
+// import PageFAQ from './pages/PageFAQ';
+
+
 class App extends Component {
   render() {
     return (
@@ -22,6 +31,7 @@ class App extends Component {
           </ul>
         </nav>
         <main>
+          <PageHome />
           <p className="App-intro">To get started, edit <code>src/App.js</code> and save to reload.</p>
         </main>
         <footer>
