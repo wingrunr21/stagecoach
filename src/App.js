@@ -28,6 +28,7 @@ class App extends Component {
           </header>
           <nav>
             <ul>
+              <li><Link to="/">Home</Link></li>
               <li><Link to="/products">The Menu</Link></li>
               <li><Link to="/services">Services</Link></li>
               <li><Link to="/faq">FAQ</Link></li>

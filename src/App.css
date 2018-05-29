@@ -14,13 +14,13 @@ header {
   height: 160px;
   padding: 24px;
   color: #F0F0F0;
-  background: #C4941C;
+  background: #FF4400;
   text-shadow: 4px 4px 16px #0F0F0F
 }
 
 nav {
   padding: 24px;
-  background: #AE8419
+  background: #BB3300
 }
 
 nav ul {
@@ -40,7 +40,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  color: #8EAE19
+  color: #FFCC00
 }
 
 main {
@@ -58,7 +58,7 @@ main {
 footer {
   padding: 24px;
   color: #F0F0F0;
-  background: #DAA520;
+  background: #FF4400;
   text-shadow: 4px 4px 16px #0F0F0F;
   text-align: center
 }
