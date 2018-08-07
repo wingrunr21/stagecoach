@@ -43,6 +43,7 @@ a:hover, a:active {
 }
 
 main {
+  color: #0F0F0F;
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
