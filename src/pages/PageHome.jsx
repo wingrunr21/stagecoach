@@ -3,9 +3,9 @@ import VideoSunset from "../assets/sunset.mp4"
 
 const PageHome = () => {
   return (
-    <div>
+    <div style={{overflow: 'hidden'}}>
       <h1>Main</h1>
-      <video id="videoSunset" autoPlay muted loop style={{overflowY: 'hidden'}}>
+      <video id="videoSunset" autoPlay muted loop>
         <source src={VideoSunset} type="video/mp4" />
       </video>
     </div>
