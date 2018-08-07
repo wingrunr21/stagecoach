@@ -5,7 +5,7 @@ const PageHome = () => {
   return (
     <div style={{overflow: 'hidden'}}>
       <h1>Main</h1>
-      <video id="videoSunset" autoPlay muted loop>
+      <video id="videoSunset" autoPlay muted loop controls>
         <source src={VideoSunset} type="video/mp4" />
       </video>
     </div>
