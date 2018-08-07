@@ -26,21 +26,21 @@ class App extends Component {
           </header>
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/products">The Menu</Link></li>
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/faq">FAQ</Link></li>
-              <li><Link to="/contact">Contact Us</Link></li>
-              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/stagecoach/">Home</Link></li>
+              <li><Link to="/stagecoach/products">The Menu</Link></li>
+              <li><Link to="/stagecoach/services">Services</Link></li>
+              <li><Link to="/stagecoach/faq">FAQ</Link></li>
+              <li><Link to="/stagecoach/contact">Contact Us</Link></li>
+              <li><Link to="/stagecoach/about">About Us</Link></li>
             </ul>
           </nav>
           <main>
-            <Route path="/" exact component={PageHome} />
-            <Route path="/products" component={PageProducts} />
-            <Route path="/services" component={PageServices} />
-            <Route path="/FAQ" component={PageFAQ} />
-            <Route path="/contact" component={PageContact} />
-            <Route path="/about" component={PageAbout} />
+            <Route path="/stagecoach/" exact component={PageHome} />
+            <Route path="/stagecoach/products" component={PageProducts} />
+            <Route path="/stagecoach/services" component={PageServices} />
+            <Route path="/stagecoach/FAQ" component={PageFAQ} />
+            <Route path="/stagecoach/contact" component={PageContact} />
+            <Route path="/stagecoach/about" component={PageAbout} />
           </main>
           <footer>
             <h5>&copy;2018 &bull; Stagecoach Meat Co., LLC</h5>
