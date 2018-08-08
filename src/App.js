@@ -26,7 +26,7 @@ class App extends Component {
           </header>
           <nav>
             <ul>
-              <li><Link to="/stagecoach/">Home</Link></li>
+              <li><Link to="/stagecoach">Home</Link></li>
               <li><Link to="/stagecoach/products">The Menu</Link></li>
               <li><Link to="/stagecoach/services">Services</Link></li>
               <li><Link to="/stagecoach/faq">FAQ</Link></li>
