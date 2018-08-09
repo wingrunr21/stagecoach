@@ -8,7 +8,8 @@ const PageAbout = () => {
       <video className="video-background" autoPlay muted loop>
         <source src={VideoSunset} type="video/mp4" />
       </video>
-    </div>  )
+    </div>
+  )
 }
 
 export default PageAbout;
