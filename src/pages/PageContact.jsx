@@ -2,7 +2,24 @@ import React from "react";
 
 const PageContact = () => {
   return (
-    <h1>Contact</h1>
+    <div class="Content RoundedTop ContactContainer">
+      <h1>Contact</h1>
+      <ul class="ulContact">
+          <li>Shop Location</li>
+          <li>600 W 3rd Ave</li>
+          <li>Colorado 80654</li> 
+      </ul>
+      <ul class="ulContact">
+          <li>Mailing Address</li>
+          <li>PO Box 413</li>
+          <li>Wiggins, Colorado 80654</li>
+      </ul>
+      <ul class="ulContact">
+          <li>Phone and Fax</li>
+          <li>Phone : 970-483-7280</li>
+          <li>Fax : 970-483-8180</li>
+      </ul>
+    </div>
   )
 }
 
