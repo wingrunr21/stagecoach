@@ -1,25 +1,33 @@
 #app-header {
-
-}
-
-#app-title {
-  font-size: 1.5em;
-}
-  
-#app-intro {
-  font-size: large
-}
-
-#app-title {
-  padding: 24px;
-  color: #F0F0F0;
+  display: flex;
+  flex-direction: row;
   background: #FF4400;
+  color: #F0F0F0;
   text-shadow: 4px 4px 16px #0F0F0F
 }
-
+  
 #app-logo {
   animation: app-logo-spin infinite 8s linear;
   height: 80px;
+}
+
+#app-title {
+  flex: 1 0 auto;
+  padding: 24px;
+  font-size: 1.5em;
+  text-align: left
+}
+
+#app-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px
+}
+
+#app-info h4 {
+  margin: 4px
 }
 
 @keyframes app-logo-spin {
