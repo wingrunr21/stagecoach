@@ -18,6 +18,7 @@ import { PageFAQ } from './pages/PageFAQ';
 
 import { AppHeader } from "./components/AppHeader.jsx";
 import { AppNav } from "./components/AppNav.jsx";
+import { AppMain } from "./components/AppMain.jsx";
 import { AppFooter } from "./components/AppFooter.jsx";
 
 
