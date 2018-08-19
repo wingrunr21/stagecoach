@@ -13,7 +13,7 @@ import PageHome from './pages/PageHome';
 import PageProducts from './pages/PageProducts';
 import PageServices from './pages/PageServices';
 import { PageContact } from './pages/PageContact';
-import PageAbout from './pages/PageAbout';
+import { PageAbout } from './pages/PageAbout';
 import { PageFAQ } from './pages/PageFAQ';
 
 import { AppHeader } from "./components/AppHeader.jsx";
