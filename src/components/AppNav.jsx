@@ -11,12 +11,12 @@ export const AppNav = () => {
     <nav id="app-nav">
       <nav>
         <ul>
-          <li><Link to="/stagecoach">Home</Link></li>
-          <li><Link to="/stagecoach/products">The Menu</Link></li>
-          <li><Link to="/stagecoach/services">Services</Link></li>
-          <li><Link to="/stagecoach/faq">FAQ</Link></li>
-          <li><Link to="/stagecoach/contact">Contact Us</Link></li>
-          <li><Link to="/stagecoach/about">About Us</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/products">The Menu</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/faq">FAQ</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
+          <li><Link to="/about">About Us</Link></li>
         </ul>
       </nav>
     </nav>
