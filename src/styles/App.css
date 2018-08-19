@@ -14,19 +14,6 @@ main {
   overflow: hidden
 }
 
-.page-wrapper {
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative
-}
-
-.video-background {
-  margin: auto;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  z-index: -1
-}
-
 a:link, a:visited {
   color: #F0F0F0;
   text-decoration: none;
@@ -37,4 +24,3 @@ a:link, a:visited {
 a:hover, a:active {
   color: #FFCC00
 }
-

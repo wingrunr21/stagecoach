@@ -1,1 +1,17 @@
+#div-page-wrapper-about {
+  
+}
 
+#div-page-wrapper-about section {
+  margin: 32px 0
+}
+
+#div-page-wrapper-about p {
+  width: 100%;
+  max-width: 960px;
+  padding: 24px;
+  opacity: 0.75;
+  color: #2F2F2F;
+  background: azure;
+  border-radius: 16px;
+}

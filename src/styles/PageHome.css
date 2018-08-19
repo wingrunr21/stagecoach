@@ -1,12 +1,5 @@
-.page-wrapper {
+#div-page-wrapper-home {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative
-}
-
-.video-background {
-  margin: auto;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  z-index: -1
 }

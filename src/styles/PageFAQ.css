@@ -1,9 +1,9 @@
-#page-FAQ {
+#div-page-wrapper-faq {
   background: lightblue;
   text-align: left
 }
 
-#page-FAQ h2 {
+#div-page-wrapper-faq h2 {
   font-weight: bolder;
   text-align: center;
   text-decoration: underline

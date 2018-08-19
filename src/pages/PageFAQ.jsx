@@ -4,7 +4,7 @@ import "../styles/PageFAQ.css";
 
 export const PageFAQ = (props) => {
   return (
-    <div id="page-FAQ">
+    <div id="div-page-wrapper-faq" className="div-page-wrapper">
       <h2>Frequently Asked Questions</h2>
       <ul id="ul-faq-list">
         <li className="li-faq-item">

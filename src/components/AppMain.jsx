@@ -9,6 +9,8 @@ import { PageContact } from '../pages/PageContact';
 import { PageAbout } from '../pages/PageAbout';
 import { PageFAQ } from '../pages/PageFAQ';
 
+import "../styles/AppMain.css";
+
 
 export const AppMain = (props) => {
   return (

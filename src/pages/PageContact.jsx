@@ -2,7 +2,7 @@ import React from "react";
 
 export const PageContact = (props) => {
   return (
-    <div id="page-contact">
+    <div id="div-page-wrapper-contact" className="div-page-wrapper">
       <h1>Contact</h1>
       <ul className="ul-contact">
         <li>Shop Location</li>
