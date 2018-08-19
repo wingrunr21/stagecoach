@@ -1,6 +1,9 @@
 #app-nav {
-    padding: 24px;
-    background: #BB3300
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 24px;
+  background: #BB3300
   }
   
   #app-nav ul {
@@ -8,6 +11,12 @@
   }
   
   #app-nav ul li {
-    width: 96px;
+    width: 4em;
     display: inline-block
+  }
+
+  @media screen and (max-width: 360px) {
+    #app-nav {
+      font-size: 0.75em
+    }
   }

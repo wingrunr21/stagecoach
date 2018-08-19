@@ -1,3 +1,12 @@
+main {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0F0F0F;
+  overflow: hidden
+}
+
 .div-page-wrapper {
   background-size: cover;
   background-repeat: no-repeat;

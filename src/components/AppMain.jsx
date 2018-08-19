@@ -1,5 +1,6 @@
+/* React and React Router Imports */ 
 import React from "react";
-import {Route} from "react-router-dom";
+import { Route } from "react-router-dom";
 
 /* App Page Imports */
 import { PageHome } from '../pages/PageHome';
@@ -9,6 +10,7 @@ import { PageContact } from '../pages/PageContact';
 import { PageAbout } from '../pages/PageAbout';
 import { PageFAQ } from '../pages/PageFAQ';
 
+/* Style Imports */
 import "../styles/AppMain.css";
 
 

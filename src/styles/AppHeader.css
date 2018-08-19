@@ -1,9 +1,10 @@
 #app-header {
-  display: flex;
-  flex-direction: row;
-  background: #FF4400;
+  display: grid;
   color: #F0F0F0;
-  text-shadow: 4px 4px 16px #0F0F0F
+  grid-template-columns: 1fr auto;
+  background: #FF4400;
+  text-shadow: 4px 4px 16px #0F0F0F;
+  padding: 8px
 }
   
 #app-logo {
@@ -13,24 +14,33 @@
 
 #app-title {
   flex: 1 0 auto;
-  padding: 24px;
-  font-size: 1.5em;
-  text-align: left
+  text-align: left;
+  align-self: center
 }
 
-#app-info {
+#app-stagecoach-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 16px
+  padding: 0 8px
 }
 
-#app-info h4 {
+#app-stagecoach-info h5 {
   margin: 4px
 }
 
 @keyframes app-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 360px) {
+  #app-title {
+    font-size: 1em
+  }
+
+  #app-stagecoach-info {
+    font-size: 0.75em
+  }
 }
