@@ -1,1 +1,13 @@
-
+#app-nav {
+    padding: 24px;
+    background: #BB3300
+  }
+  
+  #app-nav ul {
+    list-style: none
+  }
+  
+  #app-nav ul li {
+    width: 96px;
+    display: inline-block
+  }

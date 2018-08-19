@@ -1,13 +1,14 @@
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
+/* is service worker necessary? */
+import registerServiceWorker from './registerServiceWorker';
 
 /* stylesheet for public.html */
 import './styles/index.css';
 
-/* is service worker necessary? */
-// import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('react-root'));
+ReactDOM.render(<App />, document.querySelector('#react-root'));
 
-// registerServiceWorker();
+registerServiceWorker();

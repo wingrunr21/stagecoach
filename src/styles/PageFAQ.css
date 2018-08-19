@@ -1,1 +1,24 @@
+#page-FAQ {
+  background: lightblue;
+  text-align: left
+}
 
+#page-FAQ h2 {
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline
+}
+
+#ul-faq-list {
+  width: 90%;
+  max-width: 960px;
+  list-style: none
+}
+
+.li-faq-item {
+  margin: 16px;
+  padding: 16px;
+  color: #BFBFBF;
+  background: #224488;
+  border-radius: 8px
+}

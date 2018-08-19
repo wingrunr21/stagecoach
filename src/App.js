@@ -1,39 +1,33 @@
 /* React and React Router imports */
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom'; // Link, Switch, Redirect
 
-/* Asset imports */
+/* Style Imports */
 import './styles/App.css';
+import './styles/AppHeader.css';
+import './styles/AppNav.css';
+import './styles/AppFooter.css';
 
-/* page components import*/
+/* Page Components Import*/
 import PageHome from './pages/PageHome';
 import PageProducts from './pages/PageProducts';
 import PageServices from './pages/PageServices';
 import PageContact from './pages/PageContact';
 import PageAbout from './pages/PageAbout';
-import PageFAQ from './pages/PageFAQ';
+import { PageFAQ } from './pages/PageFAQ';
+
+import { AppHeader } from "./components/AppHeader.jsx";
+import { AppNav } from "./components/AppNav.jsx";
+import { AppFooter } from "./components/AppFooter.jsx";
 
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="App">
-          <header>
-            <h1 className="App-title">Stagecoach Meat Co.</h1>
-            <h4>Wiggins, Colorado</h4>
-            <h4>970-483-7280</h4>
-          </header>
-          <nav>
-            <ul>
-              <li><Link to="/stagecoach">Home</Link></li>
-              <li><Link to="/stagecoach/products">The Menu</Link></li>
-              <li><Link to="/stagecoach/services">Services</Link></li>
-              <li><Link to="/stagecoach/faq">FAQ</Link></li>
-              <li><Link to="/stagecoach/contact">Contact Us</Link></li>
-              <li><Link to="/stagecoach/about">About Us</Link></li>
-            </ul>
-          </nav>
+        <div className="app">
+          <AppHeader />
+          <AppNav />
           <main>
             <Route path="/stagecoach/" exact component={PageHome} />
             <Route path="/stagecoach/products" component={PageProducts} />
@@ -42,13 +36,11 @@ class App extends Component {
             <Route path="/stagecoach/contact" component={PageContact} />
             <Route path="/stagecoach/about" component={PageAbout} />
           </main>
-          <footer>
-            <h5>&copy;2018 &bull; Stagecoach Meat Co., LLC</h5>
-          </footer>
+          <AppFooter />
         </div>
       </Router>
     );
-  }
-}
+  };
+};
 
 export default App;

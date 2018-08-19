@@ -1,70 +1,17 @@
-.App {
+.app {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   text-align: center
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 8s linear;
-  height: 80px;
-}
-
-header {
-  padding: 24px;
-  color: #F0F0F0;
-  background: #FF4400;
-  text-shadow: 4px 4px 16px #0F0F0F
-}
-
-nav {
-  padding: 24px;
-  background: #BB3300
-}
-
-nav ul {
-  list-style: none
-}
-
-nav ul li {
-  width: 96px;
-  display: inline-block;
-}
-
-a:link, a:visited {
-  color: #F0F0F0;
-  text-decoration: none;
-  text-shadow: 2px 2px 8px #0F0F0F;
-  transition: color 0.25s
-}
-
-a:hover, a:active {
-  color: #FFCC00
-}
-
 main {
-  color: #0F0F0F;
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-footer {
-  padding: 24px;
-  color: #F0F0F0;
-  background: #FF4400;
-  text-shadow: 4px 4px 16px #0F0F0F;
-  text-align: center
+  color: #0F0F0F;
+  overflow: hidden
 }
 
 .page-wrapper {
@@ -80,7 +27,14 @@ footer {
   z-index: -1
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+a:link, a:visited {
+  color: #F0F0F0;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px #0F0F0F;
+  transition: color 0.25s
 }
+
+a:hover, a:active {
+  color: #FFCC00
+}
+
