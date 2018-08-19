@@ -3,8 +3,8 @@ import {Route} from "react-router-dom";
 
 /* App Page Imports */
 import { PageHome } from '../pages/PageHome';
-import PageProducts from '../pages/PageProducts';
-import PageServices from '../pages/PageServices';
+import { PageProducts } from '../pages/PageProducts';
+import { PageServices } from '../pages/PageServices';
 import { PageContact } from '../pages/PageContact';
 import { PageAbout } from '../pages/PageAbout';
 import { PageFAQ } from '../pages/PageFAQ';
