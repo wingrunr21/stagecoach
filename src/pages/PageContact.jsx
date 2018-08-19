@@ -1,6 +1,6 @@
 import React from "react";
 
-const PageContact = (props) => {
+export const PageContact = (props) => {
   return (
     <div id="page-contact">
       <h1>Contact</h1>
@@ -20,7 +20,5 @@ const PageContact = (props) => {
         <li>Fax : 970-483-8180</li>
       </ul>
     </div>
-  )
-}
-
-export default PageContact;
+  );
+};
