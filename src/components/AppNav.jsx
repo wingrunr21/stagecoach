@@ -6,19 +6,17 @@ import { Link } from 'react-router-dom';
 import "../styles/AppNav.css";
 
 
-export const AppNav = () => {
+export const AppNav = (props) => {
   return (
     <nav id="app-nav">
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/products">The Menu</Link></li>
-          <li><Link to="/services">Services</Link></li>
-          <li><Link to="/faq">FAQ</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
-          <li><Link to="/about">About Us</Link></li>
-        </ul>
-      </nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/products">The Menu</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/faq">FAQ</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/about">About</Link></li>
+      </ul>
     </nav>
   );
 };

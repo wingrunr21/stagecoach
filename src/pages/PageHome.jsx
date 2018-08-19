@@ -1,8 +1,6 @@
 import React from "react";
-
-import VideoSunset from "../assets/sunset.mp4"
-
 import "../styles/PageHome.css";
+import VideoSunset from "../assets/sunset.mp4"
 
 
 export const PageHome = (props) => {
