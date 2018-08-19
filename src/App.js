@@ -24,17 +24,17 @@ import { AppFooter } from "./components/AppFooter.jsx";
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
           <AppHeader />
           <AppNav />
           <main>
-            <Route path="/stagecoach/" exact component={PageHome} />
-            <Route path="/stagecoach/products" component={PageProducts} />
-            <Route path="/stagecoach/services" component={PageServices} />
-            <Route path="/stagecoach/FAQ" component={PageFAQ} />
-            <Route path="/stagecoach/contact" component={PageContact} />
-            <Route path="/stagecoach/about" component={PageAbout} />
+            <Route path="/" exact component={PageHome} />
+            <Route path="/products" component={PageProducts} />
+            <Route path="/services" component={PageServices} />
+            <Route path="/FAQ" component={PageFAQ} />
+            <Route path="/contact" component={PageContact} />
+            <Route path="/about" component={PageAbout} />
           </main>
           <AppFooter />
         </div>
