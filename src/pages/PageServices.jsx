@@ -1,9 +1,7 @@
 import React from "react";
 
-const PageServices = () => {
+export const PageServices = (props) => {
   return (
     <h1>Services</h1>
-  )
-}
-
-export default PageServices;
+  );
+};

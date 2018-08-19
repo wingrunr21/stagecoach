@@ -2,7 +2,7 @@ import React from "react";
 import {Route} from "react-router-dom";
 
 /* App Page Imports */
-import PageHome from '../pages/PageHome';
+import { PageHome } from '../pages/PageHome';
 import PageProducts from '../pages/PageProducts';
 import PageServices from '../pages/PageServices';
 import { PageContact } from '../pages/PageContact';

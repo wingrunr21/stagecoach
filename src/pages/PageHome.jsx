@@ -5,7 +5,7 @@ import VideoSunset from "../assets/sunset.mp4"
 // import "../styles/PageHome.css";
 
 
-const PageHome = () => {
+export const PageHome = () => {
   return (
     <div className="page-wrapper">
       <h1>Main</h1>
@@ -15,5 +15,3 @@ const PageHome = () => {
     </div>
   )
 }
-
-export default PageHome;

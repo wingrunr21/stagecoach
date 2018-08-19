@@ -8,7 +8,7 @@ import { AppNav } from "./components/AppNav.jsx";
 import { AppMain } from "./components/AppMain.jsx";
 import { AppFooter } from "./components/AppFooter.jsx";
 
-/* Style Imports */
+/* Style Imports for App Components */
 import './styles/App.css';
 import './styles/AppHeader.css';
 import './styles/AppNav.css';
