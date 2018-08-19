@@ -18,5 +18,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://stevenjburns.github.io/stagecoach"
+  "homepage": "https://stevenjburns.github.io/stagecoach/"
 }
