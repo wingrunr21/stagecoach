@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-/* Style imports */
+/* Stylesheet and Asset Imports */
 import "../styles/AppNav.css";
 
 

@@ -1,11 +1,14 @@
-import { App } from './App';
+/* React Imports */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 /* is service worker necessary? */
 import registerServiceWorker from './registerServiceWorker';
 
-/* stylesheet for public.html */
+/* Component Imports */
+import { App } from './App';
+
+/* Stylesheet and Asset Imports */
 import './styles/index.css';
 
 

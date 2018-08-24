@@ -1,6 +1,9 @@
+/* React Imports */
 import React from "react";
 
+/* Stylesheet and Asset Imports */
 import "../styles/PageFAQ.css";
+
 
 export const PageFAQ = (props) => {
   return (

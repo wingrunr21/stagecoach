@@ -1,4 +1,6 @@
+/* React Imports */
 import React from "react";
+
 
 export const AppFooter = (props) => {
   return (
@@ -6,4 +8,4 @@ export const AppFooter = (props) => {
       <h5>&copy;2018 &bull; Stagecoach Meat Co., LLC</h5>
     </footer>
   );
-}
+};

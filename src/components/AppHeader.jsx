@@ -1,7 +1,9 @@
+/* React Imports */
 import React from "react";
 
+
 export const AppHeader = (props) => {
-  return(
+  return (
     <header id="app-header">
       <h2 id="app-title">Stagecoach Meat Co.</h2>
       <div id="app-stagecoach-info">

@@ -1,14 +1,14 @@
-/* React and React Router imports */
+/* React and React Router Imports */
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'; // Link, Switch, Redirect
+import { BrowserRouter } from 'react-router-dom';
 
-/* App Components Imports */
+/* Component Imports */
 import { AppHeader } from "./components/AppHeader.jsx";
 import { AppNav } from "./components/AppNav.jsx";
 import { AppMain } from "./components/AppMain.jsx";
 import { AppFooter } from "./components/AppFooter.jsx";
 
-/* Style Imports for App Components */
+/* Stylesheet and Asset Imports */
 import './styles/App.css';
 import './styles/AppHeader.css';
 import './styles/AppNav.css';
@@ -18,14 +18,14 @@ import './styles/AppFooter.css';
 export class App extends React.Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="app">
           <AppHeader />
           <AppNav />
           <AppMain />
           <AppFooter />
         </div>
-      </Router>
+      </BrowserRouter>
     );
   };
 };

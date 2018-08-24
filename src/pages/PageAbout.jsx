@@ -1,8 +1,12 @@
+/* React Imports */
 import React from "react";
+
+/* Stylesheet and Asset Imports */
 import "../styles/PageAbout.css";
 import VideoSunset from "../assets/wheat_field.mp4";
 
-export const PageAbout = props => {
+
+export const PageAbout = (props) => {
   return (
     <div id="div-page-wrapper-about" className="div-page-wrapper">
       <section>

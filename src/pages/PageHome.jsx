@@ -1,4 +1,7 @@
+/* React Imports */
 import React from "react";
+
+/* Stylesheet and Asset Imports */
 import "../styles/PageHome.css";
 import VideoSunset from "../assets/sunset.mp4"
 
@@ -11,5 +14,5 @@ export const PageHome = (props) => {
         <source src={VideoSunset} type="video/mp4" />
       </video>
     </div>
-  )
-}
+  );
+};
