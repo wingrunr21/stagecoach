@@ -16,6 +16,11 @@ import './styles/AppFooter.css';
 
 
 export class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+
   render() {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>

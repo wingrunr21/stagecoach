@@ -8,10 +8,7 @@ main {
 }
 
 .div-page-wrapper {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative
+
 }
   
 .video-background {
@@ -22,9 +19,9 @@ main {
 }
 
 .image-background {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
 	
   /* Preserve aspet ratio */
   min-width: 100%;

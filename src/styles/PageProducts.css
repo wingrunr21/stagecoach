@@ -1,7 +1,8 @@
 #div-page-wrapper-products {
-  background-image: url(../assets/agricultural-agriculture-animal.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover
+  background-image: url("../assets/agricultural-agriculture-animal.jpg");
 }
