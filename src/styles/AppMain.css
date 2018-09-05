@@ -10,6 +10,7 @@ main {
 .div-page-wrapper {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative
 }
   
@@ -18,4 +19,14 @@ main {
   transform: translate(-50%, -50%);
   position: absolute;
   z-index: -1
+}
+
+.image-background {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
