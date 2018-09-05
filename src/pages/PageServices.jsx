@@ -1,6 +1,9 @@
 /* React Imports */
 import React from "react";
 
+/* Stylesheet and Asset Imports */
+import "../styles/PageServices.css";
+
 
 export const PageServices = (props) => {
   return (

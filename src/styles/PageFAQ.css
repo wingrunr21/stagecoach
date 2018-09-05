@@ -1,6 +1,7 @@
 #div-page-wrapper-faq {
+  text-align: left;
   background: lightblue;
-  text-align: left
+  background-image: url("../assets/agriculture-arable-bales.jpg")
 }
 
 #div-page-wrapper-faq h2 {

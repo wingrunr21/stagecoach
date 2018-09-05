@@ -1,6 +1,9 @@
 /* React Imports */
 import React from "react";
 
+/* Stylesheet and Asset Imports */
+import "../styles/PageContact.css";
+
 
 export const PageContact = (props) => {
   return (

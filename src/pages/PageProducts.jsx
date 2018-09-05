@@ -3,7 +3,6 @@ import React from "react";
 
 /* Stylesheet and Asset Imports */
 import "../styles/PageProducts.css";
-import ImageCattle from "../assets/agricultural-agriculture-animal.jpg"
 
 
 export const PageProducts = (props) => {
