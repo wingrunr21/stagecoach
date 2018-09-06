@@ -9,6 +9,7 @@ import { PageServices } from '../pages/PageServices';
 import { PageContact } from '../pages/PageContact';
 import { PageAbout } from '../pages/PageAbout';
 import { PageFAQ } from '../pages/PageFAQ';
+import { Page404 } from "../pages/Page404";
 
 /* Stylesheet and Asset Imports */
 import "../styles/AppMain.css";
@@ -23,6 +24,7 @@ export const AppMain = (props) => {
       <Route path="/faq" component={PageFAQ} />
       <Route path="/contact" component={PageContact} />
       <Route path="/about" component={PageAbout} />
+      <Route component={Page404} />
     </main>
   );
 };

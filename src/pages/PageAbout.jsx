@@ -18,9 +18,9 @@ export const PageAbout = (props) => {
         <h2>Ray Von Loh</h2>
         <p></p>
       </section>
-      <video className="video-background" autoPlay muted loop>
+      {/* <video className="video-background" autoPlay muted loop>
         <source src={VideoSunset} type="video/mp4" />
-      </video>
+      </video> */}
     </div>
   );
 };
