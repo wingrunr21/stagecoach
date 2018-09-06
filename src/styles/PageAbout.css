@@ -9,6 +9,7 @@
 #div-page-wrapper-about p {
   width: 90%;
   max-width: 960px;
+  margin: 0 auto;
   padding: 16px;
   opacity: 0.75;
   color: #2F2F2F;
