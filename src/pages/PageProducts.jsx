@@ -5,10 +5,10 @@ import React from "react";
 import "../styles/PageProducts.css";
 
 
-export const PageProducts = (props) => {
+export const PageProducts = () => {
   return (
-    <div id="div-page-wrapper-products" className="div-page-wrapper">
+    <React.Fragment>
       <h1>Products</h1>
-    </div>
+    </React.Fragment>
   );
 };

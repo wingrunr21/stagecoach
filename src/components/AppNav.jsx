@@ -1,22 +1,20 @@
-/* React and React Router Imports */
+/* React and React Router */
 import React from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-/* Stylesheet and Asset Imports */
+/* Stylesheets */
 import "../styles/AppNav.css";
 
 
-export const AppNav = (props) => {
-  return (
-    <nav id="app-nav">
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/products">Menu</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/faq">FAQ</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/about">About</Link></li>
-      </ul>
-    </nav>
-  );
-};
+export const AppNav = () => (
+  <nav id="app-nav">
+    <ul>
+      <li><NavLink to="/">Home</NavLink></li>
+      <li><NavLink to="/products">Menu</NavLink></li>
+      <li><NavLink to="/services">Services</NavLink></li>
+      <li><NavLink to="/faq">FAQ</NavLink></li>
+      <li><NavLink to="/contact">Contact</NavLink></li>
+      <li><NavLink to="/about">About</NavLink></li>
+    </ul>
+  </nav>
+);

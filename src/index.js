@@ -1,17 +1,25 @@
-/* React Imports */
+/* React */
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-/* is service worker necessary? */
+import { BrowserRouter } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
-/* Component Imports */
-import { App } from './App';
+/* Components */
+import { App } from './App.jsx';
 
-/* Stylesheet and Asset Imports */
+/* Stylesheets */
 import './styles/index.css';
 
 
-ReactDOM.render(<App />, document.querySelector('#react-root'));
+const render = () =>  {
+  ReactDOM.render(
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <App />    
+    </BrowserRouter>,
+    document.querySelector('#react-root')
+  );
+}
+
+render();
 
 registerServiceWorker();

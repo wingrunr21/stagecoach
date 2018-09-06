@@ -1,9 +1,9 @@
 #app-nav {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  padding: 24px;
+  flex-direction: row;
   background: #FF4400;
+  padding: 24px
   }
   
   #app-nav ul {
@@ -13,6 +13,7 @@
   
   #app-nav ul li {
     width: 4em;
+    text-align: center;
     display: inline-block
   }
 

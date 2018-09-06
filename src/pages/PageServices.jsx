@@ -5,10 +5,10 @@ import React from "react";
 import "../styles/PageServices.css";
 
 
-export const PageServices = (props) => {
+export const PageServices = () => {
   return (
-    <div id="div-page-wrapper-services" className="div-page-wrapper">
+    <React.Fragment>
       <h1>Services</h1>
-    </div>
+    </React.Fragment>
   );
 };
