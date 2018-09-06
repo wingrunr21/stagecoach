@@ -9,10 +9,11 @@
 #div-page-wrapper-about p {
   width: 90%;
   max-width: 960px;
-  padding: 8px;
+  padding: 16px;
   opacity: 0.75;
   color: #2F2F2F;
   background: azure;
   border-radius: 8px;
-  text-align: justify
+  text-align: justify;
+  font-size: 20px
 }

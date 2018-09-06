@@ -1,7 +1,19 @@
 #div-page-wrapper-contact {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  flex-wrap: wrap;
   background-image: url("../assets/agriculture-back-light.jpg")
 }
 
 .ul-contact {
-  
+  margin: 16px auto;
+  padding: 8px;
+  width: 288px;
+  background: #DDDDDD;
+  border: 2px #777777 solid;
+  text-shadow: 1px 1px 8px #777777;
+  border-radius: 4px;
+  list-style: none;
+  opacity: 0.90
 }
