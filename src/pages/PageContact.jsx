@@ -1,7 +1,7 @@
-/* React Imports */
+/* React */
 import React from "react";
 
-/* Stylesheet and Asset Imports */
+/* Stylesheets */
 import "../styles/PageContact.css";
 
 

@@ -1,14 +1,12 @@
-/* React Imports */
+/* React */
 import React from "react";
 
-/* Stylesheet and Asset Imports */
+/* Stylesheets */
 import "../styles/PageServices.css";
 
 
-export const PageServices = () => {
-  return (
-    <React.Fragment>
-      <h1>Services</h1>
-    </React.Fragment>
-  );
-};
+export const PageServices = () => (
+  <React.Fragment>
+    <h1>Services</h1>
+  </React.Fragment>
+);

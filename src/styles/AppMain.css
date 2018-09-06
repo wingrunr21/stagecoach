@@ -3,29 +3,25 @@ main {
   display: flex;
   align-items: stretch;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   color: #0F0F0F;
   overflow: hidden
 }
 
-.div-page-wrapper {
-  width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative
-}
-  
-.video-background {
-  margin: auto;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  z-index: -1
+.page-home {
+  background-image: url("../assets/corn-field.jpg");
 }
 
-.image-background {
-  margin: auto;
-  position: absolute; 
-  transform: translate(-50%, -50%);
-  z-index: -1
+.page-products {
+  background-image: url("../assets/agricultural-agriculture-animal.jpg")
+}
+
+.page-services {
+  background-image: url("../assets/agriculture-animal-bull.jpg")
+}
+
+.page-about {
+
 }

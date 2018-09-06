@@ -1,14 +1,12 @@
-/* React Imports */
+/* React */
 import React from "react";
 
-/* Stylesheet and Asset Imports */
+/* Stylesheets */
 import "../styles/PageHome.css";
 
 
-export const PageHome = () => {
-  return (
-    <React.Fragment>
-      <h1>Main</h1>
-    </React.Fragment>
-  );
-};
+export const PageHome = () => (
+  <React.Fragment>
+    <h1>Main</h1>
+  </React.Fragment>
+);

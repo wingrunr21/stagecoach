@@ -15,18 +15,16 @@ import { Page404 } from "../pages/Page404";
 import "../styles/AppMain.css";
 
 
-export const AppMain = (props) => {
-  return (
-    <main id="app-main">
-      <Switch>
-        <Route exact path="/" render={() => <PageHome />} />
-        <Route exact path="/products" render={() => <PageProducts />} />
-        <Route exact path="/services" render={() => <PageServices />} />
-        <Route exact path="/faq" render={() => <PageFAQ />} />
-        <Route exact path="/contact" render={() => <PageContact />} />
-        <Route exact path="/about" render={() => <PageAbout />} />
-        <Route component={Page404} />
-      </Switch>
-    </main>
-  );
-};
+export const AppMain = () => (
+  <main>
+    <Switch>
+      <Route exact path="/" render={() => <PageHome className="page-home" />} />
+      <Route exact path="/products" render={() => <PageProducts className="page-products" />} />
+      <Route exact path="/services" render={() => <PageServices className="page-services" />} />
+      <Route exact path="/faq" render={() => <PageFAQ className="page-faq" />} />
+      <Route exact path="/contact" render={() => <PageContact className="page-contact" />} />
+      <Route exact path="/about" render={() => <PageAbout className="page-about" />} />
+      <Route component={Page404} />
+    </Switch>
+  </main>
+);
