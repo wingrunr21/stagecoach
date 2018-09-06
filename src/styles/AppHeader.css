@@ -1,15 +1,15 @@
 #app-header {
   display: grid;
-  color: #F0F0F0;
   grid-template-columns: 1fr auto;
-  background: #BB3300;
   text-shadow: 4px 4px 16px #0F0F0F;
+  background: #BB3300;
+  color: #F0F0F0;
   padding: 8px
 }
   
 #app-logo {
-  animation: app-logo-spin infinite 8s linear;
   height: 80px;
+  animation: app-logo-spin infinite 8s linear;
 }
 
 #app-title {
