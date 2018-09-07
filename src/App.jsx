@@ -8,7 +8,7 @@ import { AppMain } from "./components/app/AppMain";
 import { AppFooter } from "./components/app/AppFooter";
 
 /* Stylesheets */
-import './styles/App.css';
+import './styles/app/App.css';
 
 /* Assets */
 import ImageCorn from "./assets/corn-field.jpg";

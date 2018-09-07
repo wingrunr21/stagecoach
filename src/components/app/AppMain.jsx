@@ -12,7 +12,7 @@ import { PageFAQ } from '../pages/PageFAQ';
 import { Page404 } from "../pages/Page404";
 
 /* Stylesheets */
-import "../../styles/AppMain.css";
+import "../../styles/app/AppMain.css";
 
 
 export const AppMain = () => {  
