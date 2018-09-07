@@ -7,6 +7,9 @@ import "../styles/PageHome.css";
 
 export const PageHome = () => (
   <main class="main-home">
-    <h1>Main</h1>    
+    <section>
+      <h1>Main</h1>
+      <p>Welcome to Stagecoach Meat Co.</p>
+    </section>
   </main>
 );

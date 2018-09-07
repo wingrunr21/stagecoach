@@ -1,0 +1,16 @@
+.main-home {
+  align-items: center;
+  justify-content: center
+}
+
+.main-home section {
+  min-width: 320px;
+  max-width: 720px;
+  padding: 40px;
+  margin: 32px auto;
+  color: #2F2F2F;
+  background: azure;
+  text-align: center;
+  border-radius: 8px;
+  opacity: 0.75;
+}
