@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import '../styles/AppHeader.css';
+import '../../styles/AppHeader.css';
 
 
 export const AppHeader = () => (

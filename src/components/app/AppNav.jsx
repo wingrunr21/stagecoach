@@ -3,7 +3,7 @@ import React from "react";
 import { NavLink } from 'react-router-dom';
 
 /* Stylesheets */
-import "../styles/AppNav.css";
+import "../../styles/AppNav.css";
 
 
 export const AppNav = () => (
