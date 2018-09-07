@@ -1,20 +1,27 @@
 .main-home {
-  background-image: url("../../assets/images/corn-field.jpg")
-}
-
-.main-home {
-  align-items: center;
-  justify-content: center
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr auto auto auto auto 1fr;
+  grid-gap: 12px;
 }
 
 .main-home section {
-  min-width: 320px;
-  max-width: 720px;
-  padding: 40px;
-  margin: 32px auto;
-  color: #2F2F2F;
-  background: azure;
-  text-align: center;
-  border-radius: 8px;
-  opacity: 0.75;
+  grid-row: 2;
+  grid-column: 1 / 4;
+  padding: 12px 6px;
+  border-radius: 0 8px 8px 0;
+  text-shadow: 1px 1px 16px #444444;
+  background: #DDDDDD;
+  color: #222222;
+  align-self: center;
+  opacity: 0.9;
+}
+
+#img-corn-field {
+  width: 100%;
+  max-height: 100%;
+  grid-row: 2 / 3;
+  grid-column: 2 / 5;
+  border-radius: 4px 0 0 4px;
 }
