@@ -1,3 +1,7 @@
+.main-about {
+  background-image: url("../assets/tassle.jpg")
+}
+
 .main-about section {
   max-width: 720px;
   padding: 40px;

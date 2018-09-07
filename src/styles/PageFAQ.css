@@ -1,9 +1,8 @@
-#div-page-wrapper-faq {
-  text-align: left;
+.main-faq {
   background-image: url("../assets/agriculture-barley-field.jpg")
 }
 
-#div-page-wrapper-faq h2 {
+.main-faq h2 {
   text-align: center;
   font-weight: bolder;
   text-decoration: underline

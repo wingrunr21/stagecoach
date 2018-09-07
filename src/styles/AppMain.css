@@ -10,31 +10,3 @@ main {
   color: #0F0F0F;
   overflow: hidden
 }
-
-.main-home {
-  background-image: url("../assets/corn-field.jpg")
-}
-
-.main-products {
-  background-image: url("../assets/agricultural-agriculture-animal.jpg")
-}
-
-.main-services {
-  background-image: url("../assets/agriculture-animal-bull.jpg")
-}
-
-.main-faq {
-  background-image: url("../assets/agriculture-barley-field.jpg")
-}
-
-.main-contact{
-  background-image: url("../assets/agriculture-back-light.jpg")
-}
-
-.main-about {
-  background-image: url("../assets/tassle.jpg")
-}
-
-.main-404 {
-
-}

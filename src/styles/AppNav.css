@@ -12,9 +12,14 @@
   }
   
   #app-nav ul li {
-    width: 4em;
+    margin: 4px;
     text-align: center;
     display: inline-block
+  }
+
+  #app-nav a {
+    min-width: 72px;
+    text-align: center
   }
 
   .active {
