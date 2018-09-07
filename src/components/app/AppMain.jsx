@@ -3,13 +3,13 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 /* Components */
-import { PageHome } from '../../pages/PageHome';
-import { PageProducts } from '../../pages/PageProducts';
-import { PageServices } from '../../pages/PageServices';
-import { PageContact } from '../../pages/PageContact';
-import { PageAbout } from '../../pages/PageAbout';
-import { PageFAQ } from '../../pages/PageFAQ';
-import { Page404 } from "../../pages/Page404";
+import { PageHome } from '../pages/PageHome';
+import { PageProducts } from '../pages/PageProducts';
+import { PageServices } from '../pages/PageServices';
+import { PageContact } from '../pages/PageContact';
+import { PageAbout } from '../pages/PageAbout';
+import { PageFAQ } from '../pages/PageFAQ';
+import { Page404 } from "../pages/Page404";
 
 /* Stylesheets */
 import "../../styles/AppMain.css";

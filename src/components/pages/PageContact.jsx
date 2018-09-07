@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import "../styles/PageContact.css";
+import "../../styles/PageContact.css";
 
 
 export const PageContact = (props) => {
