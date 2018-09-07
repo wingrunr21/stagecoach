@@ -1,5 +1,6 @@
 .main-404 {
   display: grid;
+  align-content: center;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-rows: 1fr auto auto auto auto 1fr;
   grid-gap: 12px
