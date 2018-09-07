@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import "../../styles/PageHome.css";
+import "../../styles/pages/PageHome.css";
 
 
 export const PageHome = () => (

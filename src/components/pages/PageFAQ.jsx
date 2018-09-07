@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import "../../styles/PageFAQ.css";
+import "../../styles/pages/PageFAQ.css";
 
 
 export const PageFAQ = (props) => {
