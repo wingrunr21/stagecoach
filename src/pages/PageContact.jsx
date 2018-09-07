@@ -7,7 +7,7 @@ import "../styles/PageContact.css";
 
 export const PageContact = (props) => {
   return (
-    <div id="div-page-wrapper-contact" className="div-page-wrapper">
+    <main className="main-contact">
       <h1>Contact</h1>
       <ul className="ul-contact">
         <li>Shop Location</li>
@@ -24,6 +24,6 @@ export const PageContact = (props) => {
         <li>Phone : 970-483-7280</li>
         <li>Fax : 970-483-8180</li>
       </ul>
-    </div>
+    </main>
   );
 };

@@ -10,18 +10,30 @@ main {
   overflow: hidden
 }
 
-.page-home {
+.main-home {
   background-image: url("../assets/corn-field.jpg");
 }
 
-.page-products {
+.main-products {
   background-image: url("../assets/agricultural-agriculture-animal.jpg")
 }
 
-.page-services {
+.main-services {
   background-image: url("../assets/agriculture-animal-bull.jpg")
 }
 
-.page-about {
+.main-faq {
+  background-image: url("../assets/agriculture-barley-field.jpg")
+}
+
+.main-contact{
+  background-image: url("../assets/agriculture-back-light.jpg")
+}
+
+.main-about {
+  background-image: url("../assets/tassle.jpg")
+}
+
+.main-404 {
 
 }

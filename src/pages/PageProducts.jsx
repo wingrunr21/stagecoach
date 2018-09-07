@@ -6,7 +6,7 @@ import "../styles/PageProducts.css";
 
 
 export const PageProducts = () => (
-    <main class="page-products">
+    <main class="main-products">
       <h1>Products</h1>
     </main>
   );

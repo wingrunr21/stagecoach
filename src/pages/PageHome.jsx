@@ -6,7 +6,7 @@ import "../styles/PageHome.css";
 
 
 export const PageHome = () => (
-  <main class="page-home">
+  <main class="main-home">
     <h1>Main</h1>    
   </main>
 );

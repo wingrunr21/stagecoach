@@ -7,7 +7,7 @@ import "../styles/PageFAQ.css";
 
 export const PageFAQ = (props) => {
   return (
-    <div id="div-page-wrapper-faq" className="div-page-wrapper">
+    <main className="main-faq">
       <h2>Frequently Asked Questions</h2>
       <ul id="ul-faq-list">
         <li className="li-faq-item">
@@ -84,6 +84,6 @@ export const PageFAQ = (props) => {
           <span className="span-faq-a">All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</span>
         </li>
       </ul>
-    </div>
+    </main>
   );
 };

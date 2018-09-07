@@ -3,7 +3,7 @@ import React from "react";
 
 
 export const Page404 = () => (
-  <React.Fragment>
+  <main className="main-404">
     <h2>You're Lost...</h2>
-  </React.Fragment>
+  </main>
 );
