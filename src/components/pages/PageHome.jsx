@@ -9,7 +9,7 @@ import CornField from "../../assets/images/corn-field.jpg";
 
 
 export const PageHome = () => (
-  <main class="main-home">
+  <main className="main-home">
     <img id="img-corn-field" src={CornField} alt="Corn Field"></img>
     <section>
       <p>Welcome to Stagecoach Meat Co.</p>
