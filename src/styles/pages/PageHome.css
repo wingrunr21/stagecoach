@@ -1,6 +1,6 @@
 .main-home {
   flex: 1 0 auto;
-
+  overflow: hidden
 }
 
 #div-grid-wrapper {
@@ -65,8 +65,13 @@
 }
 
 .main-home p {
-  width: 80%;
+  width: 75%;
   max-width: 720px;
   margin: 24px auto;
   text-align: justify
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }

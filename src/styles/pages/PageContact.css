@@ -1,4 +1,5 @@
 .main-contact{
+  flex: 1 0 auto;
   background-image: url("../../assets/images/agriculture-back-light.jpg")
 }
 
