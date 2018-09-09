@@ -7,6 +7,6 @@ import "../../styles/pages/PageServices.css";
 
 export const PageServices = () => (
   <main className="main-services">
-    <h1>Products</h1>
+    <h1>Processing</h1>
   </main>
 );

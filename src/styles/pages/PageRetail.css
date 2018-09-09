@@ -1,4 +1,60 @@
 .main-retail {
   flex: 1 0 auto;
-  background-image: url("../../assets/images/agricultural-agriculture-animal.jpg")
+  /* background-image: url("../../assets/images/agricultural-agriculture-animal.jpg") */
 }
+
+.main-retail p {
+  width: 80%;
+  max-width: 720px;
+  margin: 32px auto
+}
+
+.main-retail section {
+  display: flex;
+  width: 90%;
+  max-width: 720px;
+  margin: 32px auto;
+  background: goldenrod;
+  border: 2px #444444 solid
+}
+
+.main-retail h3 {
+  width: 192px;
+  display: inline-block;
+  align-self: center;
+  justify-self: right;
+  text-align: center
+}
+
+.main-retail ul {
+  justify-self: right;
+  width: 100%;
+  padding: 8px;
+  list-style: none;
+  background: #fcd271;
+  border-left: 2px #444444 solid
+}
+
+/* #section-retail-beef {
+  background: goldenrod
+}
+
+#section-retail-pork-links {
+  background: navajowhite
+}
+
+#section-retail-pork-bulk {
+  background: magenta
+}
+
+#ul-retail-beef {
+  background: gold
+}
+
+#ul-retail-pork-links {
+  background: pink
+}
+
+#ul-retail-pork-bulk {
+  background: rosybrown
+} */
