@@ -35,7 +35,7 @@
   to { transform: rotate(360deg); }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
   #app-title {
     font-size: 1em
   }

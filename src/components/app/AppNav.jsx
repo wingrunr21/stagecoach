@@ -10,7 +10,7 @@ export const AppNav = () => (
   <nav id="app-nav">
     <ul>
       <li><NavLink to="/" exact>Home</NavLink></li>
-      <li><NavLink to="/products">Menu</NavLink></li>
+      <li><NavLink to="/retail">Retail</NavLink></li>
       <li><NavLink to="/services">Services</NavLink></li>
       <li><NavLink to="/faq">FAQ</NavLink></li>
       <li><NavLink to="/contact">Contact</NavLink></li>

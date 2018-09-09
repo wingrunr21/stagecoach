@@ -23,7 +23,7 @@
   }
 
   .active {
-    background: gold
+    background: darkred
   }
 
   @media screen and (max-width: 360px) {

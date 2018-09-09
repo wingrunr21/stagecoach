@@ -5,8 +5,8 @@ import React from "react";
 import "../../styles/pages/PageProducts.css";
 
 
-export const PageProducts = () => (
-    <main className="main-products">
-      <h1>Products</h1>
+export const PageRetail = () => (
+    <main className="main-retail">
+      <h1>Retail</h1>
     </main>
   );

@@ -3,7 +3,8 @@
   align-content: center;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-rows: 1fr auto auto auto auto 1fr;
-  grid-gap: 12px
+  grid-gap: 12px;
+  flex: 1 0 auto
 }
 
 .main-404 h4 {
@@ -15,13 +16,12 @@
   border: 1px orangered solid;
   background: orange;
   color: #DDDDDD;
-  align-self: flex-start
 }
 
 #img-cow-skull {
   width: 100%;
-  max-height: 100%;
-  grid-row: 3 / 5;
+  height: 360px;
+  grid-row: 3;
   grid-column: 2 / 5;
   border-radius: 4px 0 0 4px;
 }
