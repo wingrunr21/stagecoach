@@ -1,13 +1,20 @@
 .main-contact{
   flex: 1 0 auto;
-  background-image: url("../../assets/images/agriculture-back-light.jpg")
+  /* background-image: url("../../assets/images/agriculture-back-light.jpg") */
+}
+
+.main-contact section {
+  width: 90%;
+  max-width: 720px;
+  margin: 24px auto;
 }
 
 .main-contact p {
   width: 90%;
   max-width: 720px;
-  margin: 24px auto;
-  text-align: justify
+  margin: 24px 0;
+  text-align: justify;
+  font-size: 20px
 }
 
 .ul-contact {
