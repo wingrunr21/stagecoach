@@ -12,7 +12,7 @@
 .main-retail section {
   display: flex;
   width: 90%;
-  max-width: 720px;
+  max-width: 640px;
   margin: 32px auto;
   background: #BBBBBB;
   border: 2px #444444 solid;
