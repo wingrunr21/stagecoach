@@ -12,7 +12,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 export const AppFooter = () => (
   <footer id="app-footer">
     <h5>&copy;2018 &bull; Stagecoach Meat Co., LLC</h5>
-    <a href="https://github.com/StevenJBurns/extrasolar">
+    <a href="https://www.facebook.com/Stagecoach-Meat-Company-LLC-205877879464025/">
       <FontAwesomeIcon className="fa-logo" icon={ faFacebook } size="2x" />
     </a>
   </footer>

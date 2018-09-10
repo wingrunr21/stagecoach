@@ -3,6 +3,13 @@
   background-image: url("../../assets/images/agriculture-back-light.jpg")
 }
 
+.main-contact p {
+  width: 90%;
+  max-width: 720px;
+  margin: 24px auto;
+  text-align: justify
+}
+
 .ul-contact {
   margin: 16px auto;
   padding: 8px;

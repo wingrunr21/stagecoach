@@ -8,6 +8,7 @@ import "../../styles/pages/PageContact.css";
 export const PageContact = (props) => {
   return (
     <main className="main-contact">
+      <p>Our processing plant and shop is located in Wiggins, CO. Google Maps will incorrectly plot our location.  See the image below for the correct location.</p>
       <h1>Contact</h1>
       <ul className="ul-contact">
         <li>Shop Location</li>
@@ -24,6 +25,8 @@ export const PageContact = (props) => {
         <li>Phone : 970-483-7280</li>
         <li>Fax : 970-483-8180</li>
       </ul>
+      <p>To contact us via email: <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">Stagecoach Meat</a></p>
+      <p>Also check out our Facebook page...</p>
     </main>
   );
 };
