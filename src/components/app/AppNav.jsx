@@ -14,7 +14,7 @@ export const AppNav = () => (
       <li><NavLink to="/services">PROCESSING</NavLink></li>
       <li><NavLink to="/faq">FAQ</NavLink></li>
       <li><NavLink to="/contact">CONTACT</NavLink></li>
-      <li><NavLink to="/about">ABOUT</NavLink></li>
+      {/* <li><NavLink to="/about">ABOUT</NavLink></li> */}
     </ul>
   </nav>
 );
