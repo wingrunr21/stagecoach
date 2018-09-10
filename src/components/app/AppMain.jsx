@@ -19,8 +19,8 @@ export const AppMain = () => {
   return (
     <Switch>
       <Route exact path="/" component={PageHome} />
-      <Route exact path="/retail" component={PageRetail} />
       <Route exact path="/services" component={PageServices} />
+      <Route exact path="/retail" component={PageRetail} />
       <Route exact path="/faq" component={PageFAQ} />
       <Route exact path="/contact" component={PageContact} />
       <Route exact path="/about" component={PageAbout} />
