@@ -50,6 +50,6 @@ export const PageRetail = () => (
           <li>Chorizo</li>
         </ul>
       </section>
-      <p>We also offer a full line of beef (USDA Choice) pork cuts, chicken, pies, Farmland All Beef Hot Dogs as well as custom processing services</p>
+      <p>We also offer a full line of beef (USDA Choice), pork cuts, chicken, pies, Farmland All Beef Hot Dogs as well as custom processing services</p>
     </main>
   );
