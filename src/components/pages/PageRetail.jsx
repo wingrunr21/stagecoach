@@ -7,9 +7,10 @@ import "../../styles/pages/PageRetail.css";
 
 export const PageRetail = () => (
     <main className="main-retail">
-      <p>We sell the following products as retail items. <em>* Please call ahead to verify current prices and availabilty. *</em></p>
+      <p>We sell the following products as retail items.</p>
+      <p><em>Please call ahead to verify current prices and availabilty.</em></p>
       <section id="section-retail-beef">
-        <h3>Beef</h3>
+        <h4>Beef</h4>
         <ul id="ul-retail-beef">
           <li>Beef Steak</li>
           <li>New York Strip</li>
@@ -19,7 +20,7 @@ export const PageRetail = () => (
         </ul>
       </section>
       <section id="section-retail-pork-links">
-        <h3>Pork Links</h3>
+        <h4>Pork Links</h4>
         <ul id="ul-retail-pork-links">
           <li>Bratwurst</li>
           <li>Apple-Flavored Bratwurst</li>
@@ -37,7 +38,7 @@ export const PageRetail = () => (
         </ul>
       </section>
       <section id="section-retail-pork-bulk">
-        <h3>Pork Bulk</h3>
+        <h4>Pork Bulk</h4>
         <ul id="ul-retail-pork-bulk">
           <li>Regular Breakfast</li>
           <li>Maple Breakfast</li>
@@ -49,7 +50,6 @@ export const PageRetail = () => (
           <li>Chorizo</li>
         </ul>
       </section>
-
-      <p>We also offer a full line of beef (USDA Choice) pork cuts, chicken, pies, Farmland All Beef Hot Dogs as wll as cusotom processing services</p>
+      <p>We also offer a full line of beef (USDA Choice) pork cuts, chicken, pies, Farmland All Beef Hot Dogs as well as custom processing services</p>
     </main>
   );

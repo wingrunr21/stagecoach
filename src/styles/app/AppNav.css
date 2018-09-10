@@ -3,31 +3,32 @@
   flex-wrap: wrap;
   flex-direction: row;
   background: #FF4400;
-  padding: 24px
-  }
+  padding: 12px
+}
   
-  #app-nav ul {
-    margin: 0 auto;
-    list-style: none
-  }
-  
-  #app-nav ul li {
-    margin: 4px;
-    text-align: center;
-    display: inline-block
-  }
+#app-nav ul {
+  list-style: none
+}
 
-  #app-nav a {
-    min-width: 72px;
-    text-align: center
-  }
+#app-nav ul li {
+  margin: 2px;
+  padding: 4px;
+  width: 120px;
+  text-align: center;
+  display: inline-block;
+  background: green
+}
 
-  .active {
-    background: darkred
-  }
+#app-nav a {
+  margin: 4px auto;
+}
 
-  @media screen and (max-width: 360px) {
-    #app-nav {
-      font-size: 0.75em
-    }
+.active {
+  background: darkred
+}
+
+@media screen and (max-width: 360px) {
+  #app-nav {
+    font-size: 0.75em
   }
+}

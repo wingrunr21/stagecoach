@@ -6,7 +6,7 @@
 .main-retail p {
   width: 80%;
   max-width: 720px;
-  margin: 32px auto
+  margin: 16px auto
 }
 
 .main-retail section {
@@ -14,24 +14,24 @@
   width: 90%;
   max-width: 720px;
   margin: 32px auto;
-  background: goldenrod;
-  border: 2px #444444 solid
+  background: #BBBBBB;
+  border: 2px #444444 solid;
+  border-radius: 8px
 }
 
-.main-retail h3 {
+.main-retail h4 {
   width: 192px;
   display: inline-block;
   align-self: center;
-  justify-self: right;
   text-align: center
 }
 
 .main-retail ul {
-  justify-self: right;
   width: 100%;
   padding: 8px;
+  justify-items: stretch;
   list-style: none;
-  background: #fcd271;
+  background: #CCCCCC;
   border-left: 2px #444444 solid
 }
 
