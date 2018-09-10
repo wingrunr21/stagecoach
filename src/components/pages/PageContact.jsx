@@ -10,6 +10,7 @@ import "../../styles/pages/PageContact.css";
 
 export const PageContact = (props) => {
   const styleGoogleMap = { height: 288 + 'px', width: 90 + '%', minWidth: 320 + 'px', maxWidth: 640 +'px', margin: "24px auto", display: 'inlineBlock' };
+  const MapLabel = ({ text }) => <div>{ text }</div>;
 
   const keyAPI= { key: "AIzaSyBL3o3vS6QBa0JxUEAIKrX80_gkmuH3S3U" };
   const defaultMapCenter= { lat: 40.2304149, lng: -104.0814956 };
@@ -17,7 +18,7 @@ export const PageContact = (props) => {
 
   return (
     <main className="main-contact">
-      <p>Our processing plant and shop is located in Wiggins, CO. Google Maps will incorrectly plot our location.  See the image below for the correct location.</p>
+      <p>Our processing plant and shop is located in Wiggins, CO. Google Maps will <em>occasionally</em> plot our location incorrectly.  See the image below for the correct location.</p>
       <h1>Contact</h1>
       <ul className="ul-contact">
         <li>Shop Location</li>
@@ -25,7 +26,9 @@ export const PageContact = (props) => {
         <li>WIggins, CO 80654</li> 
       </ul>
       <div style={styleGoogleMap}>
-        <GoogleMapReact defaultCenter={ defaultMapCenter} defaultZoom={ defaultMapZoom } bootstrapURLKeys={keyAPI} />
+        <GoogleMapReact defaultCenter={ defaultMapCenter} defaultZoom={ defaultMapZoom } bootstrapURLKeys={keyAPI}>
+          <MapLabel lat={ defaultMapCenter.lat } lng={ defaultMapCenter.lng } text={ "Stagecoach Meat Co." }/>
+        </GoogleMapReact>
       </div>
       <ul className="ul-contact">
         <li>Mailing Address</li>
