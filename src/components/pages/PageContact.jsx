@@ -24,12 +24,15 @@ export const PageContact = (props) => {
       <section id="section-business-hours">
         <h3>Business Hours</h3>
         <hr />
+        <ul className="ul-contact">
+          <li>Mon - Fri: 7:30 - 5:00</li>
+          <li>Sat: 9:00 - 12:00</li>
+        </ul>
       </section>
       <section id="section-phone-and-fax">
         <h3>Phone and Fax</h3>
         <hr />
         <ul className="ul-contact">
-          <li>Phone and Fax</li>
           <li>Phone : 970-483-7280</li>
           <li>Fax : 970-483-8180</li>
         </ul>
@@ -39,7 +42,6 @@ export const PageContact = (props) => {
         <hr />
         <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you end up in the wrong place plase call us!</p>
         <ul className="ul-contact">
-          <li>Shop Location</li>
           <li>600 W 3rd Ave</li>
           <li>WIggins, CO 80654</li> 
         </ul>
@@ -54,7 +56,6 @@ export const PageContact = (props) => {
       <hr />
       <p>Should you need to send physical mail, our mail is delivered to this address:</p>
         <ul className="ul-contact">
-          <li>Mailing Address</li>
           <li>PO Box 413</li>
           <li>Wiggins, CO 80654</li>
         </ul>

@@ -84,6 +84,7 @@ export const PageFAQ = (props) => {
           <span className="span-faq-a">All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</span>
         </li>
       </ul>
+      <p>If you have a question that isn't listed here feel free to call 970-483-7280 or send an email to <a href="mailto:svonloh@yahoo.com">svonloh@yahoo.com</a></p>
     </main>
   );
 };

@@ -18,10 +18,20 @@
   background: goldenrod
 }
 
-#app-nav a {
+#app-nav a:link,
+#app-nav a:visited {
   width: 100%;
   margin: 0 auto;
-  display: inline-block
+  color: #F0F0F0;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px #0F0F0F;
+  display: inline-block;
+  transition: color 0.25s
+}
+
+#app-nav a:hover,
+#app-nav a:active {
+  color: #FFCC00
 }
 
 .active {

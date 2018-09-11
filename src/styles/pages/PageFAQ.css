@@ -1,5 +1,6 @@
 .main-faq {
-  background-image: url("../../assets/images/agriculture-barley-field.jpg")
+  flex: 1 0 auto;
+  /* background-image: url("../../assets/images/agriculture-barley-field.jpg") */
 }
 
 .main-faq h2 {
@@ -10,7 +11,8 @@
 
 #ul-faq-list {
   width: 90%;
-  max-width: 960px;
+  max-width: 720px;
+  margin: 24px auto;
   list-style: none;
 }
 
@@ -20,4 +22,10 @@
   color: #333333;
   background: #e4dd7f;
   border-radius: 8px
+}
+
+.main-faq p {
+  width: 90%;
+  max-width: 720px;
+  margin: 24px auto
 }
