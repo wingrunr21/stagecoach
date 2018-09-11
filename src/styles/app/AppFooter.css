@@ -2,7 +2,7 @@
   padding: 24px;
   color: #F0F0F0;
   background: #BB3300;
-  text-shadow: 4px 4px 16px #0F0F0F;
+  /* text-shadow: 4px 4px 16px #0F0F0F; */
   text-align: center
 }
 
@@ -12,10 +12,10 @@
 
 #app-footer a:link,
 #app-footer a:visited {
-
+  color: #F0F0F0
 }
 
 #app-footer a:hover,
 #app-footer a:active {
-  
+
 }
