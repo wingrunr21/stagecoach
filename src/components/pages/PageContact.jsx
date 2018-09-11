@@ -22,29 +22,32 @@ export const PageContact = (props) => {
         <p>Our processing plant and shop is located in Wiggins, CO.</p>
       </section>
       <section id="section-business-hours">
-        <h3>Business Hours</h3>
+        <h4>Business Hours</h4>
         <hr />
+        <p>Our normal shop hours are listed.  Pease note we break for lunch from 12pm to 1pm on weekdays. Closer to holidays please contact us in advance for store hours as we may extend weekends to accomodate for holidays.</p>
         <ul className="ul-contact">
           <li>Mon - Fri: 7:30 - 5:00</li>
           <li>Sat: 9:00 - 12:00</li>
         </ul>
       </section>
       <section id="section-phone-and-fax">
-        <h3>Phone and Fax</h3>
+        <h4>Phone and Fax</h4>
         <hr />
         <ul className="ul-contact">
           <li>Phone : 970-483-7280</li>
-          <li>Fax : 970-483-8180</li>
+          <li>&nbsp;&nbsp;&nbsp;Fax : 970-483-8180</li>
         </ul>
       </section>
       <section id="section-map">
-        <h3>Processing Plant and Retail Shop</h3>
+        <h4>Processing Plant and Retail Shop</h4>
         <hr />
-        <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you end up in the wrong place plase call us!</p>
-        <ul className="ul-contact">
-          <li>600 W 3rd Ave</li>
-          <li>WIggins, CO 80654</li> 
-        </ul>
+        <div id="div-map-info">
+          <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you end up in the wrong place plase call us!</p>
+          <ul className="ul-contact">
+            <li>600 W 3rd Ave</li>
+            <li>WIggins, CO 80654</li> 
+          </ul>
+        </div>
         <div style={styleGoogleMap}>
           <GoogleMapReact defaultCenter={ defaultMapCenter} defaultZoom={ defaultMapZoom } bootstrapURLKeys={keyAPI}>
             <MapLabel lat={ defaultMapCenter.lat } lng={ defaultMapCenter.lng } text={ "Stagecoach Meat Co." }/>
@@ -52,7 +55,7 @@ export const PageContact = (props) => {
         </div>
       </section>
       <section id="section-mailing-address">
-      <h3>Mailing Address</h3>
+      <h4>Mailing Address</h4>
       <hr />
       <p>Should you need to send physical mail, our mail is delivered to this address:</p>
         <ul className="ul-contact">
@@ -61,12 +64,14 @@ export const PageContact = (props) => {
         </ul>
       </section>
       <section id="section-email">
+      <h4>Email</h4>
+      <hr></hr>
         <p>To contact us via email: <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">Stagecoach Meat</a></p>
       </section>
       <section id="section-feacebook">
-        <h3>Social Media</h3>
+        <h4>Social Media</h4>
         <hr />
-        <p>Also check out our Facebook page!</p>
+        <p>Also check out our Facebook page!  We will post information about adjusted store hours, events and more.</p>
       </section>
     </main>
   );

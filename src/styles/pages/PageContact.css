@@ -28,3 +28,19 @@
   list-style: none;
   opacity: 0.90
 }
+
+#div-map-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap
+}
+
+#div-map-info P {
+  margin: 0 auto
+}
+
+#div-map-info ul {
+  margin: 0 auto
+}
