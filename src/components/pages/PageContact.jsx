@@ -16,7 +16,7 @@ export const PageContact = (props) => {
   const MapLabel = ({ text }) => <div>{ text }</div>;
   const keyAPI= { key: "AIzaSyBL3o3vS6QBa0JxUEAIKrX80_gkmuH3S3U" };
   const defaultMapCenter= { lat: 40.2304149, lng: -104.0814956 };
-  const defaultMapZoom = 16;
+  const defaultMapZoom = 14;
 
   return (
     <main className="main-contact">
@@ -35,10 +35,10 @@ export const PageContact = (props) => {
         <h3>Processing and Retail Shop</h3>
         <hr />
         <div id="div-map-info">
-          <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you end up in the wrong place plase call us!</p>
+          <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you end up in the wrong place please call us!</p>
           <ul className="ul-contact">
             <li>600 W 3rd Ave</li>
-            <li>WIggins, CO 80654</li> 
+            <li>Wiggins, CO 80654</li> 
           </ul>
         </div>
         <div id="div-map">
@@ -76,7 +76,7 @@ export const PageContact = (props) => {
           <a href="https://www.facebook.com/Stagecoach-Meat-Company-LLC-205877879464025/">
             <FontAwesomeIcon className="fa-logo" icon={ faFacebook } size="4x" />
           </a>
-          <p>Also check out our Facebook page!  We will post information about adjusted store hours, events and more.</p>
+          <p>Check out our Facebook page!  We will post information about adjusted store hours, events and more.</p>
         </div>
       </section>
     </main>
