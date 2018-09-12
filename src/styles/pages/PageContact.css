@@ -25,10 +25,8 @@
   width: 192px;
   background: #CCCCCC;
   border: 1px #222222 solid;
-  /* text-shadow: 1px 1px 8px #777777; */
   border-radius: 4px;
   list-style: none;
-  /* opacity: 0.90 */
 }
 
 .ul-contact li {
@@ -93,5 +91,6 @@
 }
 
 #div-social-media p {
-  margin-left: 16px
+  margin-left: 16px;
+  align-self: center
 }
