@@ -37,6 +37,7 @@ export const PageContact = (props) => {
         <div id="div-map-info">
           <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you can't find the the shop or end up in the wrong place please call us!</p>
           <ul className="ul-contact">
+            <li>Stage Meat Co.</li>
             <li>600 W 3rd Ave</li>
             <li>Wiggins, CO 80654</li> 
           </ul>

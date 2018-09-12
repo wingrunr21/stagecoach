@@ -31,9 +31,13 @@
   width: 100%;
   padding: 8px;
   justify-items: stretch;
-  list-style: none;
+  border-left: 2px #444444 solid;
   background: #CCCCCC;
-  border-left: 2px #444444 solid
+  list-style: none
+}
+
+.main-retail li {
+
 }
 
 /* #section-retail-beef {

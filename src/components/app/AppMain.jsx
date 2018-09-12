@@ -8,7 +8,7 @@ import { PageProcessing } from '../pages/PageProcessing';
 import { PageRetail } from '../pages/PageRetail';
 import { PageContact } from '../pages/PageContact';
 import { PageFAQ } from '../pages/PageFAQ';
-import { PageAbout } from '../pages/PageAbout';
+// import { PageAbout } from '../pages/PageAbout';
 import { Page404 } from "../pages/Page404";
 
 /* Stylesheets */

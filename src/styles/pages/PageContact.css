@@ -23,7 +23,7 @@
 .ul-contact {
   padding: 8px;
   width: 192px;
-  background: #CCCCCC;
+  background: #B5651D44;
   border: 1px #222222 solid;
   border-radius: 4px;
   list-style: none;
@@ -41,6 +41,7 @@
 
 #div-business-hours p {
   flex: 1;
+  min-width: 288px;
   margin-right: 8px
  }
 
@@ -60,6 +61,7 @@
 
 #div-map-info p {
   flex: 1;
+  min-width: 288px;
   margin-right: 8px;
   align-self: auto
 }
