@@ -4,6 +4,9 @@ import React from "react";
 /* Stylesheets */
 import "../../styles/pages/PageFAQ.css";
 
+/* Assets */
+import BarbedWire from "../../assets/images/barbed-wire.jpg";
+
 
 export const PageFAQ = () => {
   return (
@@ -71,7 +74,6 @@ export const PageFAQ = () => {
           <p>All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</p>
         </section>
       </div>
-      
       <ul id="ul-faq-list">
         <li className="li-faq-item">
           <span className="span-faq-q">I’d like to cook for my family or friends.  What serving size do you recommend per person?</span>
@@ -147,7 +149,7 @@ export const PageFAQ = () => {
           <span className="span-faq-a">All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</span>
         </li>
       </ul>
-      <p></p>
+      <img src={BarbedWire} alt="Barbed Wire Flourish"></img>
     </main>
   );
 };
