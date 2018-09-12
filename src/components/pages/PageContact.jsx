@@ -35,7 +35,7 @@ export const PageContact = (props) => {
         <h3>Processing and Retail Shop</h3>
         <hr />
         <div id="div-map-info">
-          <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you end up in the wrong place please call us!</p>
+          <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you can't find the the shop or end up in the wrong place please call us!</p>
           <ul className="ul-contact">
             <li>600 W 3rd Ave</li>
             <li>Wiggins, CO 80654</li> 

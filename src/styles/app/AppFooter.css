@@ -1,5 +1,5 @@
 #app-footer {
-  padding: 24px;
+  padding: 12px;
   color: #F0F0F0;
   background: #BB3300;
   /* text-shadow: 4px 4px 16px #0F0F0F; */
@@ -7,7 +7,7 @@
 }
 
 #app-footer h5 {
-
+  margin: 12px auto
 }
 
 #app-footer a:link,
