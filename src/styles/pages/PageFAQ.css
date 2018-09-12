@@ -3,10 +3,28 @@
   /* background-image: url("../../assets/images/agriculture-barley-field.jpg") */
 }
 
-.main-faq h2 {
-  text-align: center;
-  font-weight: bolder;
-  text-decoration: underline
+.main-faq p {
+  width: 90%;
+  max-width: 720px;
+  margin: 24px auto;
+  font-size: 16px
+}
+
+#div-faq-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#div-faq-wrapper section {
+  width: 288px;
+  margin: 8px;
+  border-radius: 4px;
+  border: 1px goldenrod solid;
+  background: goldenrod
 }
 
 #ul-faq-list {
@@ -14,6 +32,7 @@
   max-width: 720px;
   margin: 24px auto;
   list-style: none;
+  display: none
 }
 
 .li-faq-item {
@@ -22,10 +41,4 @@
   color: #333333;
   background: #e4dd7f;
   border-radius: 8px
-}
-
-.main-faq p {
-  width: 90%;
-  max-width: 720px;
-  margin: 24px auto
 }

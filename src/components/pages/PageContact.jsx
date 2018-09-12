@@ -58,8 +58,9 @@ export const PageContact = (props) => {
       <section id="section-mailing-address">
       <h3>Mailing Address</h3>
         <hr />
-        <p>Should you need to send physical mail, our mail is delivered to this address:</p>
+        <p>If you need to send physical mail, deliveries are sent to this address:</p>
         <ul className="ul-contact">
+          <li>Stage Meat Co.</li>
           <li>PO Box 413</li>
           <li>Wiggins, CO 80654</li>
         </ul>
@@ -76,7 +77,7 @@ export const PageContact = (props) => {
           <a href="https://www.facebook.com/Stagecoach-Meat-Company-LLC-205877879464025/">
             <FontAwesomeIcon className="fa-logo" icon={ faFacebook } size="4x" />
           </a>
-          <p>Check out our Facebook page!  We will post information about adjusted store hours, events and more.</p>
+          <p>Check out our Facebook page!  We will post information about adjusted business hours, events and more.</p>
         </div>
       </section>
     </main>

@@ -2,8 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-self: right;
   background: #FF4400;
-  padding: 12px
+  padding: 16px;
+  width: 640px
 }
   
 #app-nav ul {

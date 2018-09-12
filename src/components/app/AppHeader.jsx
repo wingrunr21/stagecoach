@@ -1,6 +1,9 @@
 /* React */
 import React from "react";
 
+/* Components */
+import { AppNav } from "./AppNav";
+
 /* Stylesheets */
 import '../../styles/app/AppHeader.css';
 
@@ -12,5 +15,6 @@ export const AppHeader = () => (
       <h5>Wiggins, Colorado</h5>
       <h5>970-483-7280</h5>
     </div>
+    <AppNav />
   </header>
 );

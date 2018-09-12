@@ -5,10 +5,73 @@ import React from "react";
 import "../../styles/pages/PageFAQ.css";
 
 
-export const PageFAQ = (props) => {
+export const PageFAQ = () => {
   return (
     <main className="main-faq">
-      <h2>Frequently Asked Questions</h2>
+      <p>We've made a list of frequently asked questions from other customers. If you have a question that isn't listed here feel free to call 970-483-7280 or send an email to <a href="mailto:svonloh@yahoo.com">svonloh@yahoo.com</a></p>
+      <div id="div-faq-wrapper">
+        <section>
+          <p>I’d like to cook for my family or friends.  What serving size do you recommend per person?</p>
+          <p>We recommend 8 to 12oz per adult</p>
+        </section>
+        <section>
+          <p>How are beef aged?  How long are they aged?</p>
+          <p>The beef are hanged in a temperature controlled cooler for up to 3 weeks, or your preference</p>
+        </section>
+        <section>
+          <p>Do you age hogs the same as beef?</p>
+          <p>Hogs also hang in temperature controlled cooler for up to a week</p>
+        </section>
+        <section>
+          <p>When can I expect my order to be ready?</p>
+          <p>You can expect your order to be ready 48 hours after it has been cut. We will notify you by telephone when it is ready to be picked up</p>
+        </section>
+        <section>
+          <p>Where is Stagecoach Meat Co. located?  How do I find you?</p>
+          <p>Our location is on the Contact Page. Google Maps will occasionally show our location incorrectly</p>
+        </section>
+        <section>
+          <p>Do you accept checks?</p>
+          <p>Yes. We accept checks, cash and credit cards.</p>
+        </section>
+        <section>
+          <p>What cuts do I have to choose from?</p>
+          <p>You will be offered a cut sheet (either pork or beef), and you can choose your cuts on that form. If you have any questions when filling it out, we invite you to contact us, and we'll be more than happy to help you.</p>
+        </section>
+        <section>
+          <p>What are your charges for slaughtering and processing?</p>
+          <p>The slaughter charge is a flat charge.  Processing charges are based on the dress weight of the animal.  Please call for current rates.</p>
+        </section>
+        <section>
+          <p>How do I cook certain cuts of meat?</p>
+          <p>Microwave or stove</p>
+        </section>
+        <section>
+          <p>Do I need to bring boxes or coolers to take the meat home?</p>
+          <p>BYOB</p>
+        </section>
+        <section>
+          <p>When should I drop the animal off?</p>
+          <p>ASAP</p>
+        </section>
+        <section>
+          <p>How soon after I’m notified that my order is ready should I pick it up?</p>
+          <p>Our freezer space is valuable.  Please plan to pick your order up within a week after notification.</p>
+        </section>
+        <section>
+          <p>I’m new to custom meat processing.  Do you have cutting instruction forms available?</p>
+          <p>We're working on it</p>
+        </section>
+        <section>
+          <p>Do you charge extra for making hamburger patties or sausage patties.</p>
+          <p>No. Only for special sauce...</p>
+        </section>
+        <section>
+          <p>How do you package the cuts of meat?</p>
+          <p>All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</p>
+        </section>
+      </div>
+      
       <ul id="ul-faq-list">
         <li className="li-faq-item">
           <span className="span-faq-q">I’d like to cook for my family or friends.  What serving size do you recommend per person?</span>
@@ -84,7 +147,7 @@ export const PageFAQ = (props) => {
           <span className="span-faq-a">All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</span>
         </li>
       </ul>
-      <p>If you have a question that isn't listed here feel free to call 970-483-7280 or send an email to <a href="mailto:svonloh@yahoo.com">svonloh@yahoo.com</a></p>
+      <p></p>
     </main>
   );
 };

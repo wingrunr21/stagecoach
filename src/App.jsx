@@ -21,7 +21,7 @@ export class App extends React.Component {
     return (
       <React.Fragment>
         <AppHeader />
-        <AppNav />
+        {/* <AppNav /> */}
         <AppMain />
         <AppFooter />
       </React.Fragment>

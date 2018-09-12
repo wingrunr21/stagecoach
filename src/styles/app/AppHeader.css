@@ -1,10 +1,10 @@
 #app-header {
   display: grid;
   grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto auto 24px;
   text-shadow: 4px 4px 16px #0F0F0F;
   background: #BB3300;
   color: #F0F0F0;
-  padding: 8px
 }
   
 #app-logo {
@@ -21,13 +21,18 @@
 #app-stagecoach-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-self: right;
   align-items: center;
   padding: 0 8px
 }
 
 #app-stagecoach-info h5 {
   margin: 4px
+}
+
+#app-nav {
+  grid-row: 2 / 3;
+  grid-column:  2
 }
 
 @keyframes app-logo-spin {
