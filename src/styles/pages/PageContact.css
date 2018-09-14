@@ -46,7 +46,8 @@
 #div-business-hours p {
   flex: 1;
   min-width: 288px;
-  margin-right: 8px
+  margin-right: 8px;
+  margin-bottom: 12px
  }
 
 #div-business-hours ul {
@@ -66,6 +67,7 @@
   flex: 1;
   min-width: 288px;
   margin-right: 8px;
+  margin-bottom: 8px;
   align-self: auto
 }
 
@@ -84,17 +86,38 @@
 
 #div-mailing-address {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto
 }
 
 #div-mailing-address p {
-  flex: 1
+  flex: 1;
+  margin-right: 12px;
+  margin-bottom: 8px
 }
 
 #div-mailing-address ul {
-  margin: 0 0 16px 8px;
+  margin-bottom: 8px;
   align-self: stretch;
   justify-self: center
+}
+
+#div-email {
+  display: flex;
+  justify-content: flex-start
+}
+
+#div-email a {
+  margin: 0;
+  width: auto;
+  display: inline-block;
+  align-self: center
+}
+
+#div-email p {
+  margin-left: 16px;
+  align-self: center
 }
 
 #div-social-media {

@@ -9,6 +9,7 @@ import "../../styles/pages/PageContact.css";
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -64,9 +65,9 @@ export const PageContact = (props) => {
         <h3>Mailing Address</h3>
         <hr />
         <div id="div-mailing-address">
-          <p>If you need to send physical mail, deliveries are sent to this address:</p>
+          <p>If you need to send physical mail, deliveries are made to the listed address:</p>
           <ul className="ul-contact">
-            <li>Stage Meat Co.</li>
+            <li>Stagecoach Meat Co.</li>
             <li>PO Box 413</li>
             <li>Wiggins, CO 80654</li>
           </ul>
@@ -75,7 +76,12 @@ export const PageContact = (props) => {
       <section id="section-email">
         <h3>Email</h3>
         <hr />
-        <p>To contact us via email: <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">Stagecoach Meat</a></p>
+        <div id="div-email">
+          <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">
+            <FontAwesomeIcon className="fa-logo" icon={ faEnvelope } size="3x" />
+          </a>
+          <p>To contact us via email: <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">Stagecoach Meat</a> (svonloh@yahoo.com). Please add &quot;Attention: Sean&quot; to the subject line.</p>
+        </div>
       </section>
       <section id="section-feacebook">
         <h3>Social Media</h3>
