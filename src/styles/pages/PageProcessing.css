@@ -2,3 +2,14 @@
   flex: 1 0 auto;
   /* background-image: url("../../assets/images/agriculture-animal-bull.jpg") */
 }
+
+.main-processing h1 {
+  text-align: center;
+  margin: 16px auto
+}
+
+.main-processing p {
+  width: 90%;
+  max-width: 720px;
+  margin: 32px auto
+}
