@@ -9,7 +9,7 @@ import "../../styles/pages/PageContact.css";
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -56,6 +56,8 @@ export const PageContact = (props) => {
       <section id="section-phone-and-fax">
         <h3>Phone and Fax</h3>
         <hr />
+        <FontAwesomeIcon className="fa-logo" icon={ faPhoneSquare } size="4x" />
+        <p>During business hours, direct phone calls and faxes to these numbers:</p>
         <ul className="ul-contact">
           <li>Phone : 970-483-7280</li>
           <li>&nbsp;&nbsp;&nbsp;Fax : 970-483-8180</li>
@@ -78,7 +80,7 @@ export const PageContact = (props) => {
         <hr />
         <div id="div-email">
           <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">
-            <FontAwesomeIcon className="fa-logo" icon={ faEnvelope } size="3x" />
+            <FontAwesomeIcon className="fa-logo" icon={ faEnvelope } size="4x" />
           </a>
           <p>To contact us via email: <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">Stagecoach Meat</a> (svonloh@yahoo.com). Please add &quot;Attention: Sean&quot; to the subject line.</p>
         </div>
