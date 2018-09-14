@@ -1,7 +1,7 @@
 #app-header {
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto auto 24px;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr 1fr 24px auto auto;
   text-shadow: 4px 4px 16px #0F0F0F;
   background: #9C593E;
   color: #F0F0F0;
@@ -13,27 +13,32 @@
   animation: app-logo-spin infinite 8s linear;
 }
 
-#app-title {
-  flex: 1 0 auto;
+#app-header-h2 {
+  margin: 4px 12px;
   text-align: left;
-  align-self: center
+  display: inline-block;
+  grid-column: 1 / 2;
+  grid-row: 1;
 }
 
-#app-stagecoach-info {
-  display: flex;
-  flex-direction: column;
-  justify-self: right;
-  align-items: center;
-  padding: 0 8px
-}
-
-#app-stagecoach-info h5 {
-  margin: 4px
+#app-header-h5 {
+  margin: 4px 12px;
+  text-align: left;
+  display: inline-block;
+  grid-column: 1 / 2;
+  grid-row: 2
 }
 
 #app-nav {
-  grid-row: 2 / 3;
-  grid-column:  2
+  grid-row: 3 / 5;
+  grid-column: 2;
+  justify-self: right
+}
+
+#div-empty {
+  grid-row: 4 / 5;
+  grid-column: 1 / 2;
+  background: #DDDDDD;
 }
 
 @keyframes app-logo-spin {
@@ -42,11 +47,11 @@
 }
 
 @media screen and (max-width: 640px) {
-  #app-title {
+  #app-header-h2 {
     font-size: 1em
   }
 
-  #app-stagecoach-info {
+  #app-header-h5 {
     font-size: 0.75em
   }
 }

@@ -2,19 +2,19 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-self: right;
-  background: #FF4400;
-  padding: 16px;
-  width: 640px
+  background: #E0815A;
+  padding: 8px;
 }
   
 #app-nav ul {
-  list-style: none
+  width: auto;
+  list-style: none;
+  display: inline-block
 }
 
 #app-nav ul li {
   margin: 2px;
-  width: 112px;
+  min-width: 112px;
   text-align: center;
   display: inline-block;
   background: goldenrod
