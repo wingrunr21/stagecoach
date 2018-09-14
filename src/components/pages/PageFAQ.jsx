@@ -11,67 +11,67 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 export const PageFAQ = () => {
   return (
     <main className="main-faq">
-      <p>We've made a list of frequently asked questions from other customers. If you have a question that isn't listed here feel free to call 970-483-7280 or send an email to <a href="mailto:svonloh@yahoo.com">svonloh@yahoo.com</a></p>
+      <p>We've made a list of some of the most common questions from our customers. If you have a question that isn't listed here feel free to call 970-483-7280 or contact us via <a href="mailto:svonloh@yahoo.com">email</a></p>
       <div id="div-faq-wrapper">
         <section>
-          <p>I’d like to cook for my family or friends.  What serving size do you recommend per person?</p>
-          <p>We recommend 8 to 12oz per adult</p>
+          <p className="q">I’d like to cook for my family or friends.  What serving size do you recommend per person?</p>
+          <p className="a">We recommend 8 to 12oz per adult</p>
         </section>
         <section>
-          <p>How are beef aged?  How long are they aged?</p>
-          <p>The beef are hanged in a temperature controlled cooler for up to 3 weeks, or your preference</p>
+          <p className="q">How are beef aged?  How long are they aged?</p>
+          <p className="a">The beef are hanged in a temperature controlled cooler for up to 3 weeks, or your preference</p>
         </section>
         <section>
-          <p>Do you age hogs the same as beef?</p>
-          <p>Hogs also hang in temperature controlled cooler for up to a week</p>
+          <p className="q">Do you age hogs the same as beef?</p>
+          <p className="a">Hogs also hang in temperature controlled cooler for up to a week</p>
         </section>
         <section>
-          <p>When can I expect my order to be ready?</p>
-          <p>You can expect your order to be ready 48 hours after it has been cut. We will notify you by telephone when it is ready to be picked up</p>
+          <p className="q">When can I expect my order to be ready?</p>
+          <p className="a">You can expect your order to be ready 48 hours after it has been cut. We will notify you by telephone when it is ready to be picked up</p>
         </section>
         <section>
-          <p>Where is Stagecoach Meat Co. located?  How do I find you?</p>
-          <p>Our location is on the Contact Page. Google Maps will occasionally show our location incorrectly</p>
+          <p className="q">Where is Stagecoach Meat Co. located?  How do I find you?</p>
+          <p className="a">Our location is on the Contact Page. Google Maps will occasionally show our location incorrectly</p>
         </section>
         <section>
-          <p>Do you accept checks?</p>
-          <p>Yes. We accept checks, cash and credit cards.</p>
+          <p className="q">Do you accept checks?</p>
+          <p className="a">Yes. We accept checks, cash and credit cards.</p>
         </section>
         <section>
-          <p>What cuts do I have to choose from?</p>
-          <p>You will be offered a cut sheet (either pork or beef), and you can choose your cuts on that form. If you have any questions when filling it out, we invite you to contact us, and we'll be more than happy to help you.</p>
+          <p className="q">What cuts do I have to choose from?</p>
+          <p className="a">You will be offered a cut sheet (either pork or beef), and you can choose your cuts on that form. If you have any questions when filling it out, we invite you to contact us, and we'll be more than happy to help you.</p>
         </section>
         <section>
-          <p>What are your charges for slaughtering and processing?</p>
-          <p>The slaughter charge is a flat charge.  Processing charges are based on the dress weight of the animal.  Please call for current rates.</p>
+          <p className="q">What are your charges for slaughtering and processing?</p>
+          <p className="a">The slaughter charge is a flat charge.  Processing charges are based on the dress weight of the animal.  Please call for current rates.</p>
         </section>
         <section>
-          <p>How do I cook certain cuts of meat?</p>
-          <p>Microwave or stove</p>
+          <p className="q">How do I cook certain cuts of meat?</p>
+          <p className="a">Microwave or stove</p>
         </section>
         <section>
-          <p>Do I need to bring boxes or coolers to take the meat home?</p>
-          <p>BYOB</p>
+          <p className="q">Do I need to bring boxes or coolers to take the meat home?</p>
+          <p className="a">BYOB</p>
         </section>
         <section>
-          <p>When should I drop the animal off?</p>
-          <p>ASAP</p>
+          <p className="q">When should I drop the animal off?</p>
+          <p className="a">ASAP</p>
         </section>
         <section>
-          <p>How soon after I’m notified that my order is ready should I pick it up?</p>
-          <p>Our freezer space is valuable.  Please plan to pick your order up within a week after notification.</p>
+          <p className="q">How soon after I’m notified that my order is ready should I pick it up?</p>
+          <p className="a">Our freezer space is valuable.  Please plan to pick your order up within a week after notification.</p>
         </section>
         <section>
-          <p>I’m new to custom meat processing.  Do you have cutting instruction forms available?</p>
-          <p>We're working on it</p>
+          <p className="q">I’m new to custom meat processing.  Do you have cutting instruction forms available?</p>
+          <p className="a">We're working on it</p>
         </section>
         <section>
-          <p>Do you charge extra for making hamburger patties or sausage patties.</p>
-          <p>No. Only for special sauce...</p>
+          <p className="q">Do you charge extra for making hamburger patties or sausage patties.</p>
+          <p className="a">No. Only for special sauce...</p>
         </section>
         <section>
-          <p>How do you package the cuts of meat?</p>
-          <p>All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</p>
+          <p className="q">How do you package the cuts of meat?</p>
+          <p className="a">All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</p>
         </section>
       </div>
       <ul id="ul-faq-list">

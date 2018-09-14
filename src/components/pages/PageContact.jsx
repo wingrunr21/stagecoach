@@ -59,8 +59,10 @@ export const PageContact = (props) => {
         <FontAwesomeIcon className="fa-logo" icon={ faPhoneSquare } size="4x" />
         <p>During business hours, direct phone calls and faxes to these numbers:</p>
         <ul className="ul-contact">
-          <li>Phone : 970-483-7280</li>
-          <li>&nbsp;&nbsp;&nbsp;Fax : 970-483-8180</li>
+          <li className="li-underlined">Phone</li>
+          <li>970-483-7280</li>
+          <li className="li-underlined">Fax</li>
+          <li>970-483-8180</li>
         </ul>
       </section>
       <section id="section-mailing-address">
