@@ -16,8 +16,7 @@
   margin: 2px;
   min-width: 112px;
   text-align: center;
-  display: inline-block;
-  background: goldenrod
+  display: inline-block
 }
 
 #app-nav a:link,
