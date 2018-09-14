@@ -26,8 +26,12 @@ export const PageContact = (props) => {
         <div id="div-business-hours">
           <p>Our normal shop hours are listed. Please note we break for lunch from 12pm to 1pm on weekdays. Contact us in advance for business hours closer to holidays as we may extend weekends and time off to accomodate our employees.</p>
           <ul className="ul-contact">
-            <li>Mon - Fri: 7:30 - 5:00</li>
-            <li>Sat: 9:00 - 12:00</li>
+            <li className="li-underlined">Monday - Friday</li>
+            <li>7:30 to 12:00 </li>
+            <li>Lunch</li>
+            <li>1:00 to 5:00 </li>
+            <li className="li-underlined">Saturday</li>
+            <li>9:00 to 12:00</li>
           </ul>        
         </div>
       </section>
@@ -57,14 +61,16 @@ export const PageContact = (props) => {
         </ul>
       </section>
       <section id="section-mailing-address">
-      <h3>Mailing Address</h3>
+        <h3>Mailing Address</h3>
         <hr />
-        <p>If you need to send physical mail, deliveries are sent to this address:</p>
-        <ul className="ul-contact">
-          <li>Stage Meat Co.</li>
-          <li>PO Box 413</li>
-          <li>Wiggins, CO 80654</li>
-        </ul>
+        <div id="div-mailing-address">
+          <p>If you need to send physical mail, deliveries are sent to this address:</p>
+          <ul className="ul-contact">
+            <li>Stage Meat Co.</li>
+            <li>PO Box 413</li>
+            <li>Wiggins, CO 80654</li>
+          </ul>
+        </div>
       </section>
       <section id="section-email">
         <h3>Email</h3>

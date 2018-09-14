@@ -4,7 +4,7 @@
 }
 
 .main-contact hr {
-  margin: 8px 0;
+  margin: 4px 0;
 }
 
 .main-contact section {
@@ -33,6 +33,10 @@
   text-align: center
 }
 
+.li-underlined{
+  text-decoration: underline
+}
+
 #div-business-hours {
  display: flex;
  flex-wrap: wrap;
@@ -46,7 +50,7 @@
  }
 
 #div-business-hours ul {
-  margin: 16px 0 16px 8px;
+  margin: 0 0 16px 8px;
   align-self: stretch;
   justify-self: center
  }
@@ -54,7 +58,6 @@
 #div-map-info {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap
 }
@@ -67,8 +70,7 @@
 }
 
 #div-map-info ul {
-  margin: 16px 0 16px 8px;
-  align-self: stretch;
+  margin: 0 0 16px 8px;
   justify-self: center
 }
 
@@ -78,6 +80,21 @@
   margin: 16px auto;
   border-radius: 4px;
   border: 4px #222222 solid
+}
+
+#div-mailing-address {
+  display: flex;
+  flex-wrap: wrap
+}
+
+#div-mailing-address p {
+  flex: 1
+}
+
+#div-mailing-address ul {
+  margin: 0 0 16px 8px;
+  align-self: stretch;
+  justify-self: center
 }
 
 #div-social-media {
