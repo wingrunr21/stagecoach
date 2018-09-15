@@ -71,7 +71,10 @@
   text-align: justify
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+#img-barbed-wire {
+  width: 90%;
+  max-width: 640px;
+  height: auto;
+  margin: 8px auto;
+  display: block
 }

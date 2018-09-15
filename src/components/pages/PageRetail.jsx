@@ -22,7 +22,7 @@ export const PageRetail = () => (
           <li>Roasts</li>
         </ul>
       </section>
-      <img src={BarbedWire} alt="Barbed Wire Flourish"></img>
+      <img className="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
       <section id="section-retail-pork-links">
         <h4>Pork Links</h4>
         <ul id="ul-retail-pork-links">
@@ -41,7 +41,7 @@ export const PageRetail = () => (
           <li>Pepper Jack Brats with Jalapeno</li>
         </ul>
       </section>
-      <img src={BarbedWire} alt="Barbed Wire Flourish"></img>
+      <img className="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
       <section id="section-retail-pork-bulk">
         <h4>Pork Bulk</h4>
         <ul id="ul-retail-pork-bulk">

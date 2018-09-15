@@ -3,6 +3,14 @@
   /* background-image: url("../../assets/images/agricultural-agriculture-animal.jpg") */
 }
 
+.img-barbed-wire {
+  width: 75%;
+  max-width: 360px;
+  height: auto;
+  margin: 8px auto;
+  display: block
+}
+
 .main-retail p {
   width: 80%;
   max-width: 720px;
