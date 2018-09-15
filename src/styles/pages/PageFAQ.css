@@ -1,12 +1,16 @@
 .main-faq {
   flex: 1 0 auto;
-  /* background-image: url("../../assets/images/agriculture-barley-field.jpg") */
 }
 
 .main-faq p {
-  min-height: 64px;
+  min-height: 48px;
+  max-width: 720px;
   padding: 8px;
   font-size: 16px
+}
+
+.main-faq > p {
+  margin: 16px auto
 }
 
 #div-faq-wrapper {
