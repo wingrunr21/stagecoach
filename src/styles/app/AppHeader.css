@@ -29,6 +29,17 @@
   grid-row: 2
 }
 
+#div-stageoach-png {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: 75%;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../../assets/images/stagecoach.png)
+}
+
 #app-nav {
   grid-row: 3 / 5;
   grid-column: 2;
