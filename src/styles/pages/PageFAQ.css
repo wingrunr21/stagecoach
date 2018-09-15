@@ -51,7 +51,7 @@
 .q {
   align-self: stretch;
   justify-self: stretch;
-  background: #E59400
+  background: #B5651D44
 }
 
 .a {
@@ -59,4 +59,12 @@
   align-self: stretch;
   justify-self: stretch;
   background: #CCCCCC
+}
+
+.img-barbed-wire {
+  width: 75%;
+  max-width: 360px;
+  height: auto;
+  margin: 8px auto;
+  display: block
 }

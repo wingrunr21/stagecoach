@@ -149,7 +149,7 @@ export const PageFAQ = () => {
           <span className="span-faq-a">All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</span>
         </li>
       </ul>
-      <img src={BarbedWire} alt="Barbed Wire Flourish"></img>
+      <img className="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
     </main>
   );
 };
