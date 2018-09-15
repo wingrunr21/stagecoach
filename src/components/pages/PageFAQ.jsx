@@ -35,7 +35,7 @@ export const PageFAQ = () => {
         </section>
         <section>
           <p className="q">What forms of payment do you accept ?</p>
-          <p className="a">Yes. We accept checks, cash and credit cards.</p>
+          <p className="a">We accept checks, cash and credit cards.</p>
         </section>
         <section>
           <p className="q">What cuts do I have to choose from ?</p>

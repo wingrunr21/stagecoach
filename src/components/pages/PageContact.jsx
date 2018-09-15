@@ -29,7 +29,7 @@ export const PageContact = (props) => {
           <ul className="ul-contact">
             <li className="li-underlined">Monday - Friday</li>
             <li>7:30 to 12:00 </li>
-            <li>Lunch</li>
+            <li>-- Lunch --</li>
             <li>1:00 to 5:00 </li>
             <li className="li-underlined">Saturday</li>
             <li>9:00 to 12:00</li>
@@ -56,14 +56,16 @@ export const PageContact = (props) => {
       <section id="section-phone-and-fax">
         <h3>Phone and Fax</h3>
         <hr />
-        <FontAwesomeIcon className="fa-logo" icon={ faPhoneSquare } size="4x" />
-        <p>During business hours, direct phone calls and faxes to the following numbers:</p>
-        <ul className="ul-contact">
-          <li className="li-underlined">Phone</li>
-          <li>970-483-7280</li>
-          <li className="li-underlined">Fax</li>
-          <li>970-483-8180</li>
-        </ul>
+        {/* <FontAwesomeIcon className="fa-logo" icon={ faPhoneSquare } size="4x" /> */}
+        <div id="div-phone-and-fax">
+          <p>During business hours, direct phone calls and faxes to the following numbers:</p>
+          <ul className="ul-contact">
+            <li className="li-underlined">Phone</li>
+            <li>970-483-7280</li>
+            <li className="li-underlined">Fax</li>
+            <li>970-483-8180</li>
+          </ul>
+        </div>
       </section>
       <section id="section-mailing-address">
         <h3>Mailing Address</h3>
@@ -94,7 +96,7 @@ export const PageContact = (props) => {
           <a href="https://www.facebook.com/Stagecoach-Meat-Company-LLC-205877879464025/">
             <FontAwesomeIcon className="fa-logo" icon={ faFacebook } size="4x" />
           </a>
-          <p>Check out our Facebook page!  We will post information about adjusted business hours, events and more.</p>
+          <p>Check out our Facebook page!  We post information about adjusted business hours, deals, events and more.</p>
         </div>
       </section>
     </main>
