@@ -14,7 +14,7 @@ export const PageFAQ = () => {
       <p>We've made a list of some of the most common questions from our customers. If you have a question that isn't listed here feel free to call 970-483-7280 or contact us via <a href="mailto:svonloh@yahoo.com">email</a></p>
       <div id="div-faq-wrapper">
         <section>
-          <p className="q">Cooking for my family or friends, what serving size do you recommend per person ?</p>
+          <p className="q">Cooking for family or friends, what serving size is recommended ?</p>
           <p className="a">We recommend 8 to 12oz per adult</p>
         </section>
         <section>
