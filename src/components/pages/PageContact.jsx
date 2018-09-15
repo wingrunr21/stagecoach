@@ -71,7 +71,7 @@ export const PageContact = (props) => {
         <h3>Mailing Address</h3>
         <hr />
         <div id="div-mailing-address">
-          <p>If you need to send physical mail, deliveries are made to the listed address:</p>
+          <p>When sending mail via USPS, UPS or Fedex deliveries are made to the listed address:</p>
           <ul className="ul-contact">
             <li>Stagecoach Meat Co.</li>
             <li>PO Box 413</li>
