@@ -48,26 +48,26 @@
 
 }
 
-/* #section-retail-beef {
-  background: goldenrod
-}
-
-#section-retail-pork-links {
-  background: navajowhite
-}
-
-#section-retail-pork-bulk {
-  background: magenta
-}
-
 #ul-retail-beef {
-  background: gold
+  color: #F0F0F0;
+  background: url(../../assets/images/retail-beef.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #ul-retail-pork-links {
-  background: pink
+  color: #F0F0F0;
+  background: url(../../assets/images/retail-pork-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #ul-retail-pork-bulk {
-  background: rosybrown
-} */
+  color: #F0F0F0;
+  background: url(../../assets/images/retail-pork-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

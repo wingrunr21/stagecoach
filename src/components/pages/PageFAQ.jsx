@@ -13,21 +13,21 @@ export const PageFAQ = () => {
     <main className="main-faq">
       <p>We've made a list of some of the most common questions from our customers. If you have a question that isn't listed here feel free to call 970-483-7280 or contact us via <a href="mailto:svonloh@yahoo.com">email</a></p>
       <div id="div-faq-wrapper">
-        <section>
+        {/* <section>
           <p className="q">Cooking for family or friends, what serving size is recommended ?</p>
           <p className="a">We recommend 8 to 12oz per adult</p>
-        </section>
+        </section> */}
         <section>
           <p className="q">How are beef aged?  How long are they aged ?</p>
-          <p className="a">The beef are hanged in a temperature controlled cooler for up to 3 weeks, or your preference</p>
+          <p className="a">The beef are dry-aged in a temperature controlled cooler for up to 3 weeks, or your preference</p>
         </section>
-        <section>
+        {/* <section>
           <p className="q">Do you age hogs the same as beef ?</p>
           <p className="a">Hogs also hang in temperature controlled cooler for up to a week</p>
-        </section>
+        </section> */}
         <section>
           <p className="q">When can I expect my order to be ready ?</p>
-          <p className="a">You can expect your order to be ready 48 hours after it has been cut. We will notify you by telephone when it is ready to be picked up</p>
+          <p className="a">You can expect your order to be ready after we have notified you by telephone</p>
         </section>
         <section>
           <p className="q">Where is Stagecoach Meat Co. located?  How do I find you ?</p>
@@ -43,31 +43,31 @@ export const PageFAQ = () => {
         </section>
         <section>
           <p className="q">What are your charges for slaughtering and processing ?</p>
-          <p className="a">The slaughter charge is a flat charge.  Processing charges are based on the dress weight of the animal.  Please call for current rates.</p>
+          <p className="a">The slaughter charge is currently $75 per head.  Processing charges is currently $0.81 per pound on the hanging weight.  These prices are subject to change.</p>
         </section>
-        <section>
+        {/* <section>
           <p className="q">How do I cook certain cuts of meat ?</p>
           <p className="a">Microwave or stove</p>
-        </section>
+        </section> */}
         <section>
           <p className="q">Do I need to bring boxes or coolers to take the meat home ?</p>
-          <p className="a">BYOB</p>
+          <p className="a">Feel free to bring your own containers.  We can supply simple bag wrappers free of cost</p>
         </section>
         <section>
           <p className="q">When should I drop the animal off ?</p>
-          <p className="a">ASAP</p>
+          <p className="a">The morning of the slaughter date.</p>
         </section>
         <section>
           <p className="q">How soon after I’m notified that my order is ready should I pick it up ?</p>
-          <p className="a">Our freezer space is valuable.  Please plan to pick your order up within a week after notification.</p>
+          <p className="a">Our freezer space is valuable.  Please plan to pick your order up within 10 days of notification. After 10 days we will charge a storage fee.</p>
         </section>
         <section>
           <p className="q">Do you have cutting instruction forms available ?</p>
-          <p className="a">We're working on it</p>
+          <p className="a">Cut sheets are available to download on the Processing Page. When complete, fax (970-483-8180) or <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">email</a> them to us. Paper versions are also available at our shop.</p>
         </section>
         <section>
           <p className="q">Do you charge extra for making hamburger or sausage patties ?</p>
-          <p className="a">No. Only for special sauce...</p>
+          <p className="a">There is an extra charge for specialty cuts. Contact us for details.</p>
         </section>
         <section>
           <p className="q">How do you package the cuts of meat ?</p>

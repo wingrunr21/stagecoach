@@ -1,13 +1,17 @@
 .main-home {
   flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   overflow: hidden
 }
 
 #div-grid-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, minmax(0, 32px));
-  grid-gap: 32px;
+  /* grid-template-rows: repeat(5, minmax(16px, 64px)); */
+  grid-template-rows: 8px 64px 64px 64px 8px;
+  grid-gap: 8px;
 }
 
 .main-home section {
@@ -59,7 +63,7 @@
   border-radius: 8px 0 0 8px;
   border-width: 2px 0 2px 2px;
   background: url(../../assets/images/corn-field.jpg);
-  background-position: center center;
+  background-position: center 40%;
   background-repeat: no-repeat;
   background-size: cover
 }

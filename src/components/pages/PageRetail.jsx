@@ -10,8 +10,8 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 export const PageRetail = () => (
     <main className="main-retail">
-      <p>We sell the following products as retail items.</p>
-      <p><em>Please call ahead to verify current prices and availabilty.</em></p>
+      <p>We sell the following products as retail items. <em>Please call to verify current prices and availabilty.</em></p>
+      <p>We also offer a full line of beef (USDA Choice), pork cuts, chicken, pies, Farmland All Beef Hot Dogs as well as custom processing services</p>
       <section id="section-retail-beef">
         <h4>Beef</h4>
         <ul id="ul-retail-beef">
@@ -55,6 +55,5 @@ export const PageRetail = () => (
           <li>Chorizo</li>
         </ul>
       </section>
-      <p>We also offer a full line of beef (USDA Choice), pork cuts, chicken, pies, Farmland All Beef Hot Dogs as well as custom processing services</p>
     </main>
   );
