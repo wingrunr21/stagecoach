@@ -9,7 +9,7 @@ import "../../styles/pages/PageContact.css";
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -56,7 +56,6 @@ export const PageContact = () => {
       <section id="section-phone-and-fax">
         <h3>Phone and Fax</h3>
         <hr />
-        {/* <FontAwesomeIcon className="fa-logo" icon={ faPhoneSquare } size="4x" /> */}
         <div id="div-phone-and-fax">
           <p>During business hours, direct phone calls and faxes to the following numbers:</p>
           <ul className="ul-contact">
