@@ -52,11 +52,13 @@
 .q {
   align-self: stretch;
   justify-self: stretch;
+  text-align: justify;
   background: #B5651D44
 }
 
 .a {
   flex: 1;
+  text-align: justify;
   align-self: stretch;
   justify-self: stretch;
   background: #CCCCCC
