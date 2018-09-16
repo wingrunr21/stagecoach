@@ -1,6 +1,5 @@
 .main-retail {
-  flex: 1 0 auto;
-  /* background-image: url("../../assets/images/agricultural-agriculture-animal.jpg") */
+  flex: 1 0 auto
 }
 
 .img-barbed-wire {
@@ -18,21 +17,23 @@
 }
 
 .main-retail section {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
   width: 90%;
   max-width: 640px;
   margin: 32px auto;
-  background: #B5651D77;
   border: 2px #444444 solid;
+  background: #B5651D44;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: hidden
 }
 
 .main-retail h4 {
-  width: 192px;
-  display: inline-block;
+  grid-row: 1;
+  grid-column: 1;
+  width: 120px;
   align-self: center;
-  text-align: center
+  text-align: center;
 }
 
 .main-retail ul {
@@ -40,23 +41,29 @@
   padding: 8px;
   justify-items: stretch;
   border-left: 2px #444444 solid;
-  background: #CCCCCC;
-  list-style: none
-}
-
-.main-retail li {
-
+  list-style: none;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 #ul-retail-beef {
-  color: #F0F0F0;
-  background: url(../../assets/images/retail-beef.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  color: #0F0F0F
 }
 
-#ul-retail-pork-links {
+.grid-cell-background {
+  grid-row: 1;
+  grid-column: 2;
+  filter: sepia(1) opacity(0.25)
+}
+
+#div-background-beef {
+  background: url(../../assets/images/retail-beef.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#div-background-pork-links {
   color: #F0F0F0;
   background: url(../../assets/images/retail-pork-1.jpg);
   background-size: cover;
@@ -64,10 +71,11 @@
   background-position: center center;
 }
 
-#ul-retail-pork-bulk {
+#div-background-pork-bulk {
   color: #F0F0F0;
   background: url(../../assets/images/retail-pork-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
+

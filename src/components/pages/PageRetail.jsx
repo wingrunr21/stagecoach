@@ -10,9 +10,11 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 export const PageRetail = () => (
     <main className="main-retail">
-      <p>We sell the following products as retail items. <em>Please call to verify current prices and availabilty.</em></p>
+      <p>We sell the following products as retail items.</p>
+      <p> <em>Please call to verify current prices and availabilty.</em></p>
       <p>We also offer a full line of beef (USDA Choice), pork cuts, chicken, pies, Farmland All Beef Hot Dogs as well as custom processing services</p>
       <section id="section-retail-beef">
+        <div id="div-background-beef" className="grid-cell-background"/>
         <h4>Beef</h4>
         <ul id="ul-retail-beef">
           <li>Beef Steak</li>
@@ -24,6 +26,7 @@ export const PageRetail = () => (
       </section>
       <img className="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
       <section id="section-retail-pork-links">
+        <div id="div-background-pork-links" className="grid-cell-background"/>
         <h4>Pork Links</h4>
         <ul id="ul-retail-pork-links">
           <li>Bratwurst</li>
@@ -43,6 +46,7 @@ export const PageRetail = () => (
       </section>
       <img className="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
       <section id="section-retail-pork-bulk">
+        <div id="div-background-pork-bulk" className="grid-cell-background"/>
         <h4>Pork Bulk</h4>
         <ul id="ul-retail-pork-bulk">
           <li>Regular Breakfast</li>
