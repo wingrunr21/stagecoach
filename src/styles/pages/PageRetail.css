@@ -1,5 +1,6 @@
 .main-retail {
-  flex: 1 0 auto
+  flex: 1 0 auto;
+  font-size: 18px
 }
 
 .img-barbed-wire {
@@ -11,7 +12,7 @@
 }
 
 .main-retail p {
-  width: 80%;
+  width: 90%;
   max-width: 720px;
   margin: 16px auto
 }
@@ -31,7 +32,7 @@
 .main-retail h4 {
   grid-row: 1;
   grid-column: 1;
-  width: 104px;
+  width: 112px;
   align-self: center;
   text-align: center;
 }
@@ -44,10 +45,6 @@
   list-style: none;
   grid-column: 2;
   grid-row: 1;
-}
-
-#ul-retail-beef {
-  color: #0F0F0F
 }
 
 .grid-cell-background {
@@ -68,7 +65,7 @@
   background: url(../../assets/images/retail-pork-links.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
 }
 
 #div-background-pork-bulk {

@@ -18,7 +18,7 @@ export const PageFAQ = () => {
           <p className="a">We recommend 8 to 12oz per adult</p>
         </section> */}
         <section>
-          <p className="q">How are beef aged?  How long are they aged ?</p>
+          <p className="q">How are beef aged ?  How long are they aged ?</p>
           <p className="a">The beef are dry-aged in a temperature controlled cooler for up to 3 weeks, or your preference</p>
         </section>
         {/* <section>
@@ -30,16 +30,16 @@ export const PageFAQ = () => {
           <p className="a">You can expect your order to be ready after we have notified you by telephone</p>
         </section>
         <section>
-          <p className="q">Where is Stagecoach Meat Co. located?  How do I find you ?</p>
+          <p className="q">Where is Stagecoach Meat Co. located ? How do I find you ?</p>
           <p className="a">Our location is on the Contact Page. Google Maps will occasionally show our location incorrectly</p>
         </section>
         <section>
           <p className="q">What forms of payment do you accept ?</p>
-          <p className="a">We accept checks, cash and credit cards.</p>
+          <p className="a">We accept cash, checks, and credit cards.</p>
         </section>
         <section>
           <p className="q">What cuts do I have to choose from ?</p>
-          <p className="a">You will be offered a cut sheet (either pork or beef), and you can choose your cuts on that form. If you have any questions while filling it out, contact us and we'll be more than happy to help you.</p>
+          <p className="a">You will be offered a cut sheet for pork or beef. You can choose your cuts on that form. If you have any questions while filling it out, contact us and we'll be more than happy to help you.</p>
         </section>
         <section>
           <p className="q">What are your charges for slaughtering and processing ?</p>
@@ -63,7 +63,7 @@ export const PageFAQ = () => {
         </section>
         <section>
           <p className="q">Do you have cutting instruction forms available ?</p>
-          <p className="a">Cut sheets are available to download on the Processing Page. When complete, fax (970-483-8180) or <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">email</a> them to us. Paper versions are also available at our shop.</p>
+          <p className="a">Cut sheets are available for download on the Processing Page. When completed, you can fax them to 970-483-8180 or <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">email</a> them to us. Paper versions are also available at our shop.</p>
         </section>
         <section>
           <p className="q">Do you charge extra for making hamburger or sausage patties ?</p>
@@ -71,7 +71,7 @@ export const PageFAQ = () => {
         </section>
         <section>
           <p className="q">How do you package the cuts of meat ?</p>
-          <p className="a">All meat is wrapped first in a layer of plastic meat film and then covered with freezer paper.</p>
+          <p className="a">All meat is wrapped in a layer of plastic meat film and then covered with freezer paper.</p>
         </section>
       </div>
       <ul id="ul-faq-list">
