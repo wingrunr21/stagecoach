@@ -7,24 +7,21 @@ import "../../styles/pages/PageFAQ.css";
 /* Assets */
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
+/* Font Awesome! */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
+
 
 export const PageFAQ = () => {
   return (
     <main className="main-faq">
+      <FontAwesomeIcon className="fa-logo" icon={ faQuestionCircle } size="2x" />
       <p>We've made a list of some of the most common questions from our customers. If you have a question that isn't listed here feel free to call 970-483-7280 or contact us via <a href="mailto:svonloh@yahoo.com">email</a></p>
       <div id="div-faq-wrapper">
-        {/* <section>
-          <p className="q">Cooking for family or friends, what serving size is recommended ?</p>
-          <p className="a">We recommend 8 to 12oz per adult</p>
-        </section> */}
         <section>
           <p className="q">How are beef aged ?  How long are they aged ?</p>
           <p className="a">The beef are dry-aged in a temperature controlled cooler for up to 3 weeks, or your preference</p>
         </section>
-        {/* <section>
-          <p className="q">Do you age hogs the same as beef ?</p>
-          <p className="a">Hogs also hang in temperature controlled cooler for up to a week</p>
-        </section> */}
         <section>
           <p className="q">When can I expect my order to be ready ?</p>
           <p className="a">You can expect your order to be ready after we have notified you by telephone</p>
@@ -45,10 +42,6 @@ export const PageFAQ = () => {
           <p className="q">What are your charges for slaughtering and processing ?</p>
           <p className="a">The slaughter charge is currently $75 per head.  Processing charges is currently $0.81 per pound on the hanging weight.  These prices are subject to change.</p>
         </section>
-        {/* <section>
-          <p className="q">How do I cook certain cuts of meat ?</p>
-          <p className="a">Microwave or stove</p>
-        </section> */}
         <section>
           <p className="q">Do I need to bring boxes or coolers to take the meat home ?</p>
           <p className="a">Feel free to bring your own containers.  We can supply simple bag wrappers free of cost</p>
