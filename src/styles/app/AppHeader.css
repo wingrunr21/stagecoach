@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 1fr 1fr 24px auto auto;
-  text-shadow: 4px 4px 16px #0F0F0F;
+  text-shadow: 1px 1px 2px #0F0F0F;
   background: #9C593E;
   color: #F0F0F0;
   overflow: hidden

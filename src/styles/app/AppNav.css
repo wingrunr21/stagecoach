@@ -25,12 +25,15 @@
   margin: 0 auto;
   color: #F0F0F0;
   text-decoration: none;
-  text-shadow: 2px 2px 8px #0F0F0F;
+  text-shadow: 1px 1px 2px #0F0F0F;
   display: inline-block;
-  transition: color 0.25s
+  transition: all 0.25s
 }
 
-#app-nav a:hover,
+#app-nav a:hover{
+  background: gold
+}
+
 #app-nav a:active {
   color: #FFCC00
 }
