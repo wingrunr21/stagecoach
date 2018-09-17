@@ -22,7 +22,8 @@
   max-width: 320px;
   margin: 8px auto;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  text-align: center
 }
 
 .input-cutsheet {
@@ -39,4 +40,12 @@
   height: auto;
   margin: 8px auto;
   display: block
+}
+
+.a-pdf-link {
+  width: 144px;
+  height: 36px;
+  color: #BBBBBB;
+  border: 2px solid #777777;
+  text-decoration: none
 }
