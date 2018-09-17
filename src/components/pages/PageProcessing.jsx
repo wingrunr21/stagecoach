@@ -7,7 +7,13 @@ import "../../styles/pages/PageProcessing.css";
 
 export const PageProcessing = () => (
   <main className="main-processing">
-    <h1>Processing</h1>
-    <p>Because we are a small family-owned plant, we offer high quality processing, cutting beef to the customer's specifications. We're available to answer any questions you may have along the way. The slaughter charge for beef is $75 per head, and the cost of processing is $0.81/lb. After cutting, the beef is then double-wrapped and put into the freezer.</p>
+    <p>Because we are a small family-owned plant, we offer high quality processing while also cutting beef to the customer's specifications. If you're new to the whole process, we're available to answer any questions you may have along the way!</p>
+    <p>The current slaughter charge for beef is $75 per head and the cost of processing is $0.81/lb. Contact us if you need to verify these rates.  After cutting, the beef is then double-wrapped and put into the freezer.</p>
+    <p>The cut sheets we use to process your order are linked below.  If you have the ability to fill them out in advance they can be faxed to 970-483-8180 or sent via email to svonloh@yahoo.com. If you don't have the option to print and return the cut sheet to us, we have paper sheets available at our shop location.</p>
+    <h5>Cut sheets in PDF format</h5>
+    <div id="div-button-wrapper">
+      <input type="buttton" className="input-cutsheet" value="Beef Cut Sheet"></input>
+      <input type="buttton" className="input-cutsheet" value="Pork Cut Sheet"></input>
+    </div>
   </main>
 );
