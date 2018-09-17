@@ -32,3 +32,11 @@
   font-size: 18px;
   text-align: center
 }
+
+#img-barbed-wire {
+  width: 75%;
+  max-width: 360px;
+  height: auto;
+  margin: 8px auto;
+  display: block
+}

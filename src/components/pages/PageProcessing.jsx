@@ -5,8 +5,9 @@ import React from "react";
 import "../../styles/pages/PageProcessing.css";
 
 /* Assets */
-// import CutsheetBeefPDF from "../../assets/documents"
-// import CutsheetPorkPDF from "../../assets/documents"
+import BarbedWire from "../../assets/images/barbed-wire.jpg";
+// import CutsheetBeefPDF from "../../assets/svg/cutsheet-beef.svg";
+// import CutsheetPorkPDF from "../../assets/svg/cutsheet-pork.svg";
 import ResumeTestPDF from "../../assets/documents/steven-j-burns-resume.pdf";
 
 
@@ -22,5 +23,7 @@ export const PageProcessing = () => (
       <input type="button" className="input-cutsheet" value="Steve - Resume"></input>
       <a href={ResumeTestPDF}>TEST</a>
     </div>
+    <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
+
   </main>
 );
