@@ -4,6 +4,11 @@ import React from "react";
 /* Stylesheets */
 import "../../styles/pages/PageProcessing.css";
 
+/* Assets */
+// import CutsheetBeefPDF from "../../assets/documents"
+// import CutsheetPorkPDF from "../../assets/documents"
+import ResumeTestPDF from "../../assets/documents/steven-j-burns-resume.pdf";
+
 
 export const PageProcessing = () => (
   <main className="main-processing">
@@ -12,8 +17,10 @@ export const PageProcessing = () => (
     <p>The cut sheets we use to process your order are linked below.  If you have the ability to fill them out in advance they can be faxed to 970-483-8180 or sent via email to svonloh@yahoo.com. If you don't have the option to print and return the cut sheet to us, we have paper sheets available at our shop location.</p>
     <h5>Cut sheets in PDF format</h5>
     <div id="div-button-wrapper">
-      <input type="buttton" className="input-cutsheet" value="Beef Cut Sheet"></input>
-      <input type="buttton" className="input-cutsheet" value="Pork Cut Sheet"></input>
+      <input type="button" className="input-cutsheet" value="Beef Cut Sheet"></input>
+      <input type="button" className="input-cutsheet" value="Pork Cut Sheet"></input>
+      <input type="button" className="input-cutsheet" value="Steve - Resume"></input>
+      <a href={ResumeTestPDF}>TEST</a>
     </div>
   </main>
 );
