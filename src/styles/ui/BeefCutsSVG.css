@@ -7,7 +7,10 @@
   fill: #BEA772
 }
   
-.path-beef-cut:hover,
+.path-beef-cut:hover {
+  fill: goldenrod
+}
+
 .path-beef-cut:active {
   fill: gold
 }
