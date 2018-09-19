@@ -1,7 +1,8 @@
 .path-pork-cut {
-    fill: #BEA772
+  fill: #BEA772
 }
 
-.path-pork-cut:hover {
-    fill: gold
+.path-pork-cut:hover,
+.path-pork-cut:active {
+  fill: gold
 }
