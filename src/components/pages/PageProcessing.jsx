@@ -9,6 +9,7 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 import CutsheetBeefPDF from "../../assets/documents/stagecoach-cut-sheet-beef.pdf";
 // import CutsheetPorkPDF from "../../assets/svg/cutsheet-pork.svg";
 import ResumeTestPDF from "../../assets/documents/steven-j-burns-resume.pdf";
+import { BeefCutsSVG } from "../ui/BeefCutsSVG.jsx";
 
 
 export const PageProcessing = () => (
@@ -25,5 +26,6 @@ export const PageProcessing = () => (
       <a className="a-pdf-link" href={ResumeTestPDF}>TEST</a>
     </div>
     <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
+    <BeefCutsSVG />
   </main>
 );
