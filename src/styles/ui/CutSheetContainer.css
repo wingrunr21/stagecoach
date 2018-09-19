@@ -1,0 +1,8 @@
+#div-svg-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 24px auto;
+  max-width: 960px;
+  width: 90%
+}
