@@ -1,0 +1,8 @@
+.path-beef-cut {
+  fill: #BEA772
+}
+  
+.path-beef-cut:hover,
+.path-beef-cut:active {
+  fill: gold
+}
