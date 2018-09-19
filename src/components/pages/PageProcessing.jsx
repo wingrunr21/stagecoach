@@ -1,14 +1,15 @@
 /* React */
 import React from "react";
 
+/* Components */
+
 /* Stylesheets */
 import "../../styles/pages/PageProcessing.css";
 
 /* Assets */
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
-import CutsheetBeefPDF from "../../assets/documents/stagecoach-cut-sheet-beef.pdf";
-// import CutsheetPorkPDF from "../../assets/svg/cutsheet-pork.svg";
-import ResumeTestPDF from "../../assets/documents/steven-j-burns-resume.pdf";
+import CutsheetBeefPDF from "../../assets/documents/stagecoach-cutsheet-beef.pdf";
+import CutsheetPorkPDF from "../../assets/documents/stagecoach-cutsheet-pork.pdf";
 import { CutSheetContainer } from "../ui/CutSheetContainer.jsx";
 import { BeefCutsSVG } from "../ui/BeefCutsSVG.jsx";
 import { PorkCutsSVG } from "../ui/PorkCutsSVG.jsx";
@@ -25,7 +26,7 @@ export const PageProcessing = () => (
       <input type="button" className="input-cutsheet" value="Pork Cut Sheet"></input>
       <input type="button" className="input-cutsheet" value="Steve - Resume"></input> */}
       <a className="a-pdf-link" href={CutsheetBeefPDF}>BEEF</a>
-      <a className="a-pdf-link" href={ResumeTestPDF}>TEST</a>
+      <a className="a-pdf-link" href={CutsheetPorkPDF}>PORK</a>
     </div>
     <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
     <div id="div-svg-container">
