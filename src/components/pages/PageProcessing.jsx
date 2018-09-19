@@ -27,7 +27,9 @@ export const PageProcessing = () => (
       <a className="a-pdf-link" href={ResumeTestPDF}>TEST</a>
     </div>
     <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
-    <BeefCutsSVG />
-    <PorkCutsSVG />
+    <div id="div-svg-container">
+      <BeefCutsSVG />
+      <PorkCutsSVG />
+    </div>
   </main>
 );
