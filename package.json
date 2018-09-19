@@ -1,6 +1,6 @@
 {
   "name": "stagecoach",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "devDependencies": {
     "push-dir": "^0.4.1"
