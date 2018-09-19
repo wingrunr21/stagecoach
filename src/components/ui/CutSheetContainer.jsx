@@ -21,14 +21,14 @@ export class CutSheetContainer extends React.Component {
     }
   }
 
-  changeSelectedCut() {
-    
+  changeSelectedCut(e, value ) {
+    console.log(e, value)
   }
 
   render() {
     return (
       <div id="div-svg-container">
-        <BeefCutsSVG />
+        <BeefCutsSVG changeSelectedCut={this.changeSelectedCut} />
         <PorkCutsSVG />
       </div>
     )
