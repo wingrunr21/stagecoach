@@ -11,8 +11,6 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 import CutsheetBeefPDF from "../../assets/documents/stagecoach-cutsheet-beef.pdf";
 import CutsheetPorkPDF from "../../assets/documents/stagecoach-cutsheet-pork.pdf";
 import { CutSheetContainer } from "../ui/CutSheetContainer.jsx";
-import { BeefCutsSVG } from "../ui/BeefCutsSVG.jsx";
-import { PorkCutsSVG } from "../ui/PorkCutsSVG.jsx";
 
 
 export const PageProcessing = () => (
