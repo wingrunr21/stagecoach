@@ -20,7 +20,7 @@
   flex-direction: row;
   width: 90%;
   max-width: 320px;
-  margin: 8px auto;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
   text-align: center
@@ -42,10 +42,19 @@
   display: block
 }
 
-.a-pdf-link {
-  width: 144px;
-  height: 36px;
-  color: #BBBBBB;
+.main-processing .a-pdf-link:link,
+.main-processing .a-pdf-link:visited {
+  width: 120px;
+  margin: 0 32px;
+  color: #222222;
+  background: goldenrod;
   border: 2px solid #777777;
-  text-decoration: none
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.25s
+}
+
+.main-processing .a-pdf-link:hover,
+.main-processing .a-pdf-link:active {
+  background: orange
 }
