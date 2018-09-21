@@ -27,6 +27,7 @@ export const PageProcessing = () => (
       <a className="a-pdf-link" href={CutsheetPorkPDF}>PORK</a>
     </div>
     <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
+    <p>The diagrams below show the types of cuts we can do during processing. Click on a section to see available cuts.</p>
     <div id="div-svg-container">
 
     </div>

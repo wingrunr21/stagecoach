@@ -15,10 +15,14 @@ export class CutSheetContainer extends React.Component {
 
     this.state = {
       beefSections: {
+        cheek: [],
         chuck: ["Chuck Roast", "Arm Roast", "Shoulder Pot Roast (Boneless)", "Short Ribs"],
         brisket: ["Brisket"],
         rib: ["Rib Roast", "Rib Eye Steak", "Back Ribs"],
-        shortLoin: ["T-Bone Steak", "Porterhouse Steak", "Tenderloin Roast/Steak"],
+        shortloin: [],
+        plate: [],
+        skirt: [],
+        tenderloin: ["T-Bone Steak", "Porterhouse Steak", "Tenderloin Roast/Steak"],
         flank: ["Flank Steak"],
         sirloin: ["Top Sirloin Steak", "Sirloin Steak", "Tenderloin Roast/Steak", "Beef Tri-Tip"],
         round: ["Round Steak", "Top Round Steak", "Bottom Round Steak", "Tip Steak", "Boneless Rump Roast", "Pikes Peak Roast"],
@@ -28,37 +32,43 @@ export class CutSheetContainer extends React.Component {
         shoulder: ["Shoulder Roast", "Pork Steaks"],
         loin: ["Spare Ribs", "Pork Chops"],
         belly: ["Bacon"],
-        leg: ["Ham"]
+        leg: ["Ham"],
+        empty: []
       },
-      selectedPathBeef: "chuck",
+      selectedSectionBeef: null,
       selectedSectionPork: null
     }    
   }
 
-  changeSectionBeef = (target) => {
-    this.state.selectedPathBeef && this.state.selectedPathBeef.classList.remove("path-beef-cut-active");
-    target.classList.add("path-beef-cut-active");
-    this.setState({selectedPathBeef: target});
-    console.log(this.state.selectedSectionBeef);
+  changeSectionBeef = (selectedSection) => {
+    this.setState({selectedSectionBeef: selectedSection});
+    console.log(selectedSection);
   }
 
-  changeSectionPork(target) {
-    console.log(target)
+  changeSectionPork = (selectedSection) => {
+    this.setState({selectedSectionPork: selectedSection});
+    console.log(selectedSection)
   }
 
   render() {
     return (
       <div id="div-svg-container">
-        <BeefCutsSVG selectedSectionBeef={this.state.selectedBeefCut} changeSelectedBeefCut={this.changeSectionBeef} />
+        <BeefCutsSVG changeSelectedBeefCut={this.changeSectionBeef} />
         <ul>
-          {
-            this.state.selectedPathBeef && this.state.beefCuts[this.state.selectedPathBeef].map((item, index) => <li key={index}>{item}</li> )
+          { 
+            this.state.selectedSectionBeef ? 
+            this.state.beefSections[this.state.selectedSectionBeef].map((item, index) => <li key={index}>{item}</li> ) :
+            null
           }
         </ul>
-        <PorkCutsSVG selectedSectionBeef={ null } changeSelectionPork={this.changeSectionPork} />
+        <PorkCutsSVG changeSelectedPorkCut={this.changeSectionPork} />
         <ul>
-      
-      </ul>
+          { 
+            this.state.selectedSectionPork ? 
+            this.state.porkSections[this.state.selectedSectionPork].map((item, index) => <li key={index}>{item}</li> ) :
+            null
+          }
+        </ul>
       </div>
     )
   }
