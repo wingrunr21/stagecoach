@@ -40,7 +40,7 @@ export const PageFAQ = () => {
         </section>
         <section>
           <p className="q">What are your charges for slaughtering and processing?</p>
-          <p className="a">The slaughter charge is currently $75 per head.  Processing charges is currently $0.81 per pound on the hanging weight.  These prices are subject to change.</p>
+          <p className="a">The slaughter charge is currently $75 per head. Our processing charges is currently $0.81 per pound on the hanging weight.  These prices are subject to change.</p>
         </section>
         <section>
           <p className="q">Do I need to bring boxes or coolers to take the meat home?</p>
