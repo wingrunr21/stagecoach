@@ -9,12 +9,11 @@
 #div-grid-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(5, minmax(16px, 64px)); */
   grid-template-rows: 8px 64px 64px 64px 8px;
   grid-gap: 8px;
 }
 
-.main-home h3 {
+.main-home h4 {
   margin: 0 auto;
   text-align: center
 }
@@ -48,7 +47,7 @@
 .main-home p {
   width: 75%;
   max-width: 720px;
-  margin: 24px auto;
+  margin: 16px auto;
   text-align: justify
 }
 

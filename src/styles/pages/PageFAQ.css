@@ -6,8 +6,7 @@
 .main-faq p {
   min-height: 48px;
   max-width: 720px;
-  padding: 8px;
-  font-size: 16px
+  padding: 8px
 }
 
 .main-faq > p {
@@ -32,6 +31,7 @@
   border-radius: 4px;
   border: 1px #555555 solid;
   background: #B5651D44;
+  font-size: 16px;
   overflow: hidden
 }
 
