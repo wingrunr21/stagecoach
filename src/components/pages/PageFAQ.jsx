@@ -31,8 +31,8 @@ export const PageFAQ = () => {
           <p className="a">Our location is on the Contact Page. Google Maps will occasionally show our location incorrectly</p>
         </section>
         <section>
-          <p className="q">What forms of payment do you accept?</p>
-          <p className="a">We accept cash, checks, and credit cards.</p>
+          <p className="q">Do you have cutting instruction forms available?</p>
+          <p className="a">Cut sheets are available for download on the Processing Page. When completed, you can fax them to 970-483-8180 or <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">email</a> them to us. Paper versions are also available at our shop.</p>
         </section>
         <section>
           <p className="q">What cuts do I have to choose from?</p>
@@ -55,8 +55,8 @@ export const PageFAQ = () => {
           <p className="a">Our freezer space is valuable.  Please plan to pick your order up within 10 days of notification. After 10 days we will charge a storage fee.</p>
         </section>
         <section>
-          <p className="q">Do you have cutting instruction forms available?</p>
-          <p className="a">Cut sheets are available for download on the Processing Page. When completed, you can fax them to 970-483-8180 or <a href="mailto:svonloh@yahoo.com?subject=Attention%20Sean">email</a> them to us. Paper versions are also available at our shop.</p>
+          <p className="q">What forms of payment do you accept?</p>
+          <p className="a">We accept cash, checks, and credit cards.</p>
         </section>
         <section>
           <p className="q">Do you charge extra for making hamburger or sausage patties?</p>
