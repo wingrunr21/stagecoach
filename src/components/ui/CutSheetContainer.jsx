@@ -54,21 +54,29 @@ export class CutSheetContainer extends React.Component {
     return (
       <div id="div-svg-container">
         <BeefCutsSVG changeSelectedBeefCut={this.changeSectionBeef} />
-        <ul className="ul-cuts">
-          { 
-            this.state.selectedSectionBeef ? 
-            this.state.beefSections[this.state.selectedSectionBeef].map((item, index) => <li key={index}>{item}</li> ) :
-            null
-          }
-        </ul>
+        <div className="div-cut-list-container">
+          <h4>Beef Cuts</h4>
+          <hr style={{width: "288px"}}></hr>
+          <ul className="ul-cut-list">
+            { 
+              this.state.selectedSectionBeef ? 
+              this.state.beefSections[this.state.selectedSectionBeef].map((item, index) => <li key={index}>{item}</li> ) :
+              null
+            }
+          </ul>
+        </div>
         <PorkCutsSVG changeSelectedPorkCut={this.changeSectionPork} />
-        <ul className="ul-cuts">
-          { 
-            this.state.selectedSectionPork ? 
-            this.state.porkSections[this.state.selectedSectionPork].map((item, index) => <li key={index}>{item}</li> ) :
-            null
-          }
-        </ul>
+        <div className="div-cut-list-container">
+          <h4>Pork Cuts</h4>
+          <hr style={{width: "288px"}}></hr>
+          <ul className="ul-cut-list">
+            { 
+              this.state.selectedSectionPork ? 
+              this.state.porkSections[this.state.selectedSectionPork].map((item, index) => <li key={index}>{item}</li> ) :
+              null
+            }
+          </ul>
+        </div>
       </div>
     )
   }

@@ -7,7 +7,9 @@
   width: 90%
 }
 
-.ul-cuts {
-  min-width: 320px;
-  align-self: center
+.ul-cut-list {
+  max-width: 288px;
+  min-height: 160px;
+  align-self: center;
+  list-style: none
 }
