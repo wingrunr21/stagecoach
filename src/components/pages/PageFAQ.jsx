@@ -47,12 +47,16 @@ export const PageFAQ = () => {
           <p className="a">Feel free to bring your own containers.  We can supply simple bag wrappers free of cost</p>
         </section>
         <section>
-          <p className="q">When should I drop the animal off?</p>
-          <p className="a">The morning of the slaughter date.</p>
-        </section>
-        <section>
           <p className="q">How soon after I’m notified that my order is ready should I pick it up?</p>
           <p className="a">Our freezer space is valuable.  Please plan to pick your order up within 10 days of notification. After 10 days we will charge a storage fee.</p>
+        </section>
+        <section>
+          <p className="q">How do you package the cuts of meat?</p>
+          <p className="a">All meat is wrapped in a layer of plastic meat film and then covered with freezer paper.</p>
+        </section>
+        <section>
+          <p className="q">When should I drop the animal off?</p>
+          <p className="a">The morning of the slaughter date.</p>
         </section>
         <section>
           <p className="q">What forms of payment do you accept?</p>
@@ -61,10 +65,6 @@ export const PageFAQ = () => {
         <section>
           <p className="q">Do you charge extra for making hamburger or sausage patties?</p>
           <p className="a">There is an extra charge for specialty cuts. Contact us for details.</p>
-        </section>
-        <section>
-          <p className="q">How do you package the cuts of meat?</p>
-          <p className="a">All meat is wrapped in a layer of plastic meat film and then covered with freezer paper.</p>
         </section>
       </div>
       <ul id="ul-faq-list">
