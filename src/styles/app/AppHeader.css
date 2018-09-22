@@ -40,10 +40,17 @@
   background-image: url(../../assets/images/stagecoach.png)
 }
 
-#app-nav {
+#div-app-nav {
   grid-row: 3 / 5;
   grid-column: 2;
-  justify-self: right
+  justify-self: right;
+  border-radius: 6px 0 0 0;
+}
+
+#app-nav {
+  /* grid-row: 3 / 5;
+  grid-column: 2;
+  justify-self: right */
 }
 
 #div-empty {

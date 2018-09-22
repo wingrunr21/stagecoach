@@ -1,8 +1,14 @@
+#div-app-nav {
+  background: #DDDDDD
+}
+
 #app-nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   background: #E59400;
+  border-radius: 6px 0 0 6px;
+  overflow: hidden;
   padding: 8px;
 }
   
