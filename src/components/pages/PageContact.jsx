@@ -70,7 +70,7 @@ export const PageContact = () => {
         <h3>Mailing Address</h3>
         <hr />
         <div id="div-mailing-address">
-          <p>When sending mail via USPS, deliveries are made to the listed PO Box address. Deliveries made via UPS or Fedex are delivered directly to the street address kisted aobve.</p>
+          <p>When sending mail via USPS, deliveries are made to the listed PO Box address. Deliveries made via UPS or Fedex are delivered directly to the street address listed above.</p>
           <ul className="ul-contact">
             <li>Stagecoach Meat Co.</li>
             <li>PO Box 413</li>
