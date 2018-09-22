@@ -68,9 +68,12 @@
     font-size: 0.75em
   }
 
-  #app-nav {
-    width: 120px;
+  #div-app-nav {
     flex-direction: column
+  }
+
+  #app-nav {
+    max-width: 120px;
   }
 }
 

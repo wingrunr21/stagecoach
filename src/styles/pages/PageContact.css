@@ -21,7 +21,7 @@
 
 .ul-contact {
   padding: 8px;
-  width: 160px;
+  min-width: 192px;
   background: #B5651D44;
   border: 1px #222222 solid;
   border-radius: 4px;

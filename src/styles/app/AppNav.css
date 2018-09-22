@@ -1,15 +1,14 @@
 #div-app-nav {
-  background: #DDDDDD
-}
-
-#app-nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  background: #DDDDDD;
+}
+
+#app-nav {
+  padding: 4px;
   background: #E59400;
   border-radius: 6px 0 0 6px;
-  overflow: hidden;
-  padding: 8px;
 }
   
 #app-nav ul {
@@ -49,8 +48,9 @@
   background: gold
 }
 
-@media screen and (max-width: 360px) {
-  #app-nav {
+@media screen and (max-width: 600px) {
+  #div-app-nav {
+    flex-direction: column;
     font-size: 0.75em
   }
 }
