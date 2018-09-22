@@ -61,7 +61,7 @@ export class CutSheetContainer extends React.Component {
             { 
               this.state.selectedSectionBeef ? 
               this.state.beefSections[this.state.selectedSectionBeef].map((item, index) => <li key={index}>{item}</li> ) :
-              null
+              <h5>Select a section on the chart</h5>
             }
           </ul>
         </div>
@@ -73,7 +73,7 @@ export class CutSheetContainer extends React.Component {
             { 
               this.state.selectedSectionPork ? 
               this.state.porkSections[this.state.selectedSectionPork].map((item, index) => <li key={index}>{item}</li> ) :
-              null
+              <h5>Select a section on the chart</h5>
             }
           </ul>
         </div>

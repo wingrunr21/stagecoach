@@ -40,7 +40,7 @@ export const PageContact = () => {
         <h3>Processing and Retail Shop</h3>
         <hr />
         <div id="div-map-info">
-          <p>Be aware that Google Maps will occasionally plot our location incorrectly.  If you can't find the the shop or end up in the wrong place please call us!</p>
+          <p>The map below shows where we are located in Wiggins, Colorado. <em>Be aware that this Google Map will occasionally plot our location incorrectly.</em>  If you can't find the the shop or end up in the wrong place please call us!</p>
           <ul className="ul-contact">
             <li>Stagecoach Meat Co.</li>
             <li>600 W 3rd Ave</li>
@@ -70,7 +70,7 @@ export const PageContact = () => {
         <h3>Mailing Address</h3>
         <hr />
         <div id="div-mailing-address">
-          <p>When sending mail via USPS, UPS or Fedex deliveries are made to the listed address:</p>
+          <p>When sending mail via USPS, deliveries are made to the listed PO Box address. Deliveries made via UPS or Fedex are delivered directly to the street address kisted aobve.</p>
           <ul className="ul-contact">
             <li>Stagecoach Meat Co.</li>
             <li>PO Box 413</li>
