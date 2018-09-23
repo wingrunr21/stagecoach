@@ -23,6 +23,7 @@
   padding: 8px;
   min-width: 192px;
   background: #B5651D44;
+  box-shadow: #777777 1px 1px 2px;
   border: 1px #222222 solid;
   border-radius: 4px;
   list-style: none;

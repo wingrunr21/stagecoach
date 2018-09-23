@@ -30,10 +30,10 @@
   margin: 8px;
   border-radius: 4px;
   border: 1px #555555 solid;
+  box-shadow: #777777 1px 1px 2px;
   background: #B5651D44;
   font-size: 16px;
   overflow: hidden;
-  box-shadow: #333333 1px 1px 2px
 }
 
 #ul-faq-list {
