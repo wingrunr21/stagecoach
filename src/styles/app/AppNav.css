@@ -2,13 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background: #DDDDDD;
+  background: #DDDDDD
 }
 
 #app-nav {
   padding: 4px;
   background: #E59400;
-  border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px
 }
   
 #app-nav ul {
