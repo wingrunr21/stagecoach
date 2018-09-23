@@ -32,7 +32,8 @@
   border: 1px #555555 solid;
   background: #B5651D44;
   font-size: 16px;
-  overflow: hidden
+  overflow: hidden;
+  box-shadow: #333333 1px 1px 2px
 }
 
 #ul-faq-list {
