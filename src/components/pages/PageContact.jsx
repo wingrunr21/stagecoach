@@ -21,6 +21,12 @@ export const PageContact = () => {
 
   return (
     <main className="main-contact">
+      <div id="div-contact-banner-wrapper">
+        <section>
+          <h3>Welcome to Stagecoach Meat Co.</h3>
+        </section>
+        <div id="div-barley" />
+      </div>
       <section id="section-business-hours">
         <h3>Business Hours</h3>
         <hr />

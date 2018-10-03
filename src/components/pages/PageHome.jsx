@@ -9,7 +9,7 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 export const PageHome = () => (
   <main className="main-home">
-    <div id="div-grid-wrapper">
+    <div id="div-home-banner-wrapper">
       <section>
         <h3>Welcome to Stagecoach Meat Co.</h3>
       </section>

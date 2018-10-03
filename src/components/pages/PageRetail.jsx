@@ -10,7 +10,7 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 export const PageRetail = () => (
     <main className="main-retail">
-      <div id="div-retail-grid-wrapper">
+      <div id="div-retail-banner-wrapper">
         <section>
           <h3>Our Retail Store</h3>
         </section>

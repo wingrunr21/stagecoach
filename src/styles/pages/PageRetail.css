@@ -3,7 +3,7 @@
   font-size: 18px
 }
 
-#div-retail-grid-wrapper {
+#div-retail-banner-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 8px 64px 64px 64px 8px;

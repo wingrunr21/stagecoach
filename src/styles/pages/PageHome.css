@@ -6,7 +6,7 @@
   overflow: hidden
 }
 
-#div-grid-wrapper {
+#div-home-banner-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 8px 64px 64px 64px 8px;
