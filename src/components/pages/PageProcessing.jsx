@@ -15,6 +15,12 @@ import { CutSheetContainer } from "../ui/CutSheetContainer.jsx";
 
 export const PageProcessing = () => (
   <main className="main-processing">
+      <div id="div-grid-wrapper">
+      <section>
+        <h3>Custom Processing</h3>
+      </section>
+      <div id="div-cattle" />
+    </div>
     <p>Because we are a small family-owned plant, we offer high quality processing while also cutting beef to the customer's specifications. If you're new to the whole process, we're available to answer any questions you may have along the way!</p>
     <p>The current slaughter charge for beef is $75 per head and the cost of processing is $0.81/lb. Contact us if you need to verify these rates.  After cutting, the beef is then double-wrapped and put into our freezer.</p>
     <p>The cut sheets we use to process your order are linked below.  If you have the ability to fill them out in advance they can be faxed to 970-483-8180 or sent via email to svonloh@yahoo.com. If you don't have the option to print and return the cut sheet to us, we have paper sheets available at our shop location.</p>
