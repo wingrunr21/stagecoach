@@ -26,8 +26,8 @@
   border: 2px #777700 solid;
   border-radius: 0 8px 8px 0;
   border-left: 0;
+  text-align: center;
   text-shadow: 1px 1px 16px #444444;
-  text-align: right;
   background: #FFFFBB;
   color: #222222;
   opacity: 0.75
