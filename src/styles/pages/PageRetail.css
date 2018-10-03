@@ -10,7 +10,7 @@
   grid-gap: 8px
 }
 
-#div-retail-grid-wrapper section {
+#div-retail-banner-wrapper section {
   width: 100%;
   grid-row: 3;
   grid-column: 1 / 4;
@@ -20,12 +20,13 @@
   border-radius: 0 8px 8px 0;
   border-left: 0;
   text-shadow: 1px 1px 16px #444444;
+  text-align: right;
   background: #FFFFBB;
   color: #222222;
   opacity: 0.75
 }
 
-#div-bales {
+#div-bales-image {
   grid-row: 2 / 5;
   grid-column: 2 / 5;
   border: 0 #777777 solid;

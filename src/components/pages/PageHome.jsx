@@ -13,7 +13,7 @@ export const PageHome = () => (
       <section>
         <h3>Welcome to Stagecoach Meat Co.</h3>
       </section>
-      <div id="div-corn-field" />
+      <div id="div-corn-field-image" />
     </div>
     <h4>Custom Processing &bull; Retail Shop</h4>
     <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>

@@ -15,6 +15,12 @@ import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
 export const PageFAQ = () => {
   return (
     <main className="main-faq">
+      <div id="div-faq-banner-wrapper">
+        <section>
+          <h3>Frequently Asked Questions</h3>
+        </section>
+        <div id="div-wheat-image" />
+      </div>
       <FontAwesomeIcon className="fa-logo" icon={ faQuestionCircle } size="2x" />
       <p>We've made a list of some of the most common questions from our customers. If you have a question that isn't listed here feel free to call 970-483-7280 or contact us via <a href="mailto:svonloh@yahoo.com">email</a></p>
       <div id="div-faq-wrapper">

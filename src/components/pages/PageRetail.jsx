@@ -14,7 +14,7 @@ export const PageRetail = () => (
         <section>
           <h3>Our Retail Store</h3>
         </section>
-        <div id="div-bales" />
+        <div id="div-bales-image" />
       </div>
       <p style={{ textAlign: 'justify' }}>We sell the following products as retail items. We also offer a full line of USDA Choice beef, pork cuts, chicken, pies, and Farmland All Beef Hot Dogs as well as custom processing services.</p>
       <p style={{ textAlign: 'center' }}><em>Please call for current prices and availabilty.</em></p>

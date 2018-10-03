@@ -23,7 +23,7 @@ export const PageContact = () => {
     <main className="main-contact">
       <div id="div-contact-banner-wrapper">
         <section>
-          <h3>Welcome to Stagecoach Meat Co.</h3>
+          <h3>Contact Us</h3>
         </section>
         <div id="div-barley" />
       </div>
