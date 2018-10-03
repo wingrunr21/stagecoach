@@ -10,6 +10,12 @@ import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 export const PageRetail = () => (
     <main className="main-retail">
+      <div id="div-retail-grid-wrapper">
+        <section>
+          <h3>Our Retail Store</h3>
+        </section>
+        <div id="div-bales" />
+      </div>
       <p style={{ textAlign: 'justify' }}>We sell the following products as retail items. We also offer a full line of USDA Choice beef, pork cuts, chicken, pies, and Farmland All Beef Hot Dogs as well as custom processing services.</p>
       <p style={{ textAlign: 'center' }}><em>Please call for current prices and availabilty.</em></p>
       <section id="section-retail-beef">
