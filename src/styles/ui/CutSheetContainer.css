@@ -1,10 +1,23 @@
 .div-cutsheet-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  margin: 24px auto;
-  max-width: 360px;
-  width: 90%
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 8px auto;
+  max-width: 720px
+}
+
+.div-cut-list-container {
+  max-width: 240px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: lightyellow;
+  box-shadow: 2px 2px 2px #BBBBBB
+}
+
+.div-cut-list-container hr {
+  max-width: 240px;
 }
 
 .ul-cut-list {
@@ -14,46 +27,32 @@
   list-style: none
 }
 
-#svg-beef-cuts {
-  display: inline-block;
-  margin: 0 auto
-}
-
 .svg-cutsheet {
   margin: 0 auto;
-  display: inline-block;
+  display: inline-block
 }
 
-.path-beef-cut {
-  fill: #BEA772
-}
-  
-.path-beef-cut:hover {
-  fill: goldenrod
-}
-
-.path-beef-cut:active {
-  fill: gold
-}
-
-.path-beef-cut-active {
-  fill: gold
-}
-
+.path-beef-cut,
 .path-pork-cut {
   fill: #BEA772
 }
-
+  
+.path-beef-cut:hover,
 .path-pork-cut:hover {
   fill: goldenrod
 }
 
-.path-pork-cut:active {
+.path-beef-cut:active,
+.path-pork-cut:active  {
   fill: gold
 }
 
 @media screen and (max-width: 360px) {
   .div-cutsheet-container {
     flex-direction: column
+  }
+
+  .svg-cutsheet {
+    height: 240px;
   }
 }
