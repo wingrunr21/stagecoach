@@ -17,7 +17,7 @@ export class PorkCutsSVG extends React.Component {
 
   changeSelectedSection(target) {
     this.setState({selectedSection: target.getAttribute('data-section')});
-    this.props.changeSelectedPorkCut(target.getAttribute('data-section'));
+    this.props.changeSelectedCut(target.getAttribute('data-section'));
   }
   
   render() {
