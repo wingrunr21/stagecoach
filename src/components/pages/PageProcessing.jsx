@@ -2,6 +2,8 @@
 import React from "react";
 
 /* Components */
+import { BeefCutsSVG } from "../ui/BeefCutsSVG.jsx";
+import { PorkCutsSVG } from "../ui/PorkCutsSVG.jsx";
 import { CutSheetContainer } from "../ui/CutSheetContainer.jsx";
 
 /* Data */
@@ -11,8 +13,6 @@ import { processingCutsBeef, processingCutsPork } from "../../data/meat-processi
 import "../../styles/pages/PageProcessing.css";
 
 /* Assets */
-import { BeefCutsSVG } from "../ui/BeefCutsSVG.jsx";
-import { PorkCutsSVG } from "../ui/PorkCutsSVG.jsx";
 import CutsheetBeefPDF from "../../assets/documents/stagecoach-cutsheet-beef.pdf";
 import CutsheetPorkPDF from "../../assets/documents/stagecoach-cutsheet-pork.pdf";
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
@@ -36,11 +36,7 @@ export const PageProcessing = (props) => (
     </div>
     <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
     <p>The diagrams below show the types of cuts we can do during processing. Click on a section to see available cuts.</p>
-    <CutSheetContainer title="Beef" data={ processingCutsBeef }>
-      <BeefCutsSVG />
-    </CutSheetContainer>
-    <CutSheetContainer title="Pork" data={ processingCutsPork }>
-      <PorkCutsSVG />
-    </CutSheetContainer>
+    <BeefCutsSVG data={processingCutsBeef} />
+    <PorkCutsSVG data={processingCutsPork} />
   </main>
 );

@@ -17,12 +17,13 @@ export class BeefCutsSVG extends React.Component {
 
   changeSelectedSection(target) {
     this.setState({selectedSection: target.getAttribute('data-section')});
-    this.props.changeSelectedCut(target.getAttribute('data-section'));
+    //this.props.changeSelectedCut(target.getAttribute('data-section'));
   }
   
   render() {
     return (
-      <svg id="svg-beef-cuts" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="320px" height="340px" viewBox="0 0 540 340" style={{enableBackground: "new 0 0 540 340"}} xmlSpace="preserve" onClick={e => this.changeSelectedSection(e.target)}>
+      <React.Fragment>
+        <svg id="svg-beef-cuts" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="320px" height="340px" viewBox="0 0 540 340" style={{enableBackground: "new 0 0 540 340"}} xmlSpace="preserve" onClick={e => this.changeSelectedSection(e.target)}>
         <g id="__cut-chart-back">
           <path style={{fill: "#A38D62"}} d="M460.5,232c-2.25-1.75-9.25-9.75-9.25-9.75c-6.25-6-16.25-24-16.25-24c-5-6.25-5-13.75-5-13.75
             c-0.25-4.5-5.75-8.75-5.75-8.75c-7.18,3.59-14.945,10.66-20.812,16.701c0.889-0.822,1.816-1.642,2.811-2.46
@@ -288,6 +289,18 @@ export class BeefCutsSVG extends React.Component {
           </g>
         </g>
       </svg>
+        <div className="div-cut-list-container">
+          <h4>{this.props.title} Cuts</h4>
+          <hr style={{width: "288px"}}></hr>
+          <ul className="ul-cut-list">
+            { 
+            this.state.selectedSection ? 
+            this.props.data[this.state.selectedSection].map((item, index) => <li key={index}>{item}</li> ) :
+            <h5>Select a section on the chart</h5>
+            }
+          </ul>
+        </div>
+      </React.Fragment>
     );
   };
 }

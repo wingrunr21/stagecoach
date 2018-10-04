@@ -17,7 +17,6 @@ export class CutSheetContainer extends React.Component {
       cuts: props.data,
       selectedSection: null
     }
-    console.log(`children: ${props.title}`, props.children);
   }
 
   changeSection = (selectedSection) => {
