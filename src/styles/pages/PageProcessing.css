@@ -97,3 +97,10 @@
 .main-processing .a-pdf-link:active {
   background: orange
 }
+
+@media screen and (max-width: 720px) {
+  #div-processing-banner-wrapper section {
+    grid-column: 2 / 5;
+    font-size: 14px
+  }
+}

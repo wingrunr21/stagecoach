@@ -1,9 +1,6 @@
 /* React */
 import React from "react";
 
-/* Stylesheets */
-import "../../styles/ui/PorkCutsSVG.css";
-
 
 export class PorkCutsSVG extends React.Component {
   constructor(props) {
@@ -22,8 +19,8 @@ export class PorkCutsSVG extends React.Component {
   
   render() {
     return (
-      <React.Fragment>
-        <svg id="svg-pork-cuts" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="320px" height="340px" viewBox="0 0 540 340" style={{enableBackground: 'new 0 0 540 340'}} xmlSpace="preserve" onClick={e => this.changeSelectedSection(e.target)}>
+      <div className="div-cutsheet-container">
+        <svg id="svg-pork-cuts" className="svg-cutsheet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="320px" height="340px" viewBox="0 0 540 340" style={{enableBackground: 'new 0 0 540 340'}} xmlSpace="preserve" onClick={e => this.changeSelectedSection(e.target)}>
           <g id="__cut-chart-back">
             <path style={{fill: '#A38D62'}} d="M421.703,254.405c2.943,1.778,6.533-0.607,9.738-0.649c1.131-5.584,9.751-5.809,14.932-9.089 c4.224-6.224,0.683-11.74,0.649-20.126c-0.021-5.394,1.856-11.384,1.947-17.528c0.116-7.841,1.413-20.145-0.648-24.671 c-2.34-5.138-10.11-8.402-9.09-16.229c0.045-0.347,0.196-0.769,0.416-1.239c-3.345,4.175-8.227,9.981-11.139,12.127 c0,0-3.25,3.25-3.25,12.25c0,0,3.25,8,0,19.5c0,0,1.5,2.5,2.287,3.456C432.654,227.365,424.793,242.797,421.703,254.405z" />
             <path style={{fill: '#A38D62'}} d="M198.759,217.5c1.75-11.25-6.5-21.25-6.5-21.25c-4.129-3.957-8.905-10.577-11.483-14.321 c1.939,4.557-0.985,9.512-3.131,16.644c-1.25,4.155-1.528,9.029-2.597,12.335c-3.787,11.713-12.85,22.18-18.827,28.566 c1.901,4.695-4.863,7.178-3.246,11.686c7.599-1.037,15.339-6.718,21.424-5.194c7.044-2.469,6.421-10.764,9.738-16.229 c2.93-4.827,8.962-7.131,12.984-10.388C198.759,217.5,198.759,217.5,198.759,217.5z" />
@@ -121,7 +118,7 @@ export class PorkCutsSVG extends React.Component {
             }
           </ul>
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

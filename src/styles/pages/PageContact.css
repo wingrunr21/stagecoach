@@ -190,3 +190,10 @@
   margin-left: 16px;
   align-self: center
 }
+
+@media screen and (max-width: 720px) {
+  #div-contact-banner-wrapper section {
+    grid-column: 1 / 4;
+    font-size: 14px
+  }
+}

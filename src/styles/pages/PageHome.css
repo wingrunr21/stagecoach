@@ -59,3 +59,10 @@
   margin: 8px auto;
   display: block
 }
+
+@media screen and (max-width: 720px) {
+  #div-home-banner-wrapper section {
+    grid-column: 1 / 4;
+    font-size: 12px
+  }
+}

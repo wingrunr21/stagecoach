@@ -11,6 +11,7 @@ import { processingCutsBeef, processingCutsPork } from "../../data/meat-processi
 
 /* Stylesheets */
 import "../../styles/pages/PageProcessing.css";
+import "../../styles/ui/CutSheetContainer.css";
 
 /* Assets */
 import CutsheetBeefPDF from "../../assets/documents/stagecoach-cutsheet-beef.pdf";
@@ -36,7 +37,7 @@ export const PageProcessing = (props) => (
     </div>
     <img id="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
     <p>The diagrams below show the types of cuts we can do during processing. Click on a section to see available cuts.</p>
-    <BeefCutsSVG data={processingCutsBeef} />
-    <PorkCutsSVG data={processingCutsPork} />
+    <BeefCutsSVG title="Beef" data={processingCutsBeef} />
+    <PorkCutsSVG title="Pork" data={processingCutsPork} />
   </main>
 );

@@ -106,3 +106,10 @@
   margin: 8px auto;
   display: block
 }
+
+@media screen and (max-width: 720px) {
+  #div-faq-banner-wrapper section {
+    grid-column: 2 / 5;
+    font-size: 14px
+  }
+}

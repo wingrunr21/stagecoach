@@ -1,9 +1,9 @@
-#div-svg-container {
+.div-cutsheet-container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 24px auto;
-  max-width: 720px;
+  max-width: 360px;
   width: 90%
 }
 
@@ -12,4 +12,48 @@
   min-height: 160px;
   align-self: center;
   list-style: none
+}
+
+#svg-beef-cuts {
+  display: inline-block;
+  margin: 0 auto
+}
+
+.svg-cutsheet {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.path-beef-cut {
+  fill: #BEA772
+}
+  
+.path-beef-cut:hover {
+  fill: goldenrod
+}
+
+.path-beef-cut:active {
+  fill: gold
+}
+
+.path-beef-cut-active {
+  fill: gold
+}
+
+.path-pork-cut {
+  fill: #BEA772
+}
+
+.path-pork-cut:hover {
+  fill: goldenrod
+}
+
+.path-pork-cut:active {
+  fill: gold
+}
+
+@media screen and (max-width: 360px) {
+  .div-cutsheet-container {
+    flex-direction: column
+  }
 }
