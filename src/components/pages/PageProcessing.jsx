@@ -4,7 +4,6 @@ import React from "react";
 /* Components */
 import { BeefCutsSVG } from "../ui/BeefCutsSVG.jsx";
 import { PorkCutsSVG } from "../ui/PorkCutsSVG.jsx";
-import { CutSheetContainer } from "../ui/CutSheetContainer.jsx";
 
 /* Data */
 import { processingCutsBeef, processingCutsPork } from "../../data/meat-processing-cuts.js";

@@ -15,7 +15,6 @@ export const AppNav = () => (
         <li><NavLink to="/retail">RETAIL</NavLink></li>
         <li><NavLink to="/faq">FAQ</NavLink></li>
         <li><NavLink to="/contact">CONTACT</NavLink></li>
-        {/* <li><NavLink to="/about">ABOUT</NavLink></li> */}
       </ul>
     </nav>
   </div>
