@@ -18,7 +18,7 @@ import "../../styles/app/AppMain.css";
 const AppMain = ({ location }) => {  
   return (
     <React.Fragment>
-    <TransitionGroup>
+    <TransitionGroup component={null}>
       <CSSTransition key={location.key} classNames={'fade'} timeout={{enter: 500, exit: 500}}>
         <Switch location={location}>
           <Route exact path="/" component={PageHome} />
