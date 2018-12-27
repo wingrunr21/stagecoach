@@ -1,2 +1,2 @@
 # Stagecoach Meat Co
-A client app for a small business in Wiggins, Colorado. 
+A client-side React web app for a small family business in Wiggins, Colorado. 
