@@ -9,6 +9,7 @@ import { App } from './App.jsx';
 
 /* Stylesheets */
 import './styles/index.css';
+import 'typeface-roboto'; // for matreial-ui
 
 
 const render = () =>  {
