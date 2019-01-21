@@ -3,7 +3,7 @@
   "version": "0.9.9",
   "private": true,
   "devDependencies": {
-    "push-dir": "^0.4.1"
+    "gh-pages": "^2.0.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "publish": "push-dir --dir=build --branch=gh-pages --verbose",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
