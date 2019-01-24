@@ -9,6 +9,7 @@ import { AppFooter } from "./components/app/AppFooter";
 
 /* Stylesheets */
 import './styles/app/App.css';
+import "./styles/app/App.scss";
 
 
 export class App extends React.Component {
