@@ -8,8 +8,8 @@ import AppMain from "./components/app/AppMain";
 import { AppFooter } from "./components/app/AppFooter";
 
 /* Stylesheets */
-import './styles/app/App.css';
-import "./styles/app/App.scss";
+// import './styles/app/App.css';
+import "./styles/index.scss";
 
 
 export class App extends React.Component {

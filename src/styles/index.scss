@@ -1,10 +1,28 @@
+@import './app/App';
+@import './app/_AppHeader.scss';
+@import './app/_AppNav.scss';
+@import './app/_AppMain.scss';
+@import './app/_AppFooter.scss';
+
+$stagecoach-brown: #9c593e;
+$stagecoach-orange: #e59400;
+$stagecoach-gray-dark: #dddddd;
+$stagecoach-gray-light: #cccccc;
+$stagecoach-tan: #d2bda9;
+$stagecoach-white: #f0f0f0;
+$stagecoach-yellow: #f6f6c3;
+$stagecoach-gold: #ffd700;
+
+$stagecoach-link: #444444;
+$stagecoach-link-hover: #222222;
+
 * {
   margin: 0;
   padding: 0
 }
   
 body {
-  background: #DDDDDD;
+  background: $stagecoach-gray-dark;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

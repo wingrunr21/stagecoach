@@ -8,7 +8,8 @@ import registerServiceWorker from './registerServiceWorker';
 import { App } from './App.jsx';
 
 /* Stylesheets */
-import './styles/index.css';
+// import './styles/index.css';
+import './styles/index.scss';
 
 
 const render = () =>  {

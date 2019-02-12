@@ -1,3 +1,56 @@
-#app-nav ul {
+#div-app-nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: #DDDDDD
+}
+
+#app-nav {
+  padding: 4px;
+  background: #E59400;
+  border-radius: 6px 0 0 6px
+}
   
+#app-nav ul {
+  width: auto;
+  list-style: none;
+  display: inline-block
+}
+
+#app-nav ul li {
+  margin: 2px;
+  min-width: 112px;
+  text-align: center;
+  display: inline-block
+}
+
+#app-nav a:link,
+#app-nav a:visited {
+  width: 100%;
+  margin: 0 auto;
+  color: #F0F0F0;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #0F0F0F;
+  display: inline-block;
+  transition: all 0.25s
+}
+
+#app-nav a:hover{
+  background: gold
+}
+
+#app-nav a:active {
+  color: #FFCC00
+}
+
+.active {
+  color: #0F0F0F;
+  background: gold
+}
+
+@media screen and (max-width: 600px) {
+  #div-app-nav {
+    flex-direction: column;
+    font-size: 0.75em
+  }
 }
