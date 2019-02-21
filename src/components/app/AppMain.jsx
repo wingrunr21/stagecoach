@@ -15,7 +15,9 @@ import { Page404 } from "../pages/Page404";
 import "../../styles/app/AppMain.css";
 
 
-const AppMain = ({ location }) => {  
+const AppMain = ({ location }) => {
+  console.log(location);
+
   return (
     <React.Fragment>
       <TransitionGroup component={null} appear>
