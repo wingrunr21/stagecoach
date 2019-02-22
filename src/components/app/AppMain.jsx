@@ -15,8 +15,9 @@ import { Page404 } from "../pages/Page404";
 import "../../styles/app/AppMain.css";
 
 
-const AppMain = ({ location }) => {
-  console.log(location);
+const AppMain = props => {
+  const { location } = props
+  console.log(props);
 
   return (
     <React.Fragment>
@@ -35,5 +36,7 @@ const AppMain = ({ location }) => {
     </React.Fragment>
   )
 };
+
+
 
 export default withRouter(AppMain);
