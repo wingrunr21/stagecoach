@@ -11,12 +11,6 @@ import {
   PageFAQ,
   PageContact,
   Page404 } from '../pages';
-// import { PageHome } from '../pages/PageHome';
-// import { PageProcessing } from '../pages/PageProcessing';
-// import { PageRetail } from '../pages/PageRetail';
-// import { PageContact } from '../pages/PageContact';
-// import { PageFAQ } from '../pages/PageFAQ';
-// import { Page404 } from "../pages/Page404";
 
 /* Stylesheets */
 import "../../styles/app/AppMain.css";
@@ -43,7 +37,5 @@ const AppMain = props => {
     </React.Fragment>
   )
 };
-
-
 
 export default withRouter(AppMain);
