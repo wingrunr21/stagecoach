@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Page404 } from '../pages/Page404'
 
-const AppPage = ({ page }) => {
-  return page ? <>{ page }</> : null
+const AppPage = ({ page, children }) => {
+  return page ? <>{ children }</> : <>{ Page404 }</>
 };
 
 AppPage.propTypes = {
