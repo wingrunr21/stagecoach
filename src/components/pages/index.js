@@ -11,5 +11,5 @@ export {
   PageRetail,
   PageFAQ,
   PageContact,
-  Page404
+  Page404,
 };
