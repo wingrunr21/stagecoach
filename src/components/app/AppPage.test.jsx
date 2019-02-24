@@ -1,17 +1,17 @@
 import React from 'react';
-import { mount, shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import AppPage from './AppPage';
 import { PageHome } from '../pages'
 
 
 describe('AppPage', () => {
-  it('props.page should render Page404 without a page prop', () => {
-    const wrapper = mount(<AppPage />)
+  it('should render Page404 by default without props.page', () => {
+    const wrapper = shallow(<AppPage />)
     expect(wrapper).toBeDefined();
   });
 
   it('props.page should render an example page with a page prop', () => {
-    const wrapper = mount(<AppPage page={ PageHome } />)
+    const wrapper = shallow(<AppPage page={ PageHome } />)
     expect(wrapper).toBeDefined();
   });
 });
