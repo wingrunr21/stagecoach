@@ -1,5 +1,6 @@
 /* React and React Router */ 
 import React from "react";
+import PropTypes from 'prop-types';
 import { Switch, Route, withRouter } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
@@ -16,10 +17,7 @@ import {
 import "../../styles/app/AppMain.css";
 
 
-const AppMain = props => {
-  const { location } = props
-  console.log(props);
-
+const AppMain = ({ location }) => {
   return (
     <React.Fragment>
       <TransitionGroup component={null} appear>
@@ -35,7 +33,15 @@ const AppMain = props => {
         </CSSTransition>
       </TransitionGroup>
     </React.Fragment>
-  )
+  );
 };
+
+AppMain.propTypes = {
+  history: PropTypes.object,
+};
+
+AppMain.defaultProps = {
+  history: null,
+}
 
 export default withRouter(AppMain);
