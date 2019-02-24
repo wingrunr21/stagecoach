@@ -13,7 +13,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 
-export const PageContact = () => {
+const PageContact = () => {
   const MapLabel = ({ text }) => <div>{ text }</div>;
   const keyAPI= { key: "AIzaSyBL3o3vS6QBa0JxUEAIKrX80_gkmuH3S3U" };
   const defaultMapCenter= { lat: 40.2304149, lng: -104.0814956 };
@@ -107,3 +107,5 @@ export const PageContact = () => {
     </main>
   );
 };
+
+export default PageContact;

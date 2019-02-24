@@ -7,7 +7,7 @@ import "../../styles/pages/PageHome.css";
 /* Assets */
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
-export const PageHome = () => (
+const PageHome = () => (
   <main className="main-home">
     <div id="div-home-banner-wrapper">
       <section>
@@ -21,3 +21,5 @@ export const PageHome = () => (
     <p>The founder, Ray Von Loh, his wife Judy, children, and a host of dedicated employees oversee day-to-day operations. Our number one goal is customer satisfaction, quality products, and service.</p>
   </main>
 );
+
+export default PageHome;

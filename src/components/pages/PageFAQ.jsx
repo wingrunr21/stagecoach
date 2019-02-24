@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
 
 
-export const PageFAQ = () => {
+const PageFAQ = () => {
   return (
     <main className="main-faq">
       <div id="div-faq-banner-wrapper">
@@ -152,3 +152,5 @@ export const PageFAQ = () => {
     </main>
   );
 };
+
+export default PageFAQ;

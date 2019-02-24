@@ -8,7 +8,7 @@ import "../../styles/pages/PageRetail.css";
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 
-export const PageRetail = () => (
+const PageRetail = () => (
     <main className="main-retail">
       <div id="div-retail-banner-wrapper">
         <section>
@@ -66,3 +66,5 @@ export const PageRetail = () => (
       </section>
     </main>
   );
+
+  export default PageRetail;

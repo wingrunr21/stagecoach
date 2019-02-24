@@ -18,7 +18,7 @@ import CutsheetPorkPDF from "../../assets/documents/stagecoach-cutsheet-pork.pdf
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 
-export const PageProcessing = (props) => (
+const PageProcessing = (props) => (
   <main className="main-processing">
     <div id="div-processing-banner-wrapper">
       <section>
@@ -40,3 +40,5 @@ export const PageProcessing = (props) => (
     <PorkCutsSVG title="Pork" data={processingCutsPork} />
   </main>
 );
+
+export default PageProcessing;
