@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Components */
-import { AppNav } from "./AppNav";
+import { AppNav } from "./";
 
 /* Stylesheets */
 import '../../styles/app/AppHeader.css';

@@ -2,13 +2,11 @@
 import React from 'react';
 
 /* Components */
-import { AppHeader } from "./components/app/AppHeader";
-// import { AppNav } from "./components/app/AppNav";
-import AppMain from "./components/app/AppMain";
-import { AppFooter } from "./components/app/AppFooter";
+import { AppMain }from "./components/app";
+import { AppHeader } from "./components/app";
+import { AppFooter } from "./components/app";
 
 /* Stylesheets */
-// import './styles/app/App.css';
 import "./styles/index.scss";
 
 
