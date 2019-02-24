@@ -7,8 +7,7 @@ import { AppNav } from "./AppNav";
 /* Stylesheets */
 import '../../styles/app/AppHeader.css';
 
-
-export const AppHeader = () => (
+const AppHeader = () => (
   <header id="app-header">
     <div id="div-stageoach-png" />
     <h2 id="app-header-h2">Stagecoach Meat Co.</h2>
@@ -17,3 +16,5 @@ export const AppHeader = () => (
     <AppNav />
   </header>
 );
+
+export default AppHeader;

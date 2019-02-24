@@ -16,7 +16,6 @@ import {
 /* Stylesheets */
 import "../../styles/app/AppMain.css";
 
-
 const AppMain = ({ location }) => {
   return (
     <React.Fragment>

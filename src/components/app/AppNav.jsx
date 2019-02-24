@@ -5,8 +5,7 @@ import { NavLink } from 'react-router-dom';
 /* Stylesheets */
 import "../../styles/app/AppNav.css";
 
-
-export const AppNav = () => (
+const AppNav = () => (
   <div id="div-app-nav">
     <nav id="app-nav">
       <ul>
@@ -19,3 +18,5 @@ export const AppNav = () => (
     </nav>
   </div>
 );
+
+export default AppNav;
