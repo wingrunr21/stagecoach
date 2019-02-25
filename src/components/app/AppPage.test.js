@@ -1,8 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import AppPage from './AppPage';
 import { PageHome } from '../pages'
-
+import AppPage from './AppPage';
 
 describe('AppPage', () => {
   it('should render Page404 by default without props.page', () => {
