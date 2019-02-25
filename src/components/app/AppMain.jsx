@@ -14,7 +14,7 @@ import {
   Page404 } from '../pages';
 
 /* Stylesheets */
-import "../../styles/app/AppMain.css";
+import "./AppMain.css";
 
 const AppMain = ({ location }) => {
   return (
