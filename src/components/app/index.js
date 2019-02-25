@@ -1,9 +1,11 @@
-import AppMain from './AppMain';
-import AppHeader from './AppHeader';
-import AppFooter from './AppFooter';
-import AppNav from './AppNav';
+import App from './App.jsx';
+import AppMain from './AppMain.jsx';
+import AppHeader from './AppHeader.jsx';
+import AppFooter from './AppFooter.jsx';
+import AppNav from './AppNav.jsx';
 
 export {
+  App,
   AppMain,
   AppHeader,
   AppFooter,
