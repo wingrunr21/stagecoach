@@ -5,11 +5,10 @@ import { BrowserRouter } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 /* Components */
-import { App } from './App.jsx';
+import { App } from './components/app/';
 
 /* Stylesheets */
-import './styles/index.scss';
-
+import './index.scss';
 
 const render = () =>  {
   ReactDOM.render(
@@ -18,7 +17,7 @@ const render = () =>  {
     </BrowserRouter>,
     document.querySelector('#react-root')
   );
-}
+};
 
 render();
 
