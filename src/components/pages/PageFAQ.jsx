@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import "../../styles/pages/PageFAQ.css";
+import "./PageFAQ.css";
 
 /* Assets */
 import BarbedWire from "../../assets/images/barbed-wire.jpg";

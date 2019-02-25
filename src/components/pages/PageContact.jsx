@@ -5,7 +5,7 @@ import React from "react";
 import GoogleMapReact from "google-map-react";
 
 /* Stylesheets */
-import "../../styles/pages/PageContact.css";
+import "./PageContact.css";
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

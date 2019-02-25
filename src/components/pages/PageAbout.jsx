@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import "../../styles/pages/PageAbout.css";
+import "./PageAbout.css";
 
 
 export const PageAbout = () => (
