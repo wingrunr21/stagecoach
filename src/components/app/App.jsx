@@ -2,15 +2,14 @@
 import React from 'react';
 
 /* Components */
-import { AppMain }from "./components/app";
-import { AppHeader } from "./components/app";
-import { AppFooter } from "./components/app";
+import { AppMain }from './';
+import { AppHeader } from './';
+import { AppFooter } from './';
 
 /* Stylesheets */
-import "./styles/index.scss";
+//import "./styles/index.scss";
 
-
-export class App extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {}
@@ -26,3 +25,5 @@ export class App extends React.Component {
     );
   };
 };
+
+export default App;
