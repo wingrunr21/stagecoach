@@ -1,7 +1,5 @@
 /* React */
 import React from "react";
-
-
 export class PorkCutsSVG extends React.Component {
   constructor(props) {
     super(props);

@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import "../../styles/ui/CutSheetContainer.css";
+import "./CutSheetContainer.css";
 
 /* Components */
 // import { BeefCutsSVG } from "./BeefCutsSVG.jsx";
