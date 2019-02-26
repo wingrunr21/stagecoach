@@ -5,7 +5,7 @@ import React from "react";
 import "./PageAbout.css";
 
 
-export const PageAbout = () => (
+const PageAbout = () => (
   <main className="main-about">
     <section>
       <h2>About Stagecoach Meat Co LLC</h2>
@@ -18,3 +18,5 @@ export const PageAbout = () => (
     </section>
   </main>
 );
+
+export default PageAbout;
