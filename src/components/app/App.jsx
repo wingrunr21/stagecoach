@@ -9,21 +9,18 @@ import { AppFooter } from './';
 /* Stylesheets */
 //import "./styles/index.scss";
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {}
-  }
+const App = props => (
+  <React.Fragment>
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
+  </React.Fragment>
+);
 
-  render() {
-    return (
-      <React.Fragment>
-        <AppHeader />
-        <AppMain />
-        <AppFooter />
-      </React.Fragment>
-    );
-  };
+App.propTypes = {
+};
+
+App.defaultProps = {
 };
 
 export default App;
