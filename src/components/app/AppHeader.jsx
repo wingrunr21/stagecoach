@@ -5,7 +5,7 @@ import React from "react";
 import { AppNav } from "./";
 
 /* Stylesheets */
-import './AppHeader.css';
+// import './AppHeader.scss';
 
 const AppHeader = () => (
   <header id="app-header">

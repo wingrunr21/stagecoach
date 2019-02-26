@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Stylesheets */
-import './AppFooter.css';
+// import './AppFooter.css';
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
