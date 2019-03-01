@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-adapter-react-16": "^1.10.0",
     "gh-pages": "^2.0.1",
     "sass-loader": "^7.1.0"
   },
@@ -23,7 +23,7 @@
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.5",
-    "react-transition-group": "^2.5.3"
+    "react-transition-group": "^2.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
