@@ -1,8 +1,8 @@
-@import './components/app/App.module.scss';
-@import './components/app/AppHeader.module.scss';
-@import './components/app/AppNav.module.scss';
-@import './components/app/AppMain.module.scss';
-@import './components/app/AppFooter.module.scss';
+@import './components/app/styles/App.module.scss';
+@import './components/app/styles/AppHeader.module.scss';
+@import './components/app/styles/AppNav.module.scss';
+@import './components/app/styles/AppMain.module.scss';
+@import './components/app/styles/AppFooter.module.scss';
 
 $stagecoach-brown: #9c593e;
 $stagecoach-orange: #e59400;
