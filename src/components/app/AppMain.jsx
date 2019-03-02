@@ -11,7 +11,8 @@ import {
   PageRetail,
   PageFAQ,
   PageContact,
-  Page404 } from '../pages';
+  Page404
+} from '../pages';
 
 /* Stylesheets */
 // import "./AppMain.css";
