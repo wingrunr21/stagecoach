@@ -1,9 +1,6 @@
 /* React */
 import React from "react";
 
-/* Stylesheets */
-// import './AppFooter.css';
-
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';

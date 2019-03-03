@@ -1,12 +1,8 @@
 /* React */
 import React from "react";
 
-/* Stylesheets */
-import "./Page404.css";
-
 /* Assets */
 import CowSkull from "../../assets/images/cow-skull.jpg";
-
 
 const Page404 = () => (
   <main className="main-404">

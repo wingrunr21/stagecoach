@@ -6,9 +6,6 @@ import { AppMain }from './';
 import { AppHeader } from './';
 import { AppFooter } from './';
 
-/* Stylesheets */
-//import "./styles/index.scss";
-
 const App = props => (
   <React.Fragment>
     <AppHeader />

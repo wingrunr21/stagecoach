@@ -1,10 +1,6 @@
 /* React */
 import React from "react";
 
-/* Stylesheets */
-import "./PageAbout.css";
-
-
 const PageAbout = () => (
   <main className="main-about">
     <section>

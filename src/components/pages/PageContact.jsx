@@ -4,14 +4,10 @@ import React from "react";
 /* Components */
 import GoogleMapReact from "google-map-react";
 
-/* Stylesheets */
-import "./PageContact.css";
-
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-
 
 const PageContact = () => {
   const MapLabel = ({ text }) => <div>{ text }</div>;

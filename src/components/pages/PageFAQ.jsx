@@ -1,16 +1,12 @@
 /* React */
 import React from "react";
 
-/* Stylesheets */
-import "./PageFAQ.css";
-
 /* Assets */
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
-
 
 const PageFAQ = () => {
   return (

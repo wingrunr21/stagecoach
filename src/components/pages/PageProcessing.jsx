@@ -9,7 +9,7 @@ import { PorkCutsSVG } from "../ui/PorkCutsSVG.jsx";
 import { processingCutsBeef, processingCutsPork } from "../../data/meat-processing-cuts.js";
 
 /* Stylesheets */
-import "./PageProcessing.css";
+// import "./PageProcessing.css";
 import "../ui/CutSheetContainer.module.scss";
 
 /* Assets */

@@ -1,9 +1,6 @@
 /* React */
 import React from "react";
 
-/* Stylesheets */
-import "./PageHome.css";
-
 /* Assets */
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
 

@@ -4,9 +4,6 @@ import React from "react";
 /* Components */
 import { AppNav } from "./";
 
-/* Stylesheets */
-// import './AppHeader.scss';
-
 const AppHeader = () => (
   <header id="app-header">
     <div id="div-stageoach-png" />

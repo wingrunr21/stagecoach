@@ -1,12 +1,8 @@
 /* React */
 import React from "react";
 
-/* Stylesheets */
-import "./PageRetail.css";
-
 /* Assets */
 import BarbedWire from "../../assets/images/barbed-wire.jpg";
-
 
 const PageRetail = () => (
     <main className="main-retail">
