@@ -16,4 +16,10 @@ const AppNav = () => (
   </div>
 );
 
+AppNav.propTypes = {
+};
+
+AppNav.defaultProps = {
+}
+
 export default AppNav;
