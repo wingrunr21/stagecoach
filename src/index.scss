@@ -1,8 +1,16 @@
-@import './components/app/styles/App.module.scss';
-@import './components/app/styles/AppHeader.module.scss';
-@import './components/app/styles/AppNav.module.scss';
-@import './components/app/styles/AppMain.module.scss';
-@import './components/app/styles/AppFooter.module.scss';
+@import './components/app/styles/App.module';
+@import './components/app/styles/AppHeader.module';
+@import './components/app/styles/AppNav.module';
+@import './components/app/styles/AppMain.module';
+@import './components/app/styles/AppFooter.module';
+
+@import './components/pages/styles/PageHome.module';
+@import './components/pages/styles/PageProcessing.module';
+@import './components/pages/styles/PageRetail.module';
+@import './components/pages/styles/PageFAQ.module';
+@import './components/pages/styles/PageContact.module';
+@import './components/pages/styles/PageAbout.module';
+@import './components/pages/styles/Page404.module';
 
 $stagecoach-brown: #9c593e;
 $stagecoach-orange: #e59400;
