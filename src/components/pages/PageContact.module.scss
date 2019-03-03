@@ -1,199 +1,198 @@
 .main-contact{
-    flex: 1 0 auto
+  flex: 1 0 auto
+}
+
+.main-contact hr {
+  margin: 4px 0;
+}
+
+#div-contact-banner-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 8px 64px 64px 64px 8px;
+  grid-gap: 8px;
+}
+
+#div-contact-banner-wrapper section {
+  grid-row: 3;
+  grid-column: 1 / 3;
+  align-self: flex-start;
+  padding: 12px 6px;
+  border: 2px #777700 solid;
+  border-radius: 0 8px 8px 0;
+  border-left: 0;
+  text-align: center;
+  text-shadow: 1px 1px 16px #444444;
+  background: #FFFFBB;
+  color: #222222;
+  opacity: 0.75
+}
+
+#div-barley {
+  grid-row: 2 / 5;
+  grid-column: 2 / 5;
+  border: 0 #777777 solid;
+  border-radius: 8px 0 0 8px;
+  border-width: 2px 0 2px 2px;
+  background: url(../../assets/images/banner-barley.jpg);
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.main-contact > section {
+  width: 90%;
+  max-width: 720px;
+  margin: 40px auto;
+}
+
+.main-contact p {
+  margin: 0;
+  max-width: 720px;
+  text-align: justify;
+  font-size: 18px
+}
+
+.ul-contact {
+  padding: 8px;
+  min-width: 192px;
+  background: #B5651D44;
+  box-shadow: #777777 1px 1px 2px;
+  border: 1px #222222 solid;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.ul-contact li {
+  text-align: center
+}
+
+.li-underlined{
+  text-decoration: underline
+}
+
+#div-business-hours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+#div-business-hours p {
+  flex: 1;
+  min-width: 288px;
+  margin-right: 8px;
+  margin-bottom: 12px
   }
-  
-  .main-contact hr {
-    margin: 4px 0;
-  }
-  
-  
-  #div-contact-banner-wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 8px 64px 64px 64px 8px;
-    grid-gap: 8px;
-  }
-  
+
+#div-business-hours ul {
+  margin: 0 0 16px 8px;
+  align-self: stretch;
+  justify-self: center
+}
+
+#div-map-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap
+}
+
+#div-map-info p {
+  flex: 1;
+  min-width: 288px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  align-self: auto
+}
+
+#div-map-info ul {
+  margin: 0 0 16px 8px;
+  justify-self: center
+}
+
+#div-map {
+  height: 288px;
+  max-width: 640px;
+  margin: 16px auto;
+  border-radius: 4px;
+  border: 4px #222222 solid
+}
+
+#div-phone-and-fax {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+#div-phone-and-fax p {
+  flex: 1;
+  min-width: 288px;
+  margin-right: 8px;
+  margin-bottom: 12px
+}
+
+#div-phone-and-fax ul {
+  margin: 0 0 16px 8px;
+  align-self: stretch;
+  justify-self: center
+}
+
+#div-mailing-address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+#div-mailing-address p {
+  flex: 1;
+  min-width: 288px;
+  margin-right: 8px;
+  margin-bottom: 12px
+}
+
+#div-mailing-address ul {
+  margin: 0 0 16px 8px;
+  align-self: stretch;
+  justify-self: center
+}
+
+#div-email {
+  display: flex;
+  justify-content: flex-start
+}
+
+#div-email a {
+  margin: 0;
+  width: auto;
+  display: inline-block;
+  align-self: center
+}
+
+#div-email p {
+  margin-left: 16px;
+  align-self: center
+}
+
+#div-social-media {
+  display: flex;
+  justify-content: flex-start
+}
+
+#div-social-media a {
+  margin: 0;
+  width: auto;
+  display: inline-block;
+  align-self: center
+}
+
+#div-social-media p {
+  margin-left: 16px;
+  align-self: center
+}
+
+@media screen and (max-width: 720px) {
   #div-contact-banner-wrapper section {
-    grid-row: 3;
-    grid-column: 1 / 3;
-    align-self: flex-start;
-    padding: 12px 6px;
-    border: 2px #777700 solid;
-    border-radius: 0 8px 8px 0;
-    border-left: 0;
-    text-align: center;
-    text-shadow: 1px 1px 16px #444444;
-    background: #FFFFBB;
-    color: #222222;
-    opacity: 0.75
+    grid-column: 1 / 4;
+    font-size: 14px
   }
-  
-  #div-barley {
-    grid-row: 2 / 5;
-    grid-column: 2 / 5;
-    border: 0 #777777 solid;
-    border-radius: 8px 0 0 8px;
-    border-width: 2px 0 2px 2px;
-    background: url(../../assets/images/banner-barley.jpg);
-    background-position: center 40%;
-    background-repeat: no-repeat;
-    background-size: cover
-  }
-  
-  .main-contact > section {
-    width: 90%;
-    max-width: 720px;
-    margin: 40px auto;
-  }
-  
-  .main-contact p {
-    margin: 0;
-    max-width: 720px;
-    text-align: justify;
-    font-size: 18px
-  }
-  
-  .ul-contact {
-    padding: 8px;
-    min-width: 192px;
-    background: #B5651D44;
-    box-shadow: #777777 1px 1px 2px;
-    border: 1px #222222 solid;
-    border-radius: 4px;
-    list-style: none;
-  }
-  
-  .ul-contact li {
-    text-align: center
-  }
-  
-  .li-underlined{
-    text-decoration: underline
-  }
-  
-  #div-business-hours {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center
-  }
-  
-  #div-business-hours p {
-    flex: 1;
-    min-width: 288px;
-    margin-right: 8px;
-    margin-bottom: 12px
-   }
-  
-  #div-business-hours ul {
-    margin: 0 0 16px 8px;
-    align-self: stretch;
-    justify-self: center
-   }
-  
-  #div-map-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap
-  }
-  
-  #div-map-info p {
-    flex: 1;
-    min-width: 288px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    align-self: auto
-  }
-  
-  #div-map-info ul {
-    margin: 0 0 16px 8px;
-    justify-self: center
-  }
-  
-  #div-map {
-    height: 288px;
-    max-width: 640px;
-    margin: 16px auto;
-    border-radius: 4px;
-    border: 4px #222222 solid
-  }
-  
-  #div-phone-and-fax {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center
-  }
-  
-  #div-phone-and-fax p {
-    flex: 1;
-    min-width: 288px;
-    margin-right: 8px;
-    margin-bottom: 12px
-  }
-  
-  #div-phone-and-fax ul {
-    margin: 0 0 16px 8px;
-    align-self: stretch;
-    justify-self: center
-  }
-  
-  #div-mailing-address {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center
-  }
-  
-  #div-mailing-address p {
-    flex: 1;
-    min-width: 288px;
-    margin-right: 8px;
-    margin-bottom: 12px
-  }
-  
-  #div-mailing-address ul {
-    margin: 0 0 16px 8px;
-    align-self: stretch;
-    justify-self: center
-  }
-  
-  #div-email {
-    display: flex;
-    justify-content: flex-start
-  }
-  
-  #div-email a {
-    margin: 0;
-    width: auto;
-    display: inline-block;
-    align-self: center
-  }
-  
-  #div-email p {
-    margin-left: 16px;
-    align-self: center
-  }
-  
-  #div-social-media {
-    display: flex;
-    justify-content: flex-start
-  }
-  
-  #div-social-media a {
-    margin: 0;
-    width: auto;
-    display: inline-block;
-    align-self: center
-  }
-  
-  #div-social-media p {
-    margin-left: 16px;
-    align-self: center
-  }
-  
-  @media screen and (max-width: 720px) {
-    #div-contact-banner-wrapper section {
-      grid-column: 1 / 4;
-      font-size: 14px
-    }
-  }
+}
