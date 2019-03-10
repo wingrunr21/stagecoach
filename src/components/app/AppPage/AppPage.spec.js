@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { PageHome } from '../pages'
+import { PageHome } from '../../pages'
 import AppPage from './AppPage';
 
 describe('AppPage', () => {
