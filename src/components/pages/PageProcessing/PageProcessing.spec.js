@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { PageProcessing } from './';
+import { PageProcessing } from '..';
 
 describe('PageProcessing', () => {
   it('should render the FAQ page', () => {

@@ -2,11 +2,11 @@
 import React from "react";
 
 /* Components */
-import { BeefCutsSVG } from "../ui/BeefCutsSVG.jsx";
-import { PorkCutsSVG } from "../ui/PorkCutsSVG.jsx";
+import { BeefCutsSVG } from "../../ui/BeefCutsSVG.jsx";
+import { PorkCutsSVG } from "../../ui/PorkCutsSVG.jsx";
 
 /* Data */
-import { processingCutsBeef, processingCutsPork } from "../../data/meat-processing-cuts.js";
+import { processingCutsBeef, processingCutsPork } from "../../../data/meat-processing-cuts.js";
 
 /* Stylesheets */
 // import "./PageProcessing.css";
