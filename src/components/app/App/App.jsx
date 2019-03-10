@@ -2,9 +2,9 @@
 import React from 'react';
 
 /* Components */
-import { AppMain }from './';
-import { AppHeader } from './';
-import { AppFooter } from './';
+import { AppMain }from '..';
+import { AppHeader } from '..';
+import { AppFooter } from '..';
 
 const App = props => (
   <React.Fragment>
