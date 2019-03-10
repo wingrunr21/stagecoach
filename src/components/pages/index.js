@@ -1,10 +1,10 @@
-import PageHome from './PageHome';
-import PageRetail from './PageRetail';
-import PageProcessing from './PageProcessing';
-import PageContact from './PageContact';
-import PageFAQ from './PageFAQ';
-import Page404 from './Page404';
-import PageAbout from './PageAbout';
+import PageHome from './PageHome/PageHome';
+import PageRetail from './PageRetail/PageRetail';
+import PageProcessing from './PageProcessing/PageProcessing';
+import PageContact from './PageContact/PageContact';
+import PageFAQ from './PageFAQ/PageFAQ';
+import Page404 from './Page404/Page404';
+import PageAbout from './PageAbout/PageAbout';
 
 export {
   PageHome,
