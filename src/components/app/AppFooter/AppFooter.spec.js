@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { AppFooter } from './';
+import { AppFooter } from '..';
 
 describe('AppHAppFootereader', () => {
   it('should render an HTML5 footer', () => {
