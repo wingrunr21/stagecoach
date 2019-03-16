@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Assets */
-import BarbedWire from "../../assets/images/barbed-wire.jpg";
+import BarbedWire from "../../../assets/images/barbed-wire.jpg";
 
 const PageRetail = () => (
     <main className="main-retail">

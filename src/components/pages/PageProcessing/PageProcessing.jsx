@@ -10,12 +10,12 @@ import { processingCutsBeef, processingCutsPork } from "../../../data/meat-proce
 
 /* Stylesheets */
 // import "./PageProcessing.css";
-import "../ui/CutSheetContainer.module.scss";
+import "../../ui/styles/CutSheetContainer.module.scss";
 
 /* Assets */
-import CutsheetBeefPDF from "../../assets/documents/stagecoach-cutsheet-beef.pdf";
-import CutsheetPorkPDF from "../../assets/documents/stagecoach-cutsheet-pork.pdf";
-import BarbedWire from "../../assets/images/barbed-wire.jpg";
+import CutsheetBeefPDF from "../../../assets/documents/stagecoach-cutsheet-beef.pdf";
+import CutsheetPorkPDF from "../../../assets/documents/stagecoach-cutsheet-pork.pdf";
+import BarbedWire from "../../../assets/images/barbed-wire.jpg";
 
 
 const PageProcessing = (props) => (

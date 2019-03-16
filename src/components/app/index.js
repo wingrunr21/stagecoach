@@ -1,6 +1,6 @@
-import App from './App.jsx';
-import AppMain from './AppMain.jsx';
-import AppHeader from './AppHeader.jsx';
+import App from './App/App.jsx';
+import AppMain from './AppMain/AppMain.jsx';
+import AppHeader from './AppHeader/AppHeader.jsx';
 import AppFooter from './AppFooter/AppFooter.jsx';
 import AppNav from './AppNav/AppNav.jsx';
 

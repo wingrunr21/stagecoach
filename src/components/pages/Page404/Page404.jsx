@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Assets */
-import CowSkull from "../../assets/images/cow-skull.jpg";
+import CowSkull from "../../../assets/images/cow-skull.jpg";
 
 const Page404 = () => (
   <main className="main-404">

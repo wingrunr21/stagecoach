@@ -12,7 +12,7 @@ import {
   PageFAQ,
   PageContact,
   Page404
-} from '../pages';
+} from '../../pages';
 
 const AppMain = ({ location }) => {
   return (

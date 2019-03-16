@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Assets */
-import BarbedWire from "../../assets/images/barbed-wire.jpg";
+import BarbedWire from "../../../assets/images/barbed-wire.jpg";
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

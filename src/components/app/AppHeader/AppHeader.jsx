@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Components */
-import { AppNav } from "./";
+import { AppNav } from "../";
 
 const AppHeader = () => (
   <header id="app-header">

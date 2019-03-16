@@ -1,16 +1,16 @@
-@import './components/app/styles/App.module';
-@import './components/app/styles/AppHeader.module';
-@import './components/app/styles/AppNav.module';
-@import './components/app/styles/AppMain.module';
-@import './components/app/styles/AppFooter.module';
+@import './components/app/App/App.module';
+@import './components/app/AppHeader/AppHeader.module';
+@import './components/app/AppNav/AppNav.module';
+@import './components/app/AppMain/AppMain.module';
+@import './components/app/AppFooter/AppFooter.module';
 
-@import './components/pages/styles/PageHome.module';
-@import './components/pages/styles/PageProcessing.module';
-@import './components/pages/styles/PageRetail.module';
-@import './components/pages/styles/PageFAQ.module';
-@import './components/pages/styles/PageContact.module';
-@import './components/pages/styles/PageAbout.module';
-@import './components/pages/styles/Page404.module';
+@import './components/pages/PageHome/PageHome.module';
+@import './components/pages/PageProcessing/PageProcessing.module';
+@import './components/pages/PageRetail/PageRetail.module';
+@import './components/pages/PageFAQ/PageFAQ.module';
+@import './components/pages/PageContact/PageContact.module';
+@import './components/pages/PageAbout/PageAbout.module';
+@import './components/pages/page404/Page404.module';
 
 $stagecoach-brown: #9c593e;
 $stagecoach-orange: #e59400;
