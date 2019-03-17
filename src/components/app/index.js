@@ -9,5 +9,5 @@ export {
   AppMain,
   AppHeader,
   AppFooter,
-  AppNav,
+  AppNav
 };
