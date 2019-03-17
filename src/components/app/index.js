@@ -1,4 +1,4 @@
-import App from './App/App.jsx';
+import App from './App';
 import AppMain from './AppMain/AppMain.jsx';
 import AppHeader from './AppHeader/AppHeader.jsx';
 import AppFooter from './AppFooter/AppFooter.jsx';
