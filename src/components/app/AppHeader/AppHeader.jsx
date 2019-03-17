@@ -14,10 +14,8 @@ const AppHeader = () => (
   </header>
 );
 
-AppHeader.propTypes = {
-};
+AppHeader.propTypes = {};
 
-AppHeader.defaultProps = {
-}
+AppHeader.defaultProps = {};
 
 export default AppHeader;

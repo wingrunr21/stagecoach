@@ -2,9 +2,9 @@
 import React from 'react';
 
 /* Components */
-import { AppMain }from '..';
-import { AppHeader } from '..';
-import { AppFooter } from '..';
+import { AppMain, AppHeader, AppFooter } from '..';
+// import AppHeader from '..';
+// import AppFooter from '..';
 
 const App = props => (
   <React.Fragment>
@@ -14,10 +14,8 @@ const App = props => (
   </React.Fragment>
 );
 
-App.propTypes = {
-};
+App.propTypes = {};
 
-App.defaultProps = {
-};
+App.defaultProps = {};
 
 export default App;

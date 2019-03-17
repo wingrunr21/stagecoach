@@ -15,10 +15,8 @@ const AppFooter = () => (
   </footer>
 );
 
-AppFooter.propTypes = {
-};
+AppFooter.propTypes = {};
 
-AppFooter.defaultProps = {
-}
+AppFooter.defaultProps = {};
 
 export default AppFooter;
