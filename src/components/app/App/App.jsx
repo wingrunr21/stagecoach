@@ -1,14 +1,12 @@
-/* React and React Router */
 import React from 'react';
-
-/* Components */
-import { AppMain, AppHeader, AppFooter } from '..';
-// import AppHeader from '..';
-// import AppFooter from '..';
+import PropTypes from 'prop-types';
+import { AppMain, AppHeader, AppFooter, AppNav } from '..';
 
 const App = props => (
   <React.Fragment>
-    <AppHeader />
+    <AppHeader>
+      <AppNav />
+    </AppHeader>
     <AppMain />
     <AppFooter />
   </React.Fragment>

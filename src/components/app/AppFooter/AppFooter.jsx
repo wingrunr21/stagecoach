@@ -1,7 +1,5 @@
-/* React */
 import React from "react";
-
-/* Font Awesome! */
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 

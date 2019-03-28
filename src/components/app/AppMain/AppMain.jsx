@@ -1,4 +1,3 @@
-/* React and React Router */ 
 import React from "react";
 import PropTypes from 'prop-types';
 import { Switch, Route, withRouter } from "react-router-dom";
@@ -39,6 +38,6 @@ AppMain.propTypes = {
 
 AppMain.defaultProps = {
   history: null,
-}
+};
 
 export default withRouter(AppMain);
