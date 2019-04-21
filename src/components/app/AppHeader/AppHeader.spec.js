@@ -1,10 +1,10 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render, cleanup } from 'react-testing-library';
 import { AppHeader } from '..';
 
-describe('AppHeader', () => {
+describe('<AppHeader />', () => {
   it('should render an HTML5 header', () => {
-    const wrapper = shallow(<AppHeader />)
-    expect(wrapper).toBeDefined();
+    const {container } = render(<AppHeader />);
+    expect(container).toBeDefined();
   });
 });

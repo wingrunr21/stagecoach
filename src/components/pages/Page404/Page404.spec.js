@@ -1,10 +1,10 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-// import { BrowserRouter } from 'react-router-dom';
+import { render, cleanup } from 'react-testing-library';
 import { Page404 } from '..';
 
-describe('AppHeader', () => {
+describe('<Page404 />', () => {
   it('should render the 404 page', () => {
-    expect(shallow(<Page404 />)).toBeDefined();
+    const { container } = render(<Page404 />);
+    expect(container).toBeDefined();
   });
 });

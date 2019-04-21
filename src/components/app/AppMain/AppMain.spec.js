@@ -1,13 +1,12 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { render, cleanup } from 'react-testing-library';
 import { AppMain } from '..';
-import { BrowserRouter } from 'react-router-dom';
 
 describe('AppHeader', () => {
-  jest.mock();
+  afterEach(cleanup)
 
   it('should render the app level HTML5 main tag', () => {
-    const wrapper = mount(<AppMain />)
-    expect(wrapper).toBeDefined();
+    const { container } = render(<AppMain />)
+    expect(container).toBeDefined();
   });
 });

@@ -1,9 +1,12 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render, cleanup } from 'react-testing-library';
 import { PageContact } from '..';
 
-describe('PageContact', () => {
+describe('<PageContact />', () => {
+  afterEach(cleanup);
+  
   it('should render the Contact page', () => {
-    expect(shallow(<PageContact />)).toBeDefined();
+    const { container } = render(<PageContact />);
+    expect(container).toBeDefined();
   });
 });

@@ -1,9 +1,12 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render, cleanup } from 'react-testing-library';
 import { PageHome } from '..';
 
-describe('PageHome', () => {
+describe('<PageHome />', () => {
+  afterEach(cleanup);
+
   it('should render the Home page', () => {
-    expect(shallow(<PageHome />)).toBeDefined();
+    const { container } = render(<PageHome />);
+    expect(container).toBeDefined();
   });
 });

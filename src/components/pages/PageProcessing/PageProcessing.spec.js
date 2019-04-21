@@ -1,9 +1,10 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { reander, cleanup } from 'react-testing-library';
 import { PageProcessing } from '..';
 
 describe('PageProcessing', () => {
   it('should render the FAQ page', () => {
-    expect(shallow(<PageProcessing />)).toBeDefined();
+    const { container } = render(<PageProcessing />);
+    expect(container).toBeDefined();
   });
 });

@@ -1,9 +1,12 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render, cleanup } from 'react-testing-library';
 import { PageRetail } from '..';
 
-describe('PageRetail', () => {
+describe('<PageRetail />', () => {
+  afterEach(cleanup);
+
   it('should render the Retail page', () => {
-    expect(shallow(<PageRetail />)).toBeDefined();
+    const { container } = render(<PageRetail />); 
+    expect(container).toBeDefined();
   });
 });
