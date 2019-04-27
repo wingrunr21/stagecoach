@@ -1,0 +1,10 @@
+a:link, a:visited {
+  margin: 0 auto;
+  color: #444444;
+  display: inline;
+  transition: color 0.25s
+}
+
+a:hover, a:active {
+  color: #222222
+}
