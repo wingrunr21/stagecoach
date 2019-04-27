@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import './AppFooter.scss';
 
 const AppFooter = () => (
   <footer id="app-footer">
