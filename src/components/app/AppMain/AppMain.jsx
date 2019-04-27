@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Switch, Route, withRouter } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-/* Components */
+/* Page Components */
 import {
   PageHome,
   PageProcessing,
@@ -13,7 +13,7 @@ import {
   Page404
 } from '../../pages';
 
-const AppMain = ({ location }) => {
+export const AppMain = ({ location }) => {
   return (
     <React.Fragment>
       <TransitionGroup component={null} appear>
