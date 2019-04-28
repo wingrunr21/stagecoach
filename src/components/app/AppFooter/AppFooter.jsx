@@ -14,8 +14,12 @@ const AppFooter = () => (
   </footer>
 );
 
-AppFooter.propTypes = {};
+AppFooter.propTypes = {
+  children: PropTypes.element.isRequired,
+};
 
-AppFooter.defaultProps = {};
+AppFooter.defaultProps = {
+  children: <footer />,
+};
 
 export default AppFooter;

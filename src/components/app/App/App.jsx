@@ -13,8 +13,12 @@ const App = props => (
   </React.Fragment>
 );
 
-App.propTypes = {};
+App.propTypes = {
+  children: PropTypes.element.isRequired,
+};
 
-App.defaultProps = {};
+App.defaultProps = {
+  children: <React.Fragment />,
+};
 
 export default App;

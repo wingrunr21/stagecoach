@@ -12,8 +12,12 @@ const AppHeader = props => (
   </header>
 );
 
-AppHeader.propTypes = {};
+AppHeader.propTypes = {
+  children: PropTypes.element.isRequired,
+};
 
-AppHeader.defaultProps = {};
+AppHeader.defaultProps = {
+  children: <header />,
+};
 
 export default AppHeader;

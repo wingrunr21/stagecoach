@@ -17,8 +17,12 @@ const AppNav = props => (
   </div>
 );
 
-AppNav.propTypes = {};
+AppNav.propTypes = {
+  children: PropTypes.element.isRequired,
+};
 
-AppNav.defaultProps = {};
+AppNav.defaultProps = {
+  children: <nav />,
+};
 
 export default AppNav;
