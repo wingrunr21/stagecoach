@@ -1,14 +1,11 @@
-/* React */
 import React from "react";
-
-/* Assets */
 import CowSkull from "../../../assets/images/cow-skull.jpg";
 
 const Page404 = () => (
-  <main className="main-404">
+  <div className="main-404">
     <img id="img-cow-skull" src={CowSkull} alt="404"></img>
     <h4>You gambled and you lost...</h4>
-  </main>
+  </div>
 );
 
 export default Page404;
