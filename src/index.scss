@@ -1,5 +1,7 @@
 
+@import './styles/reset';
 @import './styles/variables';
+
 // @import './components/app/App/App.module';
 // @import './components/app/AppHeader/AppHeader.module';
 // @import './components/app/AppNav/AppNav.module';
@@ -25,11 +27,6 @@
 
 // $stagecoach-link: #444444;
 // $stagecoach-link-hover: #222222;
-
-* {
-  margin: 0;
-  padding: 0
-}
   
 body {
   background: $stagecoach-gray-dark;
