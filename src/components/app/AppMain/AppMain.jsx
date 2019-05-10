@@ -6,6 +6,7 @@ import './AppMain.scss';
 
 /* Page Components */
 import {
+  Page,
   PageHome,
   PageProcessing,
   PageRetail,
@@ -16,7 +17,7 @@ import {
 
 export const AppMain = ({ location }) => {
   return (
-    <React.Fragment>
+    <main>
       <TransitionGroup component={null} appear>
         <CSSTransition key={location.key} classNames={'fade'} timeout={{enter: 500, exit: 500}}>
           <Switch location={location}>
@@ -29,7 +30,7 @@ export const AppMain = ({ location }) => {
           </Switch>
         </CSSTransition>
       </TransitionGroup>
-    </React.Fragment>
+    </main>
   );
 };
 

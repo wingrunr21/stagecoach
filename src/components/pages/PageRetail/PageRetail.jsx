@@ -1,11 +1,9 @@
-/* React */
 import React from "react";
-
-/* Assets */
 import BarbedWire from "../../../assets/images/barbed-wire.jpg";
+import './PageRetail.scss';
 
 const PageRetail = () => (
-    <main className="main-retail">
+    <div className="main-retail">
       <div id="div-retail-banner-wrapper">
         <section>
           <h3>Our Retail Store</h3>
@@ -60,7 +58,7 @@ const PageRetail = () => (
           <li>Chorizo</li>
         </ul>
       </section>
-    </main>
+    </div>
   );
 
   export default PageRetail;

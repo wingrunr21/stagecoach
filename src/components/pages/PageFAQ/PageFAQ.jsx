@@ -1,16 +1,13 @@
-/* React */
-import React from "react";
-
-/* Assets */
-import BarbedWire from "../../../assets/images/barbed-wire.jpg";
-
-/* Font Awesome! */
+import React from 'react';
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
+import BarbedWire from "../../../assets/images/barbed-wire.jpg";
+import './PageFAQ.scss';
 
 const PageFAQ = () => {
   return (
-    <main className="main-faq">
+    <div className="main-faq">
       <div id="div-faq-banner-wrapper">
         <section>
           <h3>Frequently Asked Questions</h3>
@@ -145,7 +142,7 @@ const PageFAQ = () => {
         </li>
       </ul>
       <img className="img-barbed-wire" src={BarbedWire} alt="Barbed Wire Flourish"></img>
-    </main>
+    </div>
   );
 };
 

@@ -1,13 +1,10 @@
-/* React */
-import React from "react";
-
-/* Components */
-import GoogleMapReact from "google-map-react";
-
-/* Font Awesome! */
+import React from 'react';
+import PropTypes from 'prop-types';
+import GoogleMapReact from 'google-map-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import './PageContact.scss';
 
 const PageContact = () => {
   const MapLabel = ({ text }) => <div>{ text }</div>;
@@ -16,7 +13,7 @@ const PageContact = () => {
   const defaultMapZoom = 14;
 
   return (
-    <main className="main-contact">
+    <div className="main-contact">
       <div id="div-contact-banner-wrapper">
         <section>
           <h3>Contact Us</h3>
@@ -100,7 +97,7 @@ const PageContact = () => {
           <p>Check out our Facebook page!  We post information about adjusted business hours, deals, events and more.</p>
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 

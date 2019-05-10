@@ -1,25 +1,16 @@
-/* React */
 import React from "react";
-
-/* Components */
+import PropTypes from 'prop-types';
 import { BeefCutsSVG } from "../../ui/BeefCutsSVG.jsx";
 import { PorkCutsSVG } from "../../ui/PorkCutsSVG.jsx";
-
 /* Data */
 import { processingCutsBeef, processingCutsPork } from "../../../data/meat-processing-cuts.js";
-
-/* Stylesheets */
-// import "./PageProcessing.css";
-import "../../ui/styles/CutSheetContainer.module.scss";
-
-/* Assets */
 import CutsheetBeefPDF from "../../../assets/documents/stagecoach-cutsheet-beef.pdf";
 import CutsheetPorkPDF from "../../../assets/documents/stagecoach-cutsheet-pork.pdf";
 import BarbedWire from "../../../assets/images/barbed-wire.jpg";
-
+import "./PageProcessing.scss";
 
 const PageProcessing = (props) => (
-  <main className="main-processing">
+  <div className="main-processing">
     <div id="div-processing-banner-wrapper">
       <section>
         <h3>Custom Processing</h3>
@@ -38,7 +29,7 @@ const PageProcessing = (props) => (
     <p>The diagrams below show the types of cuts we can do during processing. Click on a section to see available cuts.</p>
     <BeefCutsSVG title="Beef" data={processingCutsBeef} />
     <PorkCutsSVG title="Pork" data={processingCutsPork} />
-  </main>
+  </div>
 );
 
 export default PageProcessing;

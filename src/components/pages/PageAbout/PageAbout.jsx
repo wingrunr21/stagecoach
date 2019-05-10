@@ -1,8 +1,9 @@
-/* React */
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './PageAbout.scss';
 
 const PageAbout = () => (
-  <main className="main-about">
+  <div className="main-about">
     <section>
       <h2>About Stagecoach Meat Co LLC</h2>
       <p>Stagecoach Meat Company, LLC is a family-owned and operated custom processing and retail meat sales company, located in Wiggins, Colorado. Although the company opened for business in March 2006, the owner and manager of the company has over 20 years of experience in the meat business. Our processing plant in Wiggins also includes a retail store with a full line of high quality, USDA-inspected beef and pork products.</p>
@@ -12,7 +13,7 @@ const PageAbout = () => (
       <h2>Ray Von Loh</h2>
       <p></p>
     </section>
-  </main>
+  </div>
 );
 
 export default PageAbout;
