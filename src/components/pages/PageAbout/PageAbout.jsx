@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { usePageTitle } from '../../hooks/useDocumentTitle';
 import './PageAbout.scss';
 
-const PageAbout = () => (
+const PageAbout = ({title}) => (
   <div className="main-about">
     <section>
       <h2>About Stagecoach Meat Co LLC</h2>
