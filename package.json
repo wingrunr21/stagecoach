@@ -3,9 +3,10 @@
   "version": "0.10.0",
   "private": true,
   "devDependencies": {
+    "@testing-library/react": "^8.0.1",
     "gh-pages": "^2.0.0",
-    "node-sass": "^4.12.0",
-    "react-testing-library": "^7.0.1"
+    "jest-dom": "^3.5.0",
+    "node-sass": "^4.12.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
