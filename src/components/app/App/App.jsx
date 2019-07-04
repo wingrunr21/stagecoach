@@ -14,7 +14,10 @@ const App = props => (
 );
 
 App.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOf([
+    PropTypes.node,
+    PropTypes.arrayOf(PropTypes.node),
+  ]).isRequired,
 };
 
 App.defaultProps = {
