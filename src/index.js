@@ -2,12 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import registerServiceWorker from './registerServiceWorker';
-
-/* Components */
 import { App } from './components/app/';
-
-/* Stylesheets */
 import './index.scss';
 
 const render = () =>  {
@@ -21,4 +16,5 @@ const render = () =>  {
 
 render();
 
-registerServiceWorker();
+// import registerServiceWorker from './registerServiceWorker';
+// registerServiceWorker();
