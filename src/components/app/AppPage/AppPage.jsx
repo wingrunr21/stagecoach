@@ -7,7 +7,7 @@ const AppPage = ({ page, children }) => {
 };
 
 AppPage.propTypes = {
-  page: PropTypes.func,
+  page: PropTypes.func.isRequired,
 };
 
 AppPage.defaultProps = {
