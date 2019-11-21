@@ -23,6 +23,7 @@
     "react-transition-group": "^4.0.0"
   },
   "scripts": {
+    "del": "rm -rf package-lock.json node_modules",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
